@@ -570,14 +570,14 @@ figure.art.photo figcaption{margin-top:8px;font-size:13px;color:var(--sub);line-
 }
 
 /* ── 좁은 화면의 지표판 ──
-   24칸이 폰 화면을 통째로 덮어 기사가 한참 아래로 밀린다. 시세 지면이 따로
-   있으므로 좁은 화면에서는 흐르는 띠와 「시세 전체 보기」만 남긴다. */
+   1면은 시세를 보러 오는 자리이니 그대로 둔다. 섹션이나 기사를 눌러 들어간
+   자리에서는 읽으러 온 것이므로 칸을 접고 기사를 먼저 보인다. */
 @media(max-width:760px){
-  .term.compact .ph,
-  .term.compact .cbgrid,
-  .term.compact .cblg,
-  .term.compact .spks{display:none}
-  .term.compact .tape{margin-bottom:0}
-  .term.compact .tmore{margin-top:0;border-top:0;padding:11px 16px}
-  .term.compact .tmore a{font-size:12.5px}
+  .term.compact.slim .ph,
+  .term.compact.slim .cbgrid,
+  .term.compact.slim .cblg,
+  .term.compact.slim .spks{display:none}
+  .term.compact.slim .tape{margin-bottom:0}
+  .term.compact.slim .tmore{margin-top:0;border-top:0;padding:11px 16px}
+  .term.compact.slim .tmore a{font-size:12.5px}
 }
