@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>아시아 증시와 통화, 원자재와 반도체 공급망을 공개 데이터로 매일 집계해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Mon, 14 Sep 2026 07:58:34 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Mon, 14 Sep 2026 08:54:41 +0000</lastBuildDate>
   <item><title>AI를 늦추자는 제안…성사되면 2030년 미국 GDP 8조달러가 사라진다</title>
     <link>https://eumeconomy.com/world/pace-the-frontier/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/pace-the-frontier/</guid>
@@ -29,6 +29,13 @@
     <description>AI 수요가 반도체 수출을 밀어 올리는 동안 그 옆의 실물은 어떻게 움직였나. 두 달 시계열로 여섯 품목을 대조했다.</description>
     <category>원자재</category>
     <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>휘발유는 1년 새 27% 올랐는데 근원물가는 2.45%에 멈춰 있다</title>
+    <link>https://eumeconomy.com/world/us-cpi-fomc-september/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/world/us-cpi-fomc-september/</guid>
+    <description>8월 소비자물가를 밀어 올린 것은 휘발유 하나다. 노동통계국도 월간 상승분의 3분의 1 이상이 휘발유라고 적었다. 에너지를 뺀 근원은 넉 달째 내려오지도 올라가지도 않는다. 이 대비가 이틀 뒤 연준 회의에 걸린다.</description>
+    <category>세계경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
   </item>
   <item><title>경제는 32% 커지는데 일해서 버는 몫은 45%로 밀린다</title>
     <link>https://eumeconomy.com/world/ai-2030/</link>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/macro/i-달러-대만달러/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/i-달러-대만달러/</guid>
     <description>달러/대만달러의 변동폭을 같은 묶음·세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
-    <category>환율·금리</category>
-    <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>달러/동 −0.00%…같은 묶음 달러/루피아는 +0.04%</title>
-    <link>https://eumeconomy.com/macro/i-달러-동/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/i-달러-동/</guid>
-    <description>달러/동의 변동폭을 같은 묶음·세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
     <category>환율·금리</category>
     <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
   </item>
