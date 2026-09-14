@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>아시아 증시와 통화, 원자재와 반도체 공급망을 공개 데이터로 매일 집계해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Mon, 14 Sep 2026 11:08:03 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Mon, 14 Sep 2026 11:11:10 +0000</lastBuildDate>
   <item><title>AI 개발 속도를 늦추자는 제안…앤트로픽 시나리오로 계산하면 8조1,000억달러 차이</title>
     <link>https://eumeconomy.com/world/pace-the-frontier/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/pace-the-frontier/</guid>
@@ -30,6 +30,27 @@
     <category>원자재</category>
     <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
   </item>
+  <item><title>미국 증시 +0.93%…이날 12개 시장 중 유일하게 버텨</title>
+    <link>https://eumeconomy.com/world/c-미국/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/world/c-미국/</guid>
+    <description>미국 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>세계경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>유럽 증시, 유로스톡스50과 FTSE 100 0.51%p 갈려</title>
+    <link>https://eumeconomy.com/world/c-유럽/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/world/c-유럽/</guid>
+    <description>유럽 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>세계경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>VIX −11.21%…같은 묶음 다우존스는 +0.98%</title>
+    <link>https://eumeconomy.com/world/i-vix/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/world/i-vix/</guid>
+    <description>VIX의 변동폭을 같은 묶음·세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
+    <category>세계경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
   <item><title>미국 기름값만 1년 새 27% 뛰었다…나머지 물가는 석 달째 2.4%대</title>
     <link>https://eumeconomy.com/world/us-cpi-fomc-september/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/us-cpi-fomc-september/</guid>
@@ -42,6 +63,76 @@
     <guid isPermaLink="true">https://eumeconomy.com/world/wti-back-over-100/</guid>
     <description>금요일 뉴욕에서 유가가 내리자 3대 지수가 나란히 올랐으나, 월요일 아시아 장중에 WTI가 102.65달러로 2.60% 오르며 하루 만에 100달러 위로 올라섰다. 같은 날 원화가 달러에 0.37% 약해져 수입하는 쪽이 지는 부담은 2.98%로 더 커졌고, 아시아 증시는 여섯 곳 가운데 셋이 내렸다.</description>
     <category>세계경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>대만 증시 −0.70%…원화로 환산하면 −1.25%</title>
+    <link>https://eumeconomy.com/asia/c-대만/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/c-대만/</guid>
+    <description>대만 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>말레이시아 증시 +0.47%…12개 시장 중 3위</title>
+    <link>https://eumeconomy.com/asia/c-말레이시아/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/c-말레이시아/</guid>
+    <description>말레이시아 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>싱가포르 증시 +0.32%…원화로 환산하면 +0.08%</title>
+    <link>https://eumeconomy.com/asia/c-싱가포르/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/c-싱가포르/</guid>
+    <description>싱가포르 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>인도 증시 −0.25%…원화로 환산하면 −0.45%</title>
+    <link>https://eumeconomy.com/asia/c-인도/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/c-인도/</guid>
+    <description>인도 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>인도네시아 증시 −1.74%…원화로 환산하면 −2.00%</title>
+    <link>https://eumeconomy.com/asia/c-인도네시아/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/c-인도네시아/</guid>
+    <description>인도네시아 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>일본 증시 −0.81%…원화로 환산하면 −0.87%</title>
+    <link>https://eumeconomy.com/asia/c-일본/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/c-일본/</guid>
+    <description>일본 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>한국 증시, KOSDAQ과 KOSPI 1.69%p 갈려</title>
+    <link>https://eumeconomy.com/asia/c-한국/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/c-한국/</guid>
+    <description>한국 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>호주 증시 +0.10%…12개 시장 중 6위</title>
+    <link>https://eumeconomy.com/asia/c-호주/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/c-호주/</guid>
+    <description>호주 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>중국 본토 증시, SSE COMP과 STAR 50 1.22%p 갈려</title>
+    <link>https://eumeconomy.com/china/c-중국-본토/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/china/c-중국-본토/</guid>
+    <description>중국 본토 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>중국경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>홍콩 증시 +0.34%…원화로 환산하면 −0.01%</title>
+    <link>https://eumeconomy.com/china/c-홍콩/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/china/c-홍콩/</guid>
+    <description>홍콩 지수를 본지가 보는 12개 시장과 견주고, 통화를 곱해 원화 기준으로 환산했다.</description>
+    <category>중국경제</category>
     <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
   </item>
   <item><title>달러/원 +0.37%…원화 대비 10개 통화 중 9번째</title>
@@ -114,102 +205,11 @@
     <category>환율·금리</category>
     <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
   </item>
-  <item><title>[자료] ABS 9,660.62 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-abs/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-abs/</guid>
-    <description>ABS의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 아세톤 6,020.92 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-acetone/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-acetone/</guid>
-    <description>아세톤의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 순수 벤젠 7,811.92 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-benzene/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-benzene/</guid>
-    <description>순수 벤젠의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 옥수수 2,255.17 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-corn/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-corn/</guid>
-    <description>옥수수의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 옥수수 전분 2,950.77 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-corn-starch/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-corn-starch/</guid>
-    <description>옥수수 전분의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 디젤유 7,409.40 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-diesel/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-diesel/</guid>
-    <description>디젤유의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 달걀 9.72 CNY/kg</title>
-    <link>https://eumeconomy.com/materials/d-egg/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-egg/</guid>
-    <description>달걀의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 글리콜 5,017.01 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-ethylene-glycol/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-ethylene-glycol/</guid>
-    <description>글리콜의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 가솔린 8,529.23 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-gasoline/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-gasoline/</guid>
-    <description>가솔린의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 고밀도 폴리에틸렌 10,436.47 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-hdpe/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-hdpe/</guid>
-    <description>고밀도 폴리에틸렌의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 열간 압연 코일 3,269.31 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-hrc/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-hrc/</guid>
-    <description>열간 압연 코일의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 저밀도 폴리에틸렌 10,394.75 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-ldpe/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-ldpe/</guid>
-    <description>저밀도 폴리에틸렌의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 납 15,642.78 CNY/t</title>
-    <link>https://eumeconomy.com/materials/d-lead/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-lead/</guid>
-    <description>납의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 생 돼지 10.47 CNY/kg</title>
-    <link>https://eumeconomy.com/materials/d-live-pig/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/d-live-pig/</guid>
-    <description>생 돼지의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
+  <item><title>달러/대만달러 +0.38%…같은 묶음 대만달러/원는 −0.55%</title>
+    <link>https://eumeconomy.com/macro/i-달러-대만달러/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/macro/i-달러-대만달러/</guid>
+    <description>달러/대만달러의 변동폭을 같은 묶음·세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
+    <category>환율·금리</category>
     <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
   </item>
 </channel></rss>
