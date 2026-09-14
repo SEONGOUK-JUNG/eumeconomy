@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img"
+     aria-label="앤트로픽 2030년 미국 경제 시나리오 세 갈래 — 경제 규모와 노동소득 몫이 반대로 갈린다">
+  <style>
+    .bg{fill:#ffffff}
+    .ttl{font:700 15px 'Noto Sans KR',sans-serif;fill:#11151a}
+    .sub{font:11px 'Noto Sans KR',sans-serif;fill:#5b6672}
+    .lab{font:600 12.5px 'Noto Sans KR',sans-serif;fill:#11151a}
+    .num{font:700 20px 'JetBrains Mono',monospace}
+    .small{font:10.5px 'JetBrains Mono',monospace;fill:#5b6672}
+    .tag{font:700 10px 'Noto Sans KR',sans-serif;fill:#fff}
+    .axis{stroke:#dfe4ea;stroke-width:1}
+    .base{stroke:#8b97a8;stroke-width:1.5;stroke-dasharray:4 3}
+  </style>
+  <rect class="bg" x="0" y="0" width="720" height="460"/>
+
+  <text class="ttl" x="24" y="30">2030년 미국 경제 — 세 갈래</text>
+  <text class="sub" x="24" y="49">경제는 커지고 노동의 몫은 줄어든다. 갈림의 폭이 시나리오를 가른다.</text>
+  <line class="axis" x1="24" y1="62" x2="696" y2="62"/>
+
+  <!-- 왼쪽: GDP 막대 -->
+  <text class="lab" x="24" y="88">GDP 규모 (조달러)</text>
+  <text class="small" x="24" y="104">기준선 대비 증가율</text>
+
+  <!-- 기준선 -->
+  <line class="base" x1="30" y1="300" x2="330" y2="300"/>
+  <text class="small" x="30" y="315">AI 없는 경로 33.5 — 막대는 이 선 위로 늘어난 몫</text>
+
+  <!-- 막대 높이 = (값 − 33.5) × 15px. 기준선 위 증가분에 비례한다. -->
+  <g>
+    <rect x="40"  y="291" width="72" height="9" fill="#8b97a8"/>
+    <text class="num" x="76" y="283" text-anchor="middle" fill="#5b6672">34.1</text>
+    <text class="small" x="76" y="332" text-anchor="middle">+1.6%</text>
+    <rect x="40" y="336" width="72" height="17" fill="#8b97a8"/>
+    <text class="tag" x="76" y="348" text-anchor="middle">완만</text>
+
+    <rect x="136" y="258" width="72" height="42" fill="#16938a"/>
+    <text class="num" x="172" y="250" text-anchor="middle" fill="#0f6b63">36.3</text>
+    <text class="small" x="172" y="332" text-anchor="middle">+8.3%</text>
+    <rect x="136" y="336" width="72" height="17" fill="#16938a"/>
+    <text class="tag" x="172" y="348" text-anchor="middle">상당</text>
+
+    <rect x="232" y="136" width="72" height="164" fill="#d42a2a"/>
+    <text class="num" x="268" y="128" text-anchor="middle" fill="#d42a2a">44.4</text>
+    <text class="small" x="268" y="332" text-anchor="middle">+32.4%</text>
+    <rect x="232" y="336" width="72" height="17" fill="#d42a2a"/>
+    <text class="tag" x="268" y="348" text-anchor="middle">극단</text>
+  </g>
+
+  <!-- 구분선 -->
+  <line class="axis" x1="360" y1="72" x2="360" y2="396"/>
+
+  <!-- 오른쪽: 노동소득 몫 -->
+  <text class="lab" x="390" y="88">노동소득 몫 (%)</text>
+  <text class="small" x="390" y="104">국민소득 가운데 일해서 버는 몫</text>
+
+  <!-- 축: 40~62% 를 y=300(40%) ~ y=130(62%) 에 대응 -->
+  <line class="axis" x1="390" y1="300" x2="690" y2="300"/>
+  <line class="axis" x1="390" y1="130" x2="690" y2="130"/>
+  <text class="small" x="694" y="134" text-anchor="end" opacity="0">62</text>
+
+  <!-- 점과 선: 59.4 / 56.1 / 45.2 -->
+  <!-- y = 300 - (v-40)*(170/22) -->
+  <polyline points="440,150 540,176 640,260" fill="none" stroke="#11151a" stroke-width="2.5"/>
+  <g>
+    <circle cx="440" cy="150" r="7" fill="#8b97a8"/>
+    <text class="num" x="440" y="136" text-anchor="middle" fill="#5b6672">59.4</text>
+    <text class="small" x="440" y="322" text-anchor="middle">완만</text>
+
+    <circle cx="540" cy="176" r="7" fill="#16938a"/>
+    <text class="num" x="540" y="162" text-anchor="middle" fill="#0f6b63">56.1</text>
+    <text class="small" x="540" y="322" text-anchor="middle">상당</text>
+
+    <circle cx="640" cy="260" r="9" fill="#d42a2a"/>
+    <text class="num" x="640" y="244" text-anchor="middle" fill="#d42a2a">45.2</text>
+    <text class="small" x="640" y="322" text-anchor="middle">극단</text>
+  </g>
+  <text class="small" x="390" y="352">자본의 몫은 그만큼 늘어난다 — 완만 +0.6p · 상당 +3.9p · 극단 <tspan font-weight="700" fill="#d42a2a">+14.8p</tspan></text>
+
+  <!-- 아래 띠 -->
+  <line class="axis" x1="24" y1="396" x2="696" y2="396"/>
+  <text class="sub" x="24" y="418">극단 시나리오에서 경제는 32.4% 커지지만 지식노동 임금은 10% 넘게 내리고</text>
+  <text class="sub" x="24" y="436">노동소득 몫은 45.2%까지 밀린다. 늘어난 몫은 자본으로 간다.</text>
+  <text class="small" x="696" y="436" text-anchor="end">자료 : 앤트로픽 경제 시나리오 탐색기 (2026.9)</text>
+</svg>
