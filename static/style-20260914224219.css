@@ -555,7 +555,7 @@ figure.art.photo figcaption{margin-top:8px;font-size:13px;color:var(--sub);line-
 /* ── 좁은 화면의 표 ──
    화면에 억지로 맞추면 글이 든 칸이 한 글자 폭까지 눌린다. 표를 제 내용만큼
    넓게 두고 표 상자 안에서 옆으로 밀어 보게 한다. 기사마다 손댈 일이 아니다. */
-@media(max-width:760px){
+@media(max-width:760px),(hover:none){
   .bd table,.lead-bd table{width:max-content;min-width:100%}
   .bd td:not([style*="right"]),.bd th:not([style*="right"]),
   .lead-bd td:not([style*="right"]),.lead-bd th:not([style*="right"]){
@@ -572,7 +572,7 @@ figure.art.photo figcaption{margin-top:8px;font-size:13px;color:var(--sub);line-
 /* ── 좁은 화면의 지표판 ──
    1면은 시세를 보러 오는 자리이니 그대로 둔다. 섹션이나 기사를 눌러 들어간
    자리에서는 읽으러 온 것이므로 칸을 접고 기사를 먼저 보인다. */
-@media(max-width:760px){
+@media(max-width:760px),(hover:none){
   .term.compact.slim .ph,
   .term.compact.slim .cbgrid,
   .term.compact.slim .cblg,
