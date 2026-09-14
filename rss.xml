@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>아시아 증시와 통화, 원자재와 반도체 공급망을 공개 데이터로 매일 집계해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Mon, 14 Sep 2026 11:46:34 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Mon, 14 Sep 2026 13:14:34 +0000</lastBuildDate>
   <item><title>AI 개발 속도를 늦추자는 제안…앤트로픽 시나리오로 계산하면 8조1,000억달러 차이</title>
     <link>https://eumeconomy.com/world/pace-the-frontier/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/pace-the-frontier/</guid>
@@ -121,6 +121,13 @@
     <category>아시아경제</category>
     <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
   </item>
+  <item><title>코스피 3.26% 급락…AI 감속론·중동 유가·미 물가가 한날 겹쳤다</title>
+    <link>https://eumeconomy.com/asia/kospi-worst-in-asia/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/asia/kospi-worst-in-asia/</guid>
+    <description>코스피가 14일 3.26% 내린 6,684.37로 마감해 아시아·중화권 14개 지수 가운데 가장 많이 내렸다. 반도체 비중이 큰 지수를 AI 개발 감속론이 먼저 때렸고, 호르무즈 협의 연기로 브렌트유가 4.19% 뛰었으며, 미국 근원물가가 석 달째 2.4%대에 머물러 금리 기대가 뒤로 밀렸다. 세 가지가 한날에 겹쳤다.</description>
+    <category>아시아경제</category>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
   <item><title>중국 본토 증시, SSE COMP과 STAR 50 1.22%p 갈려</title>
     <link>https://eumeconomy.com/china/c-중국-본토/</link>
     <guid isPermaLink="true">https://eumeconomy.com/china/c-중국-본토/</guid>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/macro/fx-홍콩달러-원/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/fx-홍콩달러-원/</guid>
     <description>홍콩달러/원의 변동을 원화 대비 통화 10개와 나란히 놓고 순위와 격차를 봤다.</description>
-    <category>환율·금리</category>
-    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>달러/대만달러 +0.38%…같은 묶음 대만달러/원는 −0.55%</title>
-    <link>https://eumeconomy.com/macro/i-달러-대만달러/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/i-달러-대만달러/</guid>
-    <description>달러/대만달러의 변동폭을 같은 묶음·세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
     <category>환율·금리</category>
     <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
   </item>
