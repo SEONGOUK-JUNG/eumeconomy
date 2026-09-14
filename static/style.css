@@ -434,8 +434,8 @@ footer .rg li b{display:block;color:#fff}
     margin-left:auto}
 .cbgrid .up,.cbgrid .down,.cbgrid .flat{font-family:var(--mono);font-size:11.5px;
     font-weight:700;flex:none;min-width:54px;text-align:right}
-.cbgrid .cb i{font-style:normal;font-family:var(--mono);font-size:9px;color:#5b6672;
-    flex:none}
+.cbgrid .n i{font-style:normal;font-family:var(--mono);font-size:9px;color:#5b6672;
+    margin-left:4px;font-weight:400}
 @media(max-width:1400px){.cbgrid{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:1000px){.cbgrid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:640px){.cbgrid{grid-template-columns:repeat(2,1fr)}}
