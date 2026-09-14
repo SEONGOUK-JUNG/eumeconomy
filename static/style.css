@@ -568,3 +568,16 @@ figure.art.photo figcaption{margin-top:8px;font-size:13px;color:var(--sub);line-
       padding:5px 10px 7px;font-size:11px;color:var(--dim);
       font-family:var(--mono);white-space:nowrap}
 }
+
+/* ── 좁은 화면의 지표판 ──
+   24칸이 폰 화면을 통째로 덮어 기사가 한참 아래로 밀린다. 시세 지면이 따로
+   있으므로 좁은 화면에서는 흐르는 띠와 「시세 전체 보기」만 남긴다. */
+@media(max-width:760px){
+  .term.compact .ph,
+  .term.compact .cbgrid,
+  .term.compact .cblg,
+  .term.compact .spks{display:none}
+  .term.compact .tape{margin-bottom:0}
+  .term.compact .tmore{margin-top:0;border-top:0;padding:11px 16px}
+  .term.compact .tmore a{font-size:12.5px}
+}
