@@ -551,3 +551,20 @@ figure.art.photo .aitag{position:absolute;left:0;bottom:0;
     font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.04em;
     color:#fff;background:rgba(11,42,53,.92);padding:5px 10px;line-height:1.2}
 figure.art.photo figcaption{margin-top:8px;font-size:13px;color:var(--sub);line-height:1.6}
+
+/* ── 좁은 화면의 표 ──
+   화면에 억지로 맞추면 글이 든 칸이 한 글자 폭까지 눌린다. 표를 제 내용만큼
+   넓게 두고 표 상자 안에서 옆으로 밀어 보게 한다. 기사마다 손댈 일이 아니다. */
+@media(max-width:760px){
+  .bd table,.lead-bd table{width:max-content;min-width:100%}
+  .bd td:not([style*="right"]),.bd th:not([style*="right"]),
+  .lead-bd td:not([style*="right"]),.lead-bd th:not([style*="right"]){
+      min-width:8.5em;max-width:17em;white-space:normal}
+  .bd td[style*="right"],.bd th[style*="right"],
+  .lead-bd td[style*="right"],.lead-bd th[style*="right"]{width:auto}
+  .bd th,.bd td{padding:8px 10px}
+  .tw{position:relative}
+  .tw::after{content:"옆으로 밀어 보십시오";position:sticky;left:0;display:block;
+      padding:5px 10px 7px;font-size:11px;color:var(--dim);
+      font-family:var(--mono);white-space:nowrap}
+}
