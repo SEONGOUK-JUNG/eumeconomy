@@ -43,8 +43,7 @@ nav.sec a{padding:9px 15px 10px;font-size:14.5px;font-weight:700;color:#c6dae0;
 nav.sec a:first-child{padding-left:0}
 nav.sec a:hover{color:#fff}
 nav.sec a.on{color:#fff;border-bottom-color:var(--teal-lt)}
-nav.sec a.room{margin-left:auto;color:var(--teal-lt)}
-nav.sec a.split{padding-left:15px;border-left:1px solid rgba(255,255,255,.2);color:#d9c79a}
+nav.sec a.split{margin-left:auto;padding-left:15px;border-left:1px solid rgba(255,255,255,.2);color:#d9c79a}
 
 /* ── 터미널 ── */
 .term{background:#000;color:#e8e8e8;border-bottom:3px solid #1c1c1c;font-size:15px}
@@ -337,8 +336,12 @@ figure.art figcaption{margin-top:8px;font-size:13px;color:var(--sub);line-height
 footer{background:var(--navy);color:#c6dae0;margin-top:36px;padding:20px 0 24px;
        font-size:12.5px;line-height:1.9}
 footer b{color:#fff;font-weight:650}
-footer .fm{font-size:19px;font-weight:900;color:#fff;letter-spacing:-1.2px;margin-bottom:9px}
-footer .fm em{font-style:normal;color:var(--teal-lt)}
+footer .fm{line-height:0;margin-bottom:11px}
+footer .fm img{display:block;height:42px;width:auto}
+@media(max-width:700px){footer .fm img{height:34px}}
+/* 편집국 — 발행 시각 옆 */
+footer .g .room{margin-left:12px;color:var(--teal-lt);font-weight:700;white-space:nowrap}
+footer .g .room:hover{color:#fff;text-decoration:underline}
 footer .g{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
           gap:3px 22px;margin-bottom:11px;font-size:12.5px;line-height:1.55}
 /* 발행 시각은 한 줄로 둔다. 「18초」만 떨어지면 읽기가 나쁘다 */
