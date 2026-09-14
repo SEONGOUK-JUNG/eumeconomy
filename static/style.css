@@ -503,3 +503,30 @@ footer .pol{margin-top:10px;padding-top:10px;font-size:12px;
 footer .pol b{margin-right:12px}
 footer .pol a{margin-right:14px;color:#cadde3;white-space:nowrap}
 footer .pol a:hover{color:#fff;text-decoration:underline}
+
+/* ── 좁은 화면 ──
+   1면은 세 칸으로 짰다. 칸마다 최소 폭이 있어 좁은 화면에서는 그대로 두면
+   지면이 옆으로 밀려 가로 스크롤이 생긴다. 폭에 따라 칸을 접는다. */
+@media(max-width:1180px){
+  .front3{grid-template-columns:minmax(0,1fr) minmax(300px,32%)}
+  .colL{grid-column:1/-1;order:3;border-right:0;padding-right:0;
+        border-top:1px solid var(--line);padding-top:20px;margin-top:20px}
+  .colC{order:1}
+  .colR{order:2}
+}
+@media(max-width:860px){
+  .front3{grid-template-columns:minmax(0,1fr);gap:0}
+  .colR{border-top:1px solid var(--line);padding-top:18px;margin-top:18px}
+}
+@media(max-width:700px){
+  .wrap{padding:0 16px}
+  .util .wrap,.mast .wrap{padding-left:16px;padding-right:16px}
+  .title strong{font-size:42px;letter-spacing:-2px}
+  .mast .wrap{flex-wrap:wrap;gap:12px}
+  .mast .desc{border-left:0;padding-left:0}
+  .mast .edition{margin-left:0;text-align:left}
+  .tgrid{padding-left:16px;padding-right:16px}
+  .spks{padding-left:16px;padding-right:16px;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pan{padding-left:0;padding-right:0}
+  .pan+.pan{border-left:0;border-top:1px solid #1c1c1c;padding-top:14px;margin-top:14px}
+}
