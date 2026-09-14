@@ -399,7 +399,12 @@ footer .rg li{font-size:12px;line-height:1.72;color:#bcd2d9}
 footer .rg li b{display:block;color:#fff}
 
 /* ── 지표판 축소형 (기사 지면) ── */
-.term.compact{padding:12px 0 0}
+.term.compact{padding:0 0 0}
+/* 띠는 지면 맨 위에 한 줄로 붙는다. 높이를 줄여 지표판을 밀어내지 않게 한다 */
+.term.compact .tape{height:34px;margin-bottom:12px}
+.term.compact .tape .live{padding:0 14px 0 24px;font-size:11px}
+.term.compact .tape .vl{font-size:15px}
+.term.compact .tape .tk{padding:0 15px}
 .term.compact .ph{max-width:1680px;margin:0 auto 9px;padding:0 24px;
     font-family:var(--mono);font-size:11px;letter-spacing:1px;color:#e8c078;font-weight:700}
 .term.compact .ph span{color:#a8a8a8;letter-spacing:.3px;font-weight:400}
