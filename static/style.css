@@ -581,3 +581,20 @@ figure.art.photo figcaption{margin-top:8px;font-size:13px;color:var(--sub);line-
   .term.compact.slim .tmore{margin-top:0;border-top:0;padding:11px 16px}
   .term.compact.slim .tmore a{font-size:12.5px}
 }
+
+/* ── 특집 지면 ── */
+.flist{max-width:900px;margin:24px 0 0}
+.fitem{padding:0 0 30px;margin-bottom:30px;border-bottom:2px solid var(--ink)}
+.fitem:last-child{border-bottom:0;margin-bottom:0}
+.fitem .fd{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--dim);
+           margin-bottom:9px}
+.fitem h2{font-size:30px;line-height:1.3;letter-spacing:-1.1px;margin:8px 0 10px;
+          font-weight:900}
+.fitem h2 a:hover{color:var(--navy)}
+.fitem .sf{font-size:16px;color:#3a4048;line-height:1.65;margin:0 0 12px}
+.fitem .ex{font-size:15px;color:var(--dim);line-height:1.75;margin:0 0 12px;
+           padding-top:12px;border-top:1px solid var(--line)}
+.fside{margin-top:18px;padding:15px 17px;background:var(--card);border:1px solid var(--line)}
+.fside .lh{font-size:13px;margin-bottom:8px;padding-bottom:6px}
+.fside .latest{margin:0}
+@media(max-width:700px){.fitem h2{font-size:24px;letter-spacing:-.8px}}
