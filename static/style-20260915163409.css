@@ -534,6 +534,20 @@ table.cov tr.tt td{font-weight:800;border-bottom:0;border-top:2px solid var(--in
   .tipform .tf-em{flex:1 1 auto;border-left:0}
 }
 
+/* 판권란 안에서는 바탕이 어두우므로 테두리와 글자를 뒤집는다 */
+footer .tiplab{margin-top:14px;padding-top:12px;font-size:12px;font-weight:700;color:#cadde3;
+               border-top:1px solid rgba(255,255,255,.18)}
+footer .tipform{max-width:720px;margin:8px 0 0;border:1px solid rgba(255,255,255,.34);
+                background:rgba(255,255,255,.05)}
+footer .tipform input[type=text],footer .tipform input[type=email]{padding:9px 12px;
+                font-size:13.5px;color:#fff}
+footer .tipform .tf-em{flex:0 0 190px;border-left:1px solid rgba(255,255,255,.22)}
+footer .tipform input::placeholder{color:#9fb6bf}
+footer .tipform input:focus{background:rgba(255,255,255,.12)}
+footer .tipform .tf-btn{padding:0 18px;font-size:13.5px;background:var(--teal);
+                border-left:1px solid rgba(255,255,255,.34)}
+footer .tipform .tf-btn:hover{background:var(--teal-lt)}
+
 footer .pol{margin-top:10px;padding-top:10px;font-size:12px;
             border-top:1px solid rgba(255,255,255,.18)}
 footer .pol b{margin-right:12px}
