@@ -1,0 +1,25 @@
+{
+  "name": "이음경제 세계경제 주요 뉴스를 분석해 전하는 경제신문",
+  "short_name": "이음경제",
+  "description": "세계경제 주요 뉴스를 분석해 전하는 경제신문입니다.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "lang": "ko",
+  "background_color": "#ffffff",
+  "theme_color": "#0f3b3a",
+  "icons": [
+    {
+      "src": "/static/logo/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/logo/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
