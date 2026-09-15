@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계경제 주요 뉴스를 분석해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Tue, 15 Sep 2026 10:01:26 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Tue, 15 Sep 2026 10:04:51 +0000</lastBuildDate>
   <item><title>AI 개발 속도를 늦추자는 제안…앤트로픽 시나리오로 계산하면 8조1,000억달러 차이</title>
     <link>https://eumeconomy.com/world/pace-the-frontier/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/pace-the-frontier/</guid>
@@ -29,6 +29,20 @@
     <description>중국 현물 여섯 품목을 두 달 시계열로 대조한 결과 위안 기준으로 오른 것은 구리 하나였다. 원화로 환산하면 환율이 5.19% 내려 구릿값도 4.46% 하락으로 바뀐다.</description>
     <category>원자재</category>
     <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>중국 8월 자동차 소비 부진…소매판매 증가율 0.4% 그쳐</title>
+    <link>https://eumeconomy.com/china/china-august-activity/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/china/china-august-activity/</guid>
+    <description>중국 국가통계국이 15일 발표한 8월 소매판매는 1년 전보다 0.4% 늘어나는 데 그쳤다. 자동차를 제외한 소매판매는 2.5% 증가했다. 자동차 한 항목이 전체 증가율을 2.1%포인트 낮춘 것으로, 그 격차는 1~8월 누계 1.6%포인트보다 0.5%포인트 커졌다. 산업생산은 5.2% 증가해 7월보다 높아진 반면 1~8월 고정자산투자는 7.2% 감소해 감소폭이 커졌다.</description>
+    <category>중국경제</category>
+    <pubDate>Tue, 15 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>원화 환산 중국 현물 388종 상승…위안 기준으론 78종</title>
+    <link>https://eumeconomy.com/materials/krw-flips-china-prices/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/krw-flips-china-prices/</guid>
+    <description>위안/원이 하루 0.96% 올라 원화로 환산한 중국 현물 가격의 부호가 대부분 바뀌었다. 419개 품목 가운데 위안 기준으로 오른 것은 78종인데 원화 기준으로는 388종이 올랐다. 원화 기준 상승 388종 가운데 310종은 위안 고시가가 오르지 않았고, 환율만으로 상승이 됐다.</description>
+    <category>원자재</category>
+    <pubDate>Tue, 15 Sep 2026 10:00:00 +0000</pubDate>
   </item>
   <item><title>미국 증시 −0.44%…12개 시장 중 6위</title>
     <link>https://eumeconomy.com/world/2026-09-15-c-미국/</link>
@@ -195,20 +209,6 @@
     <link>https://eumeconomy.com/macro/2026-09-15-i-달러-대만달러/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-15-i-달러-대만달러/</guid>
     <description>달러/대만달러의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
-    <category>환율·금리</category>
-    <pubDate>Tue, 15 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>달러/동 +0.25%…아시아통화 12개 중 11번째</title>
-    <link>https://eumeconomy.com/macro/2026-09-15-i-달러-동/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-15-i-달러-동/</guid>
-    <description>달러/동의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
-    <category>환율·금리</category>
-    <pubDate>Tue, 15 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>달러/루피 +0.94%…아시아통화 12개 중 1번째</title>
-    <link>https://eumeconomy.com/macro/2026-09-15-i-달러-루피/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-15-i-달러-루피/</guid>
-    <description>달러/루피의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
     <category>환율·금리</category>
     <pubDate>Tue, 15 Sep 2026 10:00:00 +0000</pubDate>
   </item>
