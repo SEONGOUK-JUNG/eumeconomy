@@ -1,0 +1,19 @@
+{
+  "name": "이음경제 산업과 시장을 잇는 경제신문",
+  "short_name": "이음경제",
+  "description": "아시아 증시·환율·원자재·공급망을 공개 데이터로 매일 집계합니다.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "lang": "ko",
+  "background_color": "#ffffff",
+  "theme_color": "#0f3b3a",
+  "icons": [
+    {
+      "src": "/static/logo/mark-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
