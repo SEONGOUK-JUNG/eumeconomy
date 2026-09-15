@@ -509,6 +509,31 @@ table.cov tr.tt td{font-weight:800;border-bottom:0;border-top:2px solid var(--in
 .polmore b{margin-right:12px;color:var(--ink)}
 .polmore a{margin-right:14px;color:var(--navy);font-weight:600;white-space:nowrap}
 .polmore a:hover{color:var(--teal)}
+/* 제보 한 줄 입력칸 — 한 줄에 다 넣는다. 좁아지면 내용칸만 위로 접힌다 */
+.tipform{max-width:840px;margin:20px 0 0;display:flex;align-items:stretch;
+         border:2px solid var(--ink);background:var(--paper)}
+.tipform input[type=text],.tipform input[type=email]{
+         min-width:0;border:0;background:transparent;padding:12px 14px;
+         font-family:inherit;font-size:15px;color:var(--ink)}
+.tipform .tf-msg{flex:1 1 auto}
+.tipform .tf-em{flex:0 0 218px;font-size:14px;border-left:1px solid var(--line)}
+.tipform input::placeholder{color:var(--dim)}
+.tipform input:focus{outline:0;background:var(--soft)}
+.tipform .tf-btn{flex:none;border:0;border-left:2px solid var(--ink);padding:0 22px;
+         font-family:inherit;font-size:15px;font-weight:800;color:#fff;
+         background:var(--navy);white-space:nowrap;cursor:pointer}
+.tipform .tf-btn:hover{background:var(--teal)}
+.tipform .tf-btn:disabled{cursor:default}
+.tipform .tf-btn.ok{background:var(--teal)}
+.tipform .tf-bot{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.tipnote{max-width:840px;margin:9px 0 0;font-size:12.5px;color:var(--dim);line-height:1.7}
+.tipnote b{color:var(--ink);font-weight:700}
+@media(max-width:700px){
+  .tipform{flex-wrap:wrap}
+  .tipform .tf-msg{flex:1 0 100%;border-bottom:1px solid var(--line)}
+  .tipform .tf-em{flex:1 1 auto;border-left:0}
+}
+
 footer .pol{margin-top:10px;padding-top:10px;font-size:12px;
             border-top:1px solid rgba(255,255,255,.18)}
 footer .pol b{margin-right:12px}
