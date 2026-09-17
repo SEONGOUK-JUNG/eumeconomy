@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계경제 주요 뉴스를 분석해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Wed, 16 Sep 2026 10:01:14 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Thu, 17 Sep 2026 04:35:50 +0000</lastBuildDate>
   <item><title>AI 개발 속도를 늦추자는 제안…앤트로픽 시나리오로 계산하면 8조1,000억달러 차이</title>
     <link>https://eumeconomy.com/world/pace-the-frontier/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/pace-the-frontier/</guid>
@@ -29,6 +29,13 @@
     <description>중국 현물 여섯 품목을 두 달 시계열로 대조한 결과 위안 기준으로 오른 것은 구리 하나였다. 원화로 환산하면 환율이 5.19% 내려 구릿값도 4.46% 하락으로 바뀐다.</description>
     <category>원자재</category>
     <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>K-뷰티 수출 114억달러…산업 육성법은 화장품법 이후 26년 만에 처음</title>
+    <link>https://eumeconomy.com/beauty/cosmetics-promotion-act/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/beauty/cosmetics-promotion-act/</guid>
+    <description>화장품은 지난해 114억달러를 수출해 중소기업 수출 품목 1위에 올랐다. 그런데 이 산업을 키우는 법은 없었다. 8월 20일 국회를 통과한 육성법이 그 자리를 메운다.</description>
+    <category>K-뷰티</category>
+    <pubDate>Thu, 17 Sep 2026 10:00:00 +0000</pubDate>
   </item>
   <item><title>미 10년물 4.996% 19년 만의 최고…가장 많이 오른 구간은 5년물</title>
     <link>https://eumeconomy.com/macro/ust10-19y-high/</link>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/macro/2026-09-16-i-달러-대만달러/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-16-i-달러-대만달러/</guid>
     <description>달러/대만달러의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
-    <category>환율·금리</category>
-    <pubDate>Wed, 16 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>달러/동 −0.10%…바트/원은 +1.64%</title>
-    <link>https://eumeconomy.com/macro/2026-09-16-i-달러-동/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-16-i-달러-동/</guid>
-    <description>달러/동의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
     <category>환율·금리</category>
     <pubDate>Wed, 16 Sep 2026 10:00:00 +0000</pubDate>
   </item>
