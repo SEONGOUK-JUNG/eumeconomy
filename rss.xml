@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계경제 주요 뉴스를 분석해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Fri, 18 Sep 2026 16:56:53 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Sat, 19 Sep 2026 02:41:19 +0000</lastBuildDate>
   <item><title>AI 개발 속도를 늦추자는 제안…앤트로픽 시나리오로 계산하면 8조1,000억달러 차이</title>
     <link>https://eumeconomy.com/world/pace-the-frontier/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/pace-the-frontier/</guid>
@@ -29,6 +29,13 @@
     <description>중국 현물 여섯 품목을 2개월 시계열로 대조한 결과 위안 기준으로 오른 것은 구리 하나였다. 원화로 환산하면 환율이 5.19% 내려 구릿값도 4.46% 하락으로 바뀐다.</description>
     <category>원자재</category>
     <pubDate>Sun, 13 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>미 실업수당 청구 19만 6,000건으로 예상 하회…제조업 고용지수는 절반 아래로</title>
+    <link>https://eumeconomy.com/world/us-indicators/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/world/us-indicators/</guid>
+    <description>17일 나온 미국 지표 3가지가 서로 달랐다. 실업수당 청구는 예상보다 적었고, 필라델피아 제조업 고용지수와 주택 착공은 내렸다.</description>
+    <category>세계경제</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
   <item><title>화장품 8월 수출 52.1% 증가…미국·EU가 끌고 중국은 제자리</title>
     <link>https://eumeconomy.com/beauty/cosmetics-august-export/</link>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/macro/2026-09-18-fx-유로-원/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-18-fx-유로-원/</guid>
     <description>유로/원의 변동을 원화 대비 통화 10개와 나란히 놓고 순위와 격차를 봤다.</description>
-    <category>환율·금리</category>
-    <pubDate>Fri, 18 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>홍콩달러/원 +0.14%…원화 대비 10개 통화 중 2번째</title>
-    <link>https://eumeconomy.com/macro/2026-09-18-fx-홍콩달러-원/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-18-fx-홍콩달러-원/</guid>
-    <description>홍콩달러/원의 변동을 원화 대비 통화 10개와 나란히 놓고 순위와 격차를 봤다.</description>
     <category>환율·금리</category>
     <pubDate>Fri, 18 Sep 2026 10:00:00 +0000</pubDate>
   </item>
