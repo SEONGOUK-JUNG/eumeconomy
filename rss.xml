@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계경제 주요 뉴스를 분석해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Sat, 19 Sep 2026 10:03:41 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Sat, 19 Sep 2026 11:23:02 +0000</lastBuildDate>
   <item><title>AI 개발 속도를 늦추자는 제안…앤트로픽 시나리오로 계산하면 8조1,000억달러 차이</title>
     <link>https://eumeconomy.com/world/pace-the-frontier/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/pace-the-frontier/</guid>
@@ -93,49 +93,56 @@
     <category>환율·금리</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
-  <item><title>위안/원, 106거래일 만에 15.08원 내려…최근 한 달은 반대 방향</title>
-    <link>https://eumeconomy.com/macro/2026-09-19-s-cnykrw/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-19-s-cnykrw/</guid>
-    <description>위안/원의 106거래일 위치와 최근 한 달 흐름을 보고 1억 원 거래에 대입했다.</description>
-    <category>환율·금리</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>달러/원, 106거래일 만에 115.00원 내려…최근 한 달은 반대 방향</title>
-    <link>https://eumeconomy.com/macro/2026-09-19-s-usdkrw/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-19-s-usdkrw/</guid>
-    <description>달러/원의 106거래일 위치와 최근 한 달 흐름을 보고 1억 원 거래에 대입했다.</description>
-    <category>환율·금리</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>코발트값 3개월 만에 29% 올라…구간의 41% 지점</title>
+  <item><title>코발트값 3개월 최저가에 근접</title>
     <link>https://eumeconomy.com/semi/2026-09-19-cobalt/</link>
     <guid isPermaLink="true">https://eumeconomy.com/semi/2026-09-19-cobalt/</guid>
     <description>코발트의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
     <category>반도체</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
-  <item><title>탄산리튬값 3개월 만에 103% 올라…구간의 70% 지점</title>
+  <item><title>탄산리튬값 3개월 만에 82% 올라…구간의 57% 지점</title>
     <link>https://eumeconomy.com/semi/2026-09-19-lithium-carbonate/</link>
     <guid isPermaLink="true">https://eumeconomy.com/semi/2026-09-19-lithium-carbonate/</guid>
     <description>탄산리튬의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
     <category>반도체</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
-  <item><title>주석값 3개월 최고가에 근접…전일 대비 +1.38%</title>
+  <item><title>주석값 3개월 만에 48% 올라…구간의 83% 지점</title>
     <link>https://eumeconomy.com/semi/2026-09-19-tin/</link>
     <guid isPermaLink="true">https://eumeconomy.com/semi/2026-09-19-tin/</guid>
     <description>주석의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
     <category>반도체</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
-  <item><title>알루미늄값 3개월 만에 14% 올라…구간의 74% 지점</title>
+  <item><title>ABS값 3개월 만에 10% 올라…구간의 69% 지점</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-abs/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-abs/</guid>
+    <description>ABS의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>아세톤값 3개월 최고가에 근접…전일 대비 −0.14%</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-acetone/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-acetone/</guid>
+    <description>아세톤의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>알루미늄값 3개월 최고가에 근접…전일 대비 +0.83%</title>
     <link>https://eumeconomy.com/materials/2026-09-19-aluminum/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-aluminum/</guid>
     <description>알루미늄의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
     <category>원자재</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
-  <item><title>석탄 고시가 제자리…원화 부담은 0.77% 줄어</title>
+  <item><title>순수 벤젠값 3개월 최고가에 근접…전일 대비 −1.39%</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-benzene/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-benzene/</guid>
+    <description>순수 벤젠의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>석탄값 3개월 최고가에 근접…전일 대비 +0.00%</title>
     <link>https://eumeconomy.com/materials/2026-09-19-coal/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-coal/</guid>
     <description>석탄의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
@@ -149,66 +156,59 @@
     <category>원자재</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
-  <item><title>원유값 3개월 만에 29% 올라…구간의 44% 지점</title>
+  <item><title>옥수수값 3개월 +3.1%…최근 열흘은 −2.6%</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-corn/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-corn/</guid>
+    <description>옥수수의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>옥수수 전분 고시가 제자리…원화 부담은 0.52% 줄어</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-corn-starch/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-corn-starch/</guid>
+    <description>옥수수 전분의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>원유값 3개월 만에 57% 올라…구간의 73% 지점</title>
     <link>https://eumeconomy.com/materials/2026-09-19-crude-oil/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-crude-oil/</guid>
     <description>원유의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
     <category>원자재</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
-  <item><title>금값 3개월 최저가에 근접</title>
+  <item><title>디젤유값 3개월 최고가에 근접…전일 대비 −0.77%</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-diesel/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-diesel/</guid>
+    <description>디젤유의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>달걀값 3개월 최고가에 근접…전일 대비 −0.46%</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-egg/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-egg/</guid>
+    <description>달걀의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>글리콜값 3개월 최고가에 근접…전일 대비 −0.37%</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-ethylene-glycol/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-ethylene-glycol/</guid>
+    <description>글리콜의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>가솔린값 3개월 최고가에 근접…전일 대비 −0.78%</title>
+    <link>https://eumeconomy.com/materials/2026-09-19-gasoline/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-gasoline/</guid>
+    <description>가솔린의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
+    <category>원자재</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>금값 3개월 +2.9%…최근 열흘은 +8.0%</title>
     <link>https://eumeconomy.com/materials/2026-09-19-gold/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-gold/</guid>
     <description>금의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
-    <category>원자재</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>철광석값 3개월 최저가에 근접</title>
-    <link>https://eumeconomy.com/materials/2026-09-19-iron-ore/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-iron-ore/</guid>
-    <description>철광석의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
-    <category>원자재</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>건축자재 7종 중 5종 제자리…움직인 건 2종뿐</title>
-    <link>https://eumeconomy.com/materials/2026-09-19-sector-건축자재/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-sector-건축자재/</guid>
-    <description>건축자재 7개 품목의 분포와 업종 내 편차, 환율 효과를 봤다.</description>
-    <category>원자재</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>고무 및 프라스틱 19종 중 1종 올라…9개 업종 중 8위</title>
-    <link>https://eumeconomy.com/materials/2026-09-19-sector-고무-및-프라스틱/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-sector-고무-및-프라스틱/</guid>
-    <description>고무 및 프라스틱 19개 품목의 분포와 업종 내 편차, 환율 효과를 봤다.</description>
-    <category>원자재</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>농산물 및 부산물 11종 중 0종 올라…9개 업종 중 9위</title>
-    <link>https://eumeconomy.com/materials/2026-09-19-sector-농산물-및-부산물/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-sector-농산물-및-부산물/</guid>
-    <description>농산물 및 부산물 11개 품목의 분포와 업종 내 편차, 환율 효과를 봤다.</description>
-    <category>원자재</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>방직 17종 중 4종 올라…9개 업종 중 7위</title>
-    <link>https://eumeconomy.com/materials/2026-09-19-sector-방직/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-sector-방직/</guid>
-    <description>방직 17개 품목의 분포와 업종 내 편차, 환율 효과를 봤다.</description>
-    <category>원자재</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>비철금속 29종 중 9종 올라…9개 업종 중 1위</title>
-    <link>https://eumeconomy.com/materials/2026-09-19-sector-비철금속/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-sector-비철금속/</guid>
-    <description>비철금속 29개 품목의 분포와 업종 내 편차, 환율 효과를 봤다.</description>
-    <category>원자재</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>에너지 15종 중 3종 올라…9개 업종 중 6위</title>
-    <link>https://eumeconomy.com/materials/2026-09-19-sector-에너지/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-sector-에너지/</guid>
-    <description>에너지 15개 품목의 분포와 업종 내 편차, 환율 효과를 봤다.</description>
     <category>원자재</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
