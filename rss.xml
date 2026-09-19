@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계경제 주요 뉴스를 분석해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Sat, 19 Sep 2026 11:32:29 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Sat, 19 Sep 2026 13:40:56 +0000</lastBuildDate>
   <item><title>AI 개발 속도를 늦추자는 제안…앤트로픽 시나리오로 계산하면 8조1,000억달러 차이</title>
     <link>https://eumeconomy.com/world/pace-the-frontier/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/pace-the-frontier/</guid>
@@ -34,6 +34,13 @@
     <link>https://eumeconomy.com/world/us-indicators/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/us-indicators/</guid>
     <description>17일 나온 미국 지표 3가지가 서로 달랐다. 실업수당 청구는 예상보다 적었고, 필라델피아 제조업 고용지수와 주택 착공은 내렸다.</description>
+    <category>세계경제</category>
+    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>폭스바겐 올해 이익률 전망 1%로 하향…유럽 자동차주 동반 하락</title>
+    <link>https://eumeconomy.com/world/vw-guidance-cut/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/world/vw-guidance-cut/</guid>
+    <description>폭스바겐이 18일 올해 실적 전망을 낮췄다. 특별손실 100억 유로 중 60억 유로는 포르쉐 영업권 손상이고 현금이 나가지 않는다. 유럽 증시는 내렸지만 미국 증시는 내리지 않았다.</description>
     <category>세계경제</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/materials/2026-09-19-gasoline/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-gasoline/</guid>
     <description>가솔린의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
-    <category>원자재</category>
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>금값 3개월 +2.9%…최근 열흘은 +8.0%</title>
-    <link>https://eumeconomy.com/materials/2026-09-19-gold/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-19-gold/</guid>
-    <description>금의 3개월 위치와 최근 흐름, 환율이 원화 원가에 미친 영향을 봤다.</description>
     <category>원자재</category>
     <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
   </item>
