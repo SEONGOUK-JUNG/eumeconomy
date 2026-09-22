@@ -1,0 +1,899 @@
+<!doctype html>
+<html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>편집국 — 이음경제</title>
+<meta name="description" content="이음경제 편집국 조직과 저녁판 제작 일정, 편집 원칙입니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#123d4c;--navy-dk:#0b2a35;--teal:#16938a;--teal-lt:#1fb3a6;
+ --paper:#fff;--soft:#f3f5f6;--card:#fafbfb;--ink:#11151a;--fg:#1d2126;--dim:#646c75;
+ --line:#d9dee2;--rule:#11151a;--up:#d92b2b;--down:#1a5fd0;
+ --sans:"Inter","Noto Sans KR","Malgun Gothic",-apple-system,sans-serif;
+ --mono:"JetBrains Mono","SF Mono",Consolas,monospace;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--fg);font-family:var(--sans);line-height:1.62;font-size:16px}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1680px;margin:0 auto;padding:0 40px}
+.util{background:var(--navy-dk);color:#b7cdd4}
+.util .wrap{max-width:1680px;margin:0 auto;display:flex;justify-content:space-between;font-size:11.5px;padding:6px 40px}
+.util .mono{font-family:var(--mono);font-size:10.5px}
+.mast{background:var(--navy);color:#fff}
+.mast .wrap{max-width:1680px;margin:0 auto;display:flex;align-items:flex-end;gap:20px;padding:15px 40px 13px}
+.title strong{display:block;font-size:62px;font-weight:900;letter-spacing:-3.2px;line-height:.82;
+              white-space:nowrap}
+.title strong em{font-style:normal;color:var(--teal-lt)}
+.title span{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.42em;color:var(--teal-lt);font-weight:700;margin-top:9px}
+.mast h1{font-size:17px;margin:0;font-weight:700;border-left:1px solid rgba(255,255,255,.24);padding-left:20px}
+.mast h1 small{display:block;font-size:12.5px;color:#cadde3;font-weight:400}
+.mast .back{margin-left:auto;font-size:13px;color:var(--teal-lt);font-weight:650}
+nav.sec{background:var(--navy);border-bottom:4px solid var(--navy-dk)}
+nav.sec .wrap{max-width:1680px;margin:0 auto;display:flex;overflow-x:auto;padding:0 40px}
+nav.sec a{padding:9px 15px 10px;font-size:14.5px;font-weight:700;color:#c6dae0;white-space:nowrap;border-bottom:3px solid transparent}
+nav.sec a:first-child{padding-left:0}
+nav.sec a.on{color:#fff;border-bottom-color:var(--teal-lt)}
+.notice{background:var(--soft);border-bottom:1px solid var(--line)}
+.notice .wrap{padding:12px 40px;font-size:13px;color:#4b5058}
+.notice b{color:var(--ink)}
+main{padding:26px 0 60px}
+h2.sh{font-size:22px;font-weight:900;letter-spacing:-.9px;margin:0 0 4px;padding-left:11px;border-left:5px solid var(--teal)}
+p.sd{color:var(--dim);font-size:13.5px;margin:0 0 18px;padding:0 0 12px 16px;border-bottom:2px solid var(--rule)}
+section{margin-bottom:44px}
+
+/* 조직도 */
+.orgtop{display:flex;justify-content:center;margin-bottom:6px}
+.boss{border:2px solid var(--navy);background:var(--navy);color:#fff;padding:12px 22px;text-align:center;min-width:330px}
+.boss b{display:block;font-size:17px;font-weight:800;letter-spacing:-.4px}
+.boss span{font-size:12px;color:#cadde3}
+.boss em{display:block;font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--teal-lt);margin-bottom:4px}
+.stem{width:2px;height:22px;background:var(--line);margin:0 auto}
+.rail{height:2px;background:var(--line);margin:0 40px}
+.cols{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:-2px}
+.branch{display:flex;flex-direction:column;align-items:stretch}
+.branch .tick{width:2px;height:16px;background:var(--line);margin:0 auto}
+.desk{border:1px solid var(--line);border-top:4px solid var(--teal);background:var(--card);padding:12px 13px;height:100%}
+.desk.plan{border-top-color:var(--navy)}
+.desk.분석{border-top-color:#8a6a00}
+.desk.검증{border-top-color:#7a2e8a}
+.desk.발행{border-top-color:var(--ink)}
+.desk .hd{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.desk .hd b{font-size:16px;font-weight:800;letter-spacing:-.4px}
+.desk .hd i{margin-left:auto;font-style:normal;font-family:var(--mono);font-size:14px;font-weight:700;color:var(--navy)}
+.desk .role{font-size:12.5px;color:#3a4048;margin:0 0 7px;line-height:1.5}
+.desk .scope{font-size:11.5px;color:var(--dim);line-height:1.55;padding-top:7px;border-top:1px solid var(--line)}
+.desk .kind{display:inline-block;font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.08em;
+            color:#fff;background:var(--teal);padding:1px 5px;vertical-align:2px}
+.desk.plan .kind{background:var(--navy)}
+.desk.분석 .kind{background:#8a6a00}.desk.검증 .kind{background:#7a2e8a}.desk.발행 .kind{background:var(--ink)}
+.avrow{display:flex;gap:2px;margin-top:8px;flex-wrap:wrap}
+.av{width:13px;height:13px;border-radius:50%;background:var(--teal);opacity:.9}
+.desk.plan .av{background:var(--navy)}.desk.분석 .av{background:#8a6a00}
+.desk.검증 .av{background:#7a2e8a}.desk.발행 .av{background:var(--ink)}
+.av.more{width:auto;border-radius:0;background:none;font-family:var(--mono);font-size:9.5px;color:var(--dim)}
+
+/* 정원 요약 */
+.tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;
+       border:1px solid var(--line);margin-top:18px}
+.tally div{padding:10px 13px;border-right:1px solid var(--line)}
+.tally div:last-child{border-right:0}
+.tally b{display:block;font-family:var(--mono);font-size:20px;font-weight:700;color:var(--ink)}
+.tally span{font-size:11.5px;color:var(--dim)}
+.tally .hi b{color:var(--teal)}
+
+/* 취재기자 — 사람이다. AI 역할 카드와 테두리 색을 달리한다 */
+.crew{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+.team{border:1px solid var(--line);border-top:3px solid var(--navy);padding:14px 16px 15px;background:#fff}
+.team .hd{display:flex;align-items:baseline;gap:8px;margin-bottom:3px}
+.team .hd b{font-size:16px;font-weight:800;letter-spacing:-.4px}
+.team .hd i{margin-left:auto;font-style:normal;font-family:var(--mono);font-size:14px;
+            font-weight:700;color:var(--navy)}
+.team .beat{font-size:11.5px;color:var(--dim);margin:0 0 10px;line-height:1.55}
+.team ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.team li{font-size:13.5px;font-weight:700;color:var(--ink);
+         border:1px solid var(--line);padding:4px 10px;background:var(--soft)}
+
+/* 일정 */
+.sched{border:1px solid var(--line)}
+.srow{display:grid;grid-template-columns:84px 132px 1fr;gap:0;border-bottom:1px solid var(--line);
+      align-items:stretch;transition:background .25s}
+.srow:last-child{border-bottom:0}
+.srow.on{background:#eef7f6}
+.srow .t{font-family:var(--mono);font-size:14px;font-weight:700;color:var(--navy);
+         padding:11px 13px;border-right:1px solid var(--line);background:var(--soft)}
+.srow.on .t{background:var(--teal);color:#fff}
+.srow .s{padding:11px 13px;border-right:1px solid var(--line);font-weight:750;font-size:14px}
+.srow .w{padding:11px 13px;font-size:13px;color:#3a4048}
+.srow .w em{display:block;font-style:normal;font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top:3px}
+.ctrl{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.clock{font-family:var(--mono);font-size:26px;font-weight:700;letter-spacing:-1px;color:var(--ink)}
+.phase{font-size:13px;font-weight:700;color:#fff;background:var(--teal);padding:4px 11px}
+.btn{font-size:13px;font-weight:650;border:1px solid var(--line);background:#fff;padding:6px 13px;cursor:pointer}
+.btn:hover{border-color:var(--teal);color:var(--teal)}
+.hint{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--dim)}
+
+/* 원칙 */
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:0 26px}
+.rules div{padding:0 26px 0 0;border-right:1px solid var(--line)}
+.rules div:last-child{border-right:0;padding-right:0}
+.rules h3{font-size:15px;margin:0 0 8px;font-weight:800}
+.rules p{font-size:13.5px;color:#3a4048;line-height:1.72;margin:0 0 10px}
+.rules .k{font-family:var(--mono);font-size:10.5px;color:var(--teal);font-weight:700;letter-spacing:.08em}
+table.cov{width:100%;border-collapse:collapse;margin:0 0 10px}
+table.cov td{padding:4px 0;font-size:13px;border-bottom:1px solid var(--line)}
+table.cov td:nth-child(2),table.cov td:nth-child(3){text-align:right;
+     font-family:var(--mono);font-size:12.5px}
+table.cov td:nth-child(3){color:var(--dim);width:46px}
+table.cov tr.tt td{font-weight:800;border-bottom:0;border-top:2px solid var(--rule)}
+.covn{margin:8px 0 0;font-size:12px;color:var(--dim);line-height:1.6}
+footer{background:var(--navy);color:#c6dae0;padding:24px 0 44px;font-size:12.5px;line-height:1.9}
+footer b{color:#fff}
+footer .fm{font-size:22px;font-weight:900;color:#fff;letter-spacing:-1.1px;margin-bottom:10px}
+footer .fm em{font-style:normal;color:var(--teal-lt)}
+@media(max-width:1200px){.cols{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:820px){.cols{grid-template-columns:1fr}.rail{display:none}
+  .srow{grid-template-columns:72px 1fr}.srow .w{grid-column:1/-1;border-top:1px solid var(--line)}}
+
+.floorwrap{background:#0f1216;border:1px solid #1c2028;padding:0}
+.fbar{display:flex;align-items:center;gap:12px;padding:11px 15px;border-bottom:1px solid #1c2028;
+      background:#0a0d11;color:#e8e8e8;flex-wrap:wrap}
+.fbar .clock{font-family:var(--mono);font-size:24px;font-weight:700;letter-spacing:-1px;color:#fff}
+.fbar .step{font-size:13px;font-weight:700;color:#0f1216;background:#1fb3a6;padding:4px 11px}
+.fbar .btn{font-size:12.5px;font-weight:650;border:1px solid #2a303a;background:#151a21;
+           color:#e8e8e8;padding:5px 12px;cursor:pointer}
+.fbar .btn:hover{border-color:#1fb3a6;color:#1fb3a6}
+.fbar .btn.on{background:#1fb3a6;color:#0f1216;border-color:#1fb3a6}
+.fbar .note{margin-left:auto;font-family:var(--mono);font-size:11px;color:#8b97a8}
+.floor{position:relative;height:760px;overflow:hidden;background:#0f1216}
+.zone{position:absolute;border:1px dashed #242a33;background:rgba(255,255,255,.012)}
+.zone .zl{position:absolute;top:-1px;left:-1px;font-family:var(--mono);font-size:9px;font-weight:700;
+          letter-spacing:.08em;padding:3px 7px;color:#0f1216;white-space:nowrap}
+.odesk{position:absolute;width:56px;height:11px;background:#2b3039;border:1px solid #39404b;
+      border-radius:2px;transform:translate(-50%,-50%);z-index:4}
+.odesk.chief{width:128px;height:16px;background:linear-gradient(#4a3f2e,#3a3226);border-color:#5e5140}
+.mon{position:absolute;width:15px;height:10px;background:#161b22;border:1px solid #2a313b;border-radius:2px;
+     transform:translate(-50%,-50%);z-index:5;transition:.3s}
+.mon.live{background:#1fb3a6;border-color:#1fb3a6;box-shadow:0 0 8px rgba(31,179,166,.7)}
+.nm{position:absolute;transform:translate(-50%,0);z-index:8;text-align:center;white-space:nowrap;pointer-events:none}
+.nm b{display:block;font-size:11px;font-weight:700;color:#fff;letter-spacing:-.2px}
+.nm span{display:block;font-size:9.5px;color:#a4b0c0;margin-top:1px}
+.ag{position:absolute;width:38px;height:49px;transform:translate(-50%,-96%);z-index:9;
+    transition:left .95s cubic-bezier(.4,.05,.3,1),top .95s cubic-bezier(.4,.05,.3,1)}
+.ag svg{display:block;width:100%;height:100%;overflow:visible}
+.ag.chief{width:52px;height:66px;transform:translate(-50%,-94%);z-index:12}
+.ag.walk{z-index:14;animation:wk .42s infinite alternate}
+@keyframes wk{from{transform:translate(-50%,-96%)}to{transform:translate(-50%,-100%)}}
+.ag.work{animation:tp 1.6s infinite}
+@keyframes tp{0%,100%{transform:translate(-50%,-96%)}50%{transform:translate(-50%,-97.6%)}}
+.ag.done{opacity:.34}
+.ag.off{opacity:.26;filter:grayscale(.85)}
+.ag .ai{position:absolute;right:-3px;bottom:2px;font-family:var(--mono);font-size:6px;font-weight:700;
+        background:#0f1216;color:#8b97a8;border:1px solid #2a313b;padding:0 2px;z-index:3}
+.ag.human .ai{background:#c0392b;color:#fff;border-color:#c0392b}
+.bub{position:absolute;left:50%;top:-28px;transform:translateX(-50%) scale(.85);opacity:0;
+     background:#eef2f7;color:#11151a;font-size:10.5px;font-weight:600;padding:4px 9px;border-radius:11px;
+     white-space:nowrap;pointer-events:none;transition:.2s;z-index:20}
+.bub::after{content:"";position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);
+            border:4px solid transparent;border-top-color:#eef2f7;border-bottom:0}
+.bub.on{opacity:1;transform:translateX(-50%) scale(1)}
+.mark{position:absolute;left:50%;top:-12px;transform:translateX(-50%);font-family:var(--mono);
+      font-size:12px;font-weight:700;color:#ffd166;opacity:0;z-index:9}
+.ag.wait .mark{opacity:1;animation:bob .55s infinite alternate}
+@keyframes bob{to{transform:translate(-50%,-4px)}}
+.flog{height:200px;overflow-y:auto;border-top:1px solid #1c2028;background:#0a0d11}
+.flog .li{display:flex;gap:10px;padding:5px 15px;font-size:12px;color:#c6cfdb;border-bottom:1px solid #151a21}
+.flog .tm{font-family:var(--mono);font-size:10.5px;color:#8b97a8;flex:none;padding-top:2px}
+.flog .li.hi{background:#141a20;color:#fff}
+.fscroll{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}
+.fhint{display:none;font-family:var(--mono);font-size:10.5px;color:#8b97a8;
+       padding:7px 15px;border-top:1px solid #1c2028;background:#0a0d11}
+@media(max-width:900px){
+  .wrap{padding:0 12px!important}
+  .util .wrap{padding:6px 12px;flex-direction:column;gap:2px}
+  .title strong{font-size:46px;letter-spacing:-2.4px}
+  .mast .wrap{flex-direction:column;align-items:flex-start;gap:9px}
+  .title{flex:none}
+  .mast h1{border-left:0;padding-left:0}
+  .mast .back{margin-left:0}
+  .floor{width:920px}
+  .fhint{display:block}
+  .fbar{padding:9px 12px;gap:9px}
+  .fbar .clock{font-size:20px}
+  .fbar .note{display:none}
+  .flog{height:150px}
+}
+</style>
+</head><body>
+<div class="util"><div class="wrap"><span>세계경제 주요 뉴스를 분석해 전하는 경제신문</span>
+<span class="mono">등록 전남광주,아00793</span></div></div>
+<div class="mast"><div class="wrap">
+  <a class="title" href="/"><strong>이음<em>경제</em></strong><span>EUM ECONOMY</span></a>
+  <h1>편집국</h1>
+  <a class="back" href="/">← 1면으로</a>
+</div></div>
+<nav class="sec"><div class="wrap">
+  <a href="/asia/">아시아</a><a href="/beauty/">K-뷰티</a><a href="/china/">중국</a><a href="/materials/">원자재</a>
+  <a href="/semi/">반도체</a><a href="/trade/">무역·공급망</a><a href="/macro/">환율·금리</a>
+  <a href="/data/">데이터</a><a href="/newsroom/" class="on">편집국</a>
+</div></nav>
+<div class="notice"><div class="wrap">
+  <b>본지의 사람은 취재기자 10명과 발행인 겸 편집인 1명입니다.</b>
+  <b>기사 바이라인은 그 기사를 쓴 사람의 이름으로 나갑니다.</b> 취재기자가 쓴 기사에는 해당 기자 이름이, AI가 수집·분석·초고를 맡은 기사에는 발행인 겸 편집인 이름이 붙습니다. AI가 관여한 사실은 지면 하단의 「AI 활용 고지」에 상시 표기합니다.
+  게재 여부와 최종 문안은 <b>발행인 겸 편집인(사람)</b>이 결정하고 공표 책임을 집니다.
+</div></div>
+
+<main><div class="wrap">
+
+<section>
+  <h2 class="sh">취재기자</h2>
+  <p class="sd">기사를 쓰는 사람입니다 · 중국 6명 · 한국 4명, 모두 10명<br>아래에 나오는 AI 역할과 달리 <b>실존 인물</b>이며, 본인 동의를 받아 싣습니다.</p>
+  <div class="crew"><div class="team">
+  <div class="hd"><b>중국 취재팀</b><i>6</i></div>
+  <p class="beat">상하이·선전·항셍, 인민은행, 해관총서, 중국 현물</p>
+  <ul><li>이송남</li><li>한대원</li><li>奋斗</li><li>姜佰文</li><li>李松鹤</li><li>孙天策</li></ul>
+</div><div class="team">
+  <div class="hd"><b>한국 취재팀</b><i>4</i></div>
+  <p class="beat">코스피·코스닥, 반도체, 수출입, 환율</p>
+  <ul><li>정재훈</li><li>유성훈</li><li>강규민</li><li>정다연</li></ul>
+</div></div>
+</section>
+
+<section>
+  <h2 class="sh">편집국 현장</h2>
+  <p class="sd"><b>여기부터 106개는 사람이 아니라 AI가 맡는 역할입니다.</b> 실제 사람 106명이나 동시에 실행되는 AI 106개를 뜻하지 않습니다. 실행은 동시 실행 한도에 맞춰 순차 배정합니다.<br>106개 역할 중 39개를 자리에 놓아 보여줍니다 · 16:00 수집 → 19:00 발행 · <b>여기 보이는 인물은 실존 인물이 아닙니다.</b> 이름 자리에는 역할 코드를 씁니다.</p>
+  <div class="floorwrap">
+  <div class="fbar">
+    <span class="clock" id="oclock">16:00</span>
+    <span class="step" id="ostep">수집</span>
+    <button class="btn on" id="oplay">일시정지</button>
+    <button class="btn" id="orst">처음부터</button>
+    <button class="btn" data-sp="1">1×</button>
+    <button class="btn on" data-sp="4">4×</button>
+    <button class="btn" data-sp="10">10×</button>
+    <span class="note">시연용 · 실제 가동 시 logs/ 의 실행 기록을 표시합니다</span>
+  </div>
+  <div class="fscroll"><div class="floor" id="ofloor"><div class="zone" style="left:77%;top:3%;width:21%;height:18%"><span class="zl" style="background:#c0392b">발행인 · 편집인실</span></div><div class="zone" style="left:40%;top:3%;width:22%;height:18%"><span class="zl" style="background:#123d4c">편집기획 · PLANNING</span></div><div class="zone" style="left:2%;top:23%;width:23%;height:25%"><span class="zl" style="background:#b3341f">중국 · CHINA</span></div><div class="zone" style="left:2%;top:50%;width:23%;height:24%"><span class="zl" style="background:#16938a">아시아 · ASIA</span></div><div class="zone" style="left:2%;top:75%;width:23%;height:22%"><span class="zl" style="background:#1a5fd0">세계경제 · WORLD</span></div><div class="zone" style="left:27%;top:23%;width:20%;height:25%"><span class="zl" style="background:#6b3fa0">반도체 · SEMICON</span></div><div class="zone" style="left:27%;top:50%;width:20%;height:24%"><span class="zl" style="background:#8a6a00">원자재 · COMMODITY</span></div><div class="zone" style="left:27%;top:75%;width:20%;height:22%"><span class="zl" style="background:#0a7d4f">무역·공급망 · TRADE</span></div><div class="zone" style="left:50%;top:28%;width:13%;height:48%"><span class="zl" style="background:#b06a00">데이터 분석 · ANALYSIS</span></div><div class="zone" style="left:65%;top:28%;width:13%;height:48%"><span class="zl" style="background:#7a2e8a">팩트체크 · VERIFY</span></div><div class="zone" style="left:80%;top:33%;width:13%;height:40%"><span class="zl" style="background:#2c3038">교열·발행 · DESK</span></div><div class="odesk chief" style="left:88.5%;top:11%"></div><div class="mon" style="left:84.3%;top:9.4%"></div><div class="nm" style="left:88.5%;top:12.4%"><b>정성욱</b><span>발행인 · 편집인</span></div><div class="ag human chief" id="ag-boss" style="left:88.5%;top:11%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#c0392b"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M10 16 q0-11 10-11 t10 11 q-3-6-13-4 q-5 1-7 4z" fill="#6b4a2f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M20 31 l2.5 2.9 -2.5 8.6 -2.5-8.6z" fill="#c0392b"/></svg><span class="ai">PUB</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:45%;top:11%"></div><div class="mon" style="left:43.4%;top:9.4%"></div><div class="nm" style="left:45%;top:12.4%"><b>AI-01</b><span>의제 선정</span></div><div class="ag" id="ag-p1" style="left:45%;top:11%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#123d4c"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M9 16 a11 11 0 0 1 22 0 q0-11-11-11 t-11 11z" fill="#6b4a2f"/><path d="M9 14 q-2 12 0 18 l3 0 q-2-10-1-18z" fill="#6b4a2f"/><path d="M31 14 q2 12 0 18 l-3 0 q2-10 1-18z" fill="#6b4a2f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M20 31 l2.5 2.9 -2.5 8.6 -2.5-8.6z" fill="#c0392b"/></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:51%;top:11%"></div><div class="mon" style="left:49.4%;top:9.4%"></div><div class="nm" style="left:51%;top:12.4%"><b>AI-02</b><span>지면 배치</span></div><div class="ag" id="ag-p2" style="left:51%;top:11%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#123d4c"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><path d="M10 16 q0-11 10-11 t10 11 q-3-6-13-4 q-5 1-7 4z" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M20 31 l2.5 2.9 -2.5 8.6 -2.5-8.6z" fill="#c0392b"/></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:57%;top:11%"></div><div class="mon" style="left:55.4%;top:9.4%"></div><div class="nm" style="left:57%;top:12.4%"><b>AI-03</b><span>게재 등급 판정</span></div><div class="ag" id="ag-p3" style="left:57%;top:11%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#123d4c"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M9 16 a11 11 0 0 1 22 0 q0-11-11-11 t-11 11z" fill="#241d16"/><path d="M9 14 q-2 12 0 18 l3 0 q-2-10-1-18z" fill="#241d16"/><path d="M31 14 q2 12 0 18 l-3 0 q2-10 1-18z" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:6%;top:31%"></div><div class="mon" style="left:4.4%;top:29.4%"></div><div class="nm" style="left:6%;top:32.4%"><b>AI-04</b><span>상하이·선전 지수</span></div><div class="ag" id="ag-c1" style="left:6%;top:31%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b3341f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><circle cx="14.5" cy="9.5" r="4.6" fill="#402d1f"/><circle cx="20" cy="7" r="5" fill="#402d1f"/><circle cx="25.5" cy="9.5" r="4.6" fill="#402d1f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M9.6 18 v-3 a10.4 10.4 0 0 1 20.8 0 v3" fill="none" stroke="#1b1f26" stroke-width="1.5"/><rect x="7.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/><rect x="28.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:12.5%;top:31%"></div><div class="mon" style="left:10.9%;top:29.4%"></div><div class="nm" style="left:12.5%;top:32.4%"><b>AI-05</b><span>항셍·HSCEI</span></div><div class="ag" id="ag-c2" style="left:12.5%;top:31%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b3341f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M9 16 a11 11 0 0 1 22 0 q0-10-11-10 t-11 10z" fill="#523722"/><path d="M9 15 q-1 8 0 11 l2.6 0 q-1-6 0-11z" fill="#523722"/><path d="M31 15 q1 8 0 11 l-2.6 0 q-1-6 0-11z" fill="#523722"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M9.6 18 v-3 a10.4 10.4 0 0 1 20.8 0 v3" fill="none" stroke="#1b1f26" stroke-width="1.5"/><rect x="7.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/><rect x="28.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:19%;top:31%"></div><div class="mon" style="left:17.4%;top:29.4%"></div><div class="nm" style="left:19%;top:32.4%"><b>AI-06</b><span>인민은행·통화정책</span></div><div class="ag" id="ag-c3" style="left:19%;top:31%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b3341f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><circle cx="14.5" cy="9.5" r="4.6" fill="#523722"/><circle cx="20" cy="7" r="5" fill="#523722"/><circle cx="25.5" cy="9.5" r="4.6" fill="#523722"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:6%;top:41%"></div><div class="mon" style="left:4.4%;top:39.4%"></div><div class="nm" style="left:6%;top:42.4%"><b>AI-07</b><span>해관총서·수출입</span></div><div class="ag" id="ag-c4" style="left:6%;top:41%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b3341f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><path d="M9 16 a11 11 0 0 1 22 0 q0-10-11-10 t-11 10z" fill="#402d1f"/><path d="M9 15 q-1 8 0 11 l2.6 0 q-1-6 0-11z" fill="#402d1f"/><path d="M31 15 q1 8 0 11 l-2.6 0 q-1-6 0-11z" fill="#402d1f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:12.5%;top:41%"></div><div class="mon" style="left:10.9%;top:39.4%"></div><div class="nm" style="left:12.5%;top:42.4%"><b>AI-08</b><span>산업정책·공업정보화부</span></div><div class="ag" id="ag-c5" style="left:12.5%;top:41%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b3341f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><path d="M10 16 q0-11 10-11 t10 11 q-3-6-13-4 q-5 1-7 4z" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:19%;top:41%"></div><div class="mon" style="left:17.4%;top:39.4%"></div><div class="nm" style="left:19%;top:42.4%"><b>AI-09</b><span>부동산·내수소비</span></div><div class="ag" id="ag-c6" style="left:19%;top:41%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b3341f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#b07c50"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#b07c50"/><path d="M9 16 a11 11 0 0 1 22 0 q0-11-11-11 t-11 11z" fill="#523722"/><path d="M9 14 q-2 12 0 18 l3 0 q-2-10-1-18z" fill="#523722"/><path d="M31 14 q2 12 0 18 l-3 0 q2-10 1-18z" fill="#523722"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:6%;top:57%"></div><div class="mon" style="left:4.4%;top:55.4%"></div><div class="nm" style="left:6%;top:58.4%"><b>AI-10</b><span>일본 닛케이·엔</span></div><div class="ag" id="ag-a1" style="left:6%;top:57%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#16938a"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M9 16 a11 11 0 0 1 22 0 q0-10-11-10 t-11 10z" fill="#241d16"/><path d="M9 15 q-1 8 0 11 l2.6 0 q-1-6 0-11z" fill="#241d16"/><path d="M31 15 q1 8 0 11 l-2.6 0 q-1-6 0-11z" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M9.6 18 v-3 a10.4 10.4 0 0 1 20.8 0 v3" fill="none" stroke="#1b1f26" stroke-width="1.5"/><rect x="7.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/><rect x="28.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:12.5%;top:57%"></div><div class="mon" style="left:10.9%;top:55.4%"></div><div class="nm" style="left:12.5%;top:58.4%"><b>AI-11</b><span>대만 가권·TSMC</span></div><div class="ag" id="ag-a2" style="left:12.5%;top:57%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#16938a"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M10 16 q0-11 10-11 t10 11 q-2-6-10-6 t-10 6z" fill="#6b4a2f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:19%;top:57%"></div><div class="mon" style="left:17.4%;top:55.4%"></div><div class="nm" style="left:19%;top:58.4%"><b>AI-12</b><span>인도 니프티·센섹스</span></div><div class="ag" id="ag-a3" style="left:19%;top:57%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#16938a"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><path d="M9 16 a11 11 0 0 1 22 0 q0-11-11-11 t-11 11z" fill="#15161c"/><path d="M9 14 q-2 12 0 18 l3 0 q-2-10-1-18z" fill="#15161c"/><path d="M31 14 q2 12 0 18 l-3 0 q2-10 1-18z" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:6%;top:66%"></div><div class="mon" style="left:4.4%;top:64.4%"></div><div class="nm" style="left:6%;top:67.4%"><b>AI-13</b><span>아세안 STI·자카르타</span></div><div class="ag" id="ag-a4" style="left:6%;top:66%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#16938a"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><circle cx="14.5" cy="9.5" r="4.6" fill="#402d1f"/><circle cx="20" cy="7" r="5" fill="#402d1f"/><circle cx="25.5" cy="9.5" r="4.6" fill="#402d1f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M9.6 18 v-3 a10.4 10.4 0 0 1 20.8 0 v3" fill="none" stroke="#1b1f26" stroke-width="1.5"/><rect x="7.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/><rect x="28.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:12.5%;top:66%"></div><div class="mon" style="left:10.9%;top:64.4%"></div><div class="nm" style="left:12.5%;top:67.4%"><b>AI-14</b><span>한국 코스피·코스닥</span></div><div class="ag" id="ag-a5" style="left:12.5%;top:66%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#16938a"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M9.5 16 a10.5 10.5 0 0 1 21 0 q-2-8-10.5-8 t-10.5 8z" fill="#15161c"/><circle cx="20" cy="3.5" r="4.2" fill="#15161c"/><path d="M9.5 15 q-1 6 0 9 l2.4 0 q-1-5 0-9z" fill="#15161c"/><path d="M30.5 15 q1 6 0 9 l-2.4 0 q1-5 0-9z" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:6%;top:81%"></div><div class="mon" style="left:4.4%;top:79.4%"></div><div class="nm" style="left:6%;top:82.4%"><b>AI-15</b><span>미국 증시</span></div><div class="ag" id="ag-w1" style="left:6%;top:81%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#1a5fd0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M10 16 q0-11 10-11 t10 11 q-3-6-13-4 q-5 1-7 4z" fill="#6b4a2f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:12.5%;top:81%"></div><div class="mon" style="left:10.9%;top:79.4%"></div><div class="nm" style="left:12.5%;top:82.4%"><b>AI-16</b><span>유럽 증시</span></div><div class="ag" id="ag-w2" style="left:12.5%;top:81%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#1a5fd0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><path d="M9.5 16 a10.5 10.5 0 0 1 21 0 q-2-8-10.5-8 t-10.5 8z" fill="#241d16"/><circle cx="20" cy="3.5" r="4.2" fill="#241d16"/><path d="M9.5 15 q-1 6 0 9 l2.4 0 q-1-5 0-9z" fill="#241d16"/><path d="M30.5 15 q1 6 0 9 l-2.4 0 q1-5 0-9z" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:6%;top:90%"></div><div class="mon" style="left:4.4%;top:88.4%"></div><div class="nm" style="left:6%;top:91.4%"><b>AI-17</b><span>금리·미 국채</span></div><div class="ag" id="ag-w3" style="left:6%;top:90%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#1a5fd0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><path d="M10 16 q0-11 10-11 t10 11 q-2-6-10-6 t-10 6z" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:12.5%;top:90%"></div><div class="mon" style="left:10.9%;top:88.4%"></div><div class="nm" style="left:12.5%;top:91.4%"><b>AI-18</b><span>환율</span></div><div class="ag" id="ag-w4" style="left:12.5%;top:90%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#1a5fd0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M9 16 a11 11 0 0 1 22 0 q0-11-11-11 t-11 11z" fill="#6b4a2f"/><path d="M9 14 q-2 12 0 18 l3 0 q-2-10-1-18z" fill="#6b4a2f"/><path d="M31 14 q2 12 0 18 l-3 0 q2-10 1-18z" fill="#6b4a2f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:30%;top:31%"></div><div class="mon" style="left:28.4%;top:29.4%"></div><div class="nm" style="left:30%;top:32.4%"><b>AI-19</b><span>메모리·HBM</span></div><div class="ag" id="ag-s1" style="left:30%;top:31%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#6b3fa0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#b07c50"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#b07c50"/><path d="M9.5 16 a10.5 10.5 0 0 1 21 0 q-2-8-10.5-8 t-10.5 8z" fill="#402d1f"/><circle cx="20" cy="3.5" r="4.2" fill="#402d1f"/><path d="M9.5 15 q-1 6 0 9 l2.4 0 q-1-5 0-9z" fill="#402d1f"/><path d="M30.5 15 q1 6 0 9 l-2.4 0 q1-5 0-9z" fill="#402d1f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:36.5%;top:31%"></div><div class="mon" style="left:34.9%;top:29.4%"></div><div class="nm" style="left:36.5%;top:32.4%"><b>AI-20</b><span>파운드리</span></div><div class="ag" id="ag-s2" style="left:36.5%;top:31%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#6b3fa0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M10 16 q0-11 10-11 t10 11 q-2-6-10-6 t-10 6z" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:43%;top:31%"></div><div class="mon" style="left:41.4%;top:29.4%"></div><div class="nm" style="left:43%;top:32.4%"><b>AI-21</b><span>노광·식각 장비</span></div><div class="ag" id="ag-s3" style="left:43%;top:31%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#6b3fa0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><circle cx="14.5" cy="9.5" r="4.6" fill="#523722"/><circle cx="20" cy="7" r="5" fill="#523722"/><circle cx="25.5" cy="9.5" r="4.6" fill="#523722"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:30%;top:41%"></div><div class="mon" style="left:28.4%;top:39.4%"></div><div class="nm" style="left:30%;top:42.4%"><b>AI-22</b><span>소재·특수가스</span></div><div class="ag" id="ag-s4" style="left:30%;top:41%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#6b3fa0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#b07c50"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#b07c50"/><path d="M9.5 16 a10.5 10.5 0 0 1 21 0 q-2-8-10.5-8 t-10.5 8z" fill="#402d1f"/><circle cx="20" cy="3.5" r="4.2" fill="#402d1f"/><path d="M9.5 15 q-1 6 0 9 l2.4 0 q-1-5 0-9z" fill="#402d1f"/><path d="M30.5 15 q1 6 0 9 l-2.4 0 q1-5 0-9z" fill="#402d1f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:36.5%;top:41%"></div><div class="mon" style="left:34.9%;top:39.4%"></div><div class="nm" style="left:36.5%;top:42.4%"><b>AI-23</b><span>수출통제·규제</span></div><div class="ag" id="ag-s5" style="left:36.5%;top:41%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#6b3fa0"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M10 16 q0-11 10-11 t10 11 q-3-6-13-4 q-5 1-7 4z" fill="#6b4a2f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:30%;top:57%"></div><div class="mon" style="left:28.4%;top:55.4%"></div><div class="nm" style="left:30%;top:58.4%"><b>AI-24</b><span>비철금속</span></div><div class="ag" id="ag-m1" style="left:30%;top:57%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#8a6a00"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M9.5 16 a10.5 10.5 0 0 1 21 0 q-2-8-10.5-8 t-10.5 8z" fill="#6b4a2f"/><circle cx="20" cy="3.5" r="4.2" fill="#6b4a2f"/><path d="M9.5 15 q-1 6 0 9 l2.4 0 q-1-5 0-9z" fill="#6b4a2f"/><path d="M30.5 15 q1 6 0 9 l-2.4 0 q1-5 0-9z" fill="#6b4a2f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:36.5%;top:57%"></div><div class="mon" style="left:34.9%;top:55.4%"></div><div class="nm" style="left:36.5%;top:58.4%"><b>AI-25</b><span>에너지·원유</span></div><div class="ag" id="ag-m2" style="left:36.5%;top:57%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#8a6a00"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#b07c50"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#b07c50"/><path d="M10 16 q0-11 10-11 t10 11 q-3-6-13-4 q-5 1-7 4z" fill="#402d1f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M9.6 18 v-3 a10.4 10.4 0 0 1 20.8 0 v3" fill="none" stroke="#1b1f26" stroke-width="1.5"/><rect x="7.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/><rect x="28.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:43%;top:57%"></div><div class="mon" style="left:41.4%;top:55.4%"></div><div class="nm" style="left:43%;top:58.4%"><b>AI-26</b><span>화학·용제</span></div><div class="ag" id="ag-m3" style="left:43%;top:57%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#8a6a00"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><circle cx="14.5" cy="9.5" r="4.6" fill="#241d16"/><circle cx="20" cy="7" r="5" fill="#241d16"/><circle cx="25.5" cy="9.5" r="4.6" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:30%;top:66%"></div><div class="mon" style="left:28.4%;top:64.4%"></div><div class="nm" style="left:30%;top:67.4%"><b>AI-27</b><span>곡물·농산물</span></div><div class="ag" id="ag-m4" style="left:30%;top:66%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#8a6a00"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M9 16 a11 11 0 0 1 22 0 q0-10-11-10 t-11 10z" fill="#241d16"/><path d="M9 15 q-1 8 0 11 l2.6 0 q-1-6 0-11z" fill="#241d16"/><path d="M31 15 q1 8 0 11 l-2.6 0 q-1-6 0-11z" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:36.5%;top:66%"></div><div class="mon" style="left:34.9%;top:64.4%"></div><div class="nm" style="left:36.5%;top:67.4%"><b>AI-28</b><span>희토류·배터리 소재</span></div><div class="ag" id="ag-m5" style="left:36.5%;top:66%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#8a6a00"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#b07c50"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#b07c50"/><path d="M10 16 q0-11 10-11 t10 11 q-2-6-10-6 t-10 6z" fill="#523722"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:30%;top:81%"></div><div class="mon" style="left:28.4%;top:79.4%"></div><div class="nm" style="left:30%;top:82.4%"><b>AI-29</b><span>관세·통상정책</span></div><div class="ag" id="ag-t1" style="left:30%;top:81%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#0a7d4f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M9.5 16 a10.5 10.5 0 0 1 21 0 q-2-8-10.5-8 t-10.5 8z" fill="#15161c"/><circle cx="20" cy="3.5" r="4.2" fill="#15161c"/><path d="M9.5 15 q-1 6 0 9 l2.4 0 q-1-5 0-9z" fill="#15161c"/><path d="M30.5 15 q1 6 0 9 l-2.4 0 q1-5 0-9z" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:36.5%;top:81%"></div><div class="mon" style="left:34.9%;top:79.4%"></div><div class="nm" style="left:36.5%;top:82.4%"><b>AI-30</b><span>운임·해상물류</span></div><div class="ag" id="ag-t2" style="left:36.5%;top:81%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#0a7d4f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#b07c50"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#b07c50"/><path d="M9 16 a11 11 0 0 1 22 0 q0-11-11-11 t-11 11z" fill="#523722"/><path d="M9 14 q-2 12 0 18 l3 0 q-2-10-1-18z" fill="#523722"/><path d="M31 14 q2 12 0 18 l-3 0 q2-10 1-18z" fill="#523722"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <path d="M9.6 18 v-3 a10.4 10.4 0 0 1 20.8 0 v3" fill="none" stroke="#1b1f26" stroke-width="1.5"/><rect x="7.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/><rect x="28.8" y="16.4" width="3.4" height="5.6" rx="1.6" fill="#1b1f26"/></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:43%;top:81%"></div><div class="mon" style="left:41.4%;top:79.4%"></div><div class="nm" style="left:43%;top:82.4%"><b>AI-31</b><span>항만 물동량</span></div><div class="ag" id="ag-t3" style="left:43%;top:81%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#0a7d4f"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><path d="M10 16 q0-11 10-11 t10 11 q-2-6-10-6 t-10 6z" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:55%;top:38%"></div><div class="mon" style="left:53.4%;top:36.4%"></div><div class="nm" style="left:55%;top:39.4%"><b>AI-32</b><span>시계열·추이</span></div><div class="ag" id="ag-d1" style="left:55%;top:38%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b06a00"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#b07c50"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#b07c50"/><path d="M9 16 a11 11 0 0 1 22 0 q0-10-11-10 t-11 10z" fill="#15161c"/><path d="M9 15 q-1 8 0 11 l2.6 0 q-1-6 0-11z" fill="#15161c"/><path d="M31 15 q1 8 0 11 l-2.6 0 q-1-6 0-11z" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:55%;top:52%"></div><div class="mon" style="left:53.4%;top:50.4%"></div><div class="nm" style="left:55%;top:53.4%"><b>AI-33</b><span>국가 간 교차집계</span></div><div class="ag" id="ag-d2" style="left:55%;top:52%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b06a00"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#b07c50"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#b07c50"/><circle cx="14.5" cy="9.5" r="4.6" fill="#15161c"/><circle cx="20" cy="7" r="5" fill="#15161c"/><circle cx="25.5" cy="9.5" r="4.6" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:55%;top:66%"></div><div class="mon" style="left:53.4%;top:64.4%"></div><div class="nm" style="left:55%;top:67.4%"><b>AI-34</b><span>이상치 탐지</span></div><div class="ag" id="ag-d3" style="left:55%;top:66%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#b06a00"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M9 16 a11 11 0 0 1 22 0 q0-11-11-11 t-11 11z" fill="#241d16"/><path d="M9 14 q-2 12 0 18 l3 0 q-2-10-1-18z" fill="#241d16"/><path d="M31 14 q2 12 0 18 l-3 0 q2-10 1-18z" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:70%;top:38%"></div><div class="mon" style="left:68.4%;top:36.4%"></div><div class="nm" style="left:70%;top:39.4%"><b>AI-35</b><span>수치 재계산</span></div><div class="ag" id="ag-f1" style="left:70%;top:38%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#7a2e8a"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><circle cx="14.5" cy="9.5" r="4.6" fill="#241d16"/><circle cx="20" cy="7" r="5" fill="#241d16"/><circle cx="25.5" cy="9.5" r="4.6" fill="#241d16"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:70%;top:52%"></div><div class="mon" style="left:68.4%;top:50.4%"></div><div class="nm" style="left:70%;top:53.4%"><b>AI-36</b><span>출처·URL 대조</span></div><div class="ag" id="ag-f2" style="left:70%;top:52%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#7a2e8a"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M10 16 q0-11 10-11 t10 11 q-3-6-13-4 q-5 1-7 4z" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:70%;top:66%"></div><div class="mon" style="left:68.4%;top:64.4%"></div><div class="nm" style="left:70%;top:67.4%"><b>AI-37</b><span>해외 원문 대조</span></div><div class="ag" id="ag-f3" style="left:70%;top:66%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#7a2e8a"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#f4cda9"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#f4cda9"/><path d="M9 16 a11 11 0 0 1 22 0 q0-10-11-10 t-11 10z" fill="#523722"/><path d="M9 15 q-1 8 0 11 l2.6 0 q-1-6 0-11z" fill="#523722"/><path d="M31 15 q1 8 0 11 l-2.6 0 q-1-6 0-11z" fill="#523722"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  <g fill="none" stroke="#1b1f26" stroke-width="1.1"><circle cx="16.3" cy="18" r="3.2"/><circle cx="23.7" cy="18" r="3.2"/><path d="M19.5 18h1"/></g></svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:85%;top:45%"></div><div class="mon" style="left:83.4%;top:43.4%"></div><div class="nm" style="left:85%;top:46.4%"><b>AI-38</b><span>교열·표기</span></div><div class="ag" id="ag-e1" style="left:85%;top:45%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#2c3038"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#cf9260"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#cf9260"/><path d="M9 16 a11 11 0 0 1 22 0 q0-11-11-11 t-11 11z" fill="#15161c"/><path d="M9 14 q-2 12 0 18 l3 0 q-2-10-1-18z" fill="#15161c"/><path d="M31 14 q2 12 0 18 l-3 0 q2-10 1-18z" fill="#15161c"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div><div class="odesk" style="left:85%;top:59%"></div><div class="mon" style="left:83.4%;top:57.4%"></div><div class="nm" style="left:85%;top:60.4%"><b>AI-39</b><span>AI 고지·빌드 배포</span></div><div class="ag" id="ag-e2" style="left:85%;top:59%"><svg viewBox="0 0 40 46">
+  <ellipse cx="20" cy="44.6" rx="10" ry="1.9" fill="rgba(0,0,0,.3)"/>
+  <path d="M6 46 v-8.6 a14 14 0 0 1 28 0 V46z" fill="#2c3038"/>
+  <rect x="17.4" y="24" width="5.2" height="6.6" fill="#e9b184"/>
+  <rect x="17.4" y="24" width="5.2" height="2.8" fill="rgba(0,0,0,.13)"/>
+  <circle cx="20" cy="17" r="9.6" fill="#e9b184"/><path d="M10 16 q0-11 10-11 t10 11 q-2-6-10-6 t-10 6z" fill="#6b4a2f"/>
+  <circle cx="16.6" cy="18" r="1.2" fill="#221a12"/><circle cx="23.4" cy="18" r="1.2" fill="#221a12"/>
+  <path d="M18.3 21.4 q1.7 1.4 3.4 0" fill="none" stroke="#221a12" stroke-width=".85" stroke-linecap="round"/>
+  </svg><span class="ai">AI</span><span class="mark">!</span><span class="bub"></span></div></div></div>
+  <div class="fhint">← 좌우로 밀어서 편집국 전체를 보세요 · 캐릭터를 누르면 담당 업무가 뜹니다</div>
+  <div class="flog" id="olog"></div>
+</div>
+</section>
+
+<section>
+  <h2 class="sh">AI 편집 시스템</h2>
+  <p class="sd">아시아·중국에 역할의 30%를 배치했습니다 · AI 역할 106개</p>
+  <div class="orgtop"><div class="boss">
+    <em>PUBLISHER · EDITOR</em>
+    <b>발행인 · 편집인 정성욱</b>
+    <span>공표 책임 · 게재 승인 · 정정 결정 (신문법 제2조8호)</span>
+  </div></div>
+  <div class="stem"></div><div class="rail"></div>
+  <div class="cols"><div class="branch"><div class="tick"></div>
+  <div class="desk plan">
+    <div class="hd"><b>편집기획</b><span class="kind">편집</span><i>6</i></div>
+    <p class="role">의제 선정 · 지면 배치 · 게재 등급 판정</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">1면 구성, 톱기사 결정, 섹션 배분</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 취재">
+    <div class="hd"><b>중국경제</b><span class="kind">취재</span><i>16</i></div>
+    <p class="role">거시 · 정책 · 산업 · 증시</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av more">+2</i></div>
+    <p class="scope">상하이·선전·항셍·CSI300, 인민은행, 공업정보화부, 해관총서</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 취재">
+    <div class="hd"><b>아시아경제</b><span class="kind">취재</span><i>14</i></div>
+    <p class="role">일본 · 대만 · 인도 · 아세안 · 한국</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">닛케이·가권·니프티·STI·자카르타·KLCI, 아시아 통화 13종</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 취재">
+    <div class="hd"><b>세계경제</b><span class="kind">취재</span><i>10</i></div>
+    <p class="role">미국 · 유럽 · 금리 · 환율</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">다우·나스닥·S&P·유로스톡스·DAX·FTSE, 미 국채 10년, VIX</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 취재">
+    <div class="hd"><b>K-뷰티</b><span class="kind">취재</span><i>6</i></div>
+    <p class="role">화장품 · 브랜드 · 수출 · 유통</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">화장품 수출액, 브랜드사·ODM 실적, 원료 단가, 중국·미국·일본 판로</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 취재">
+    <div class="hd"><b>반도체</b><span class="kind">취재</span><i>14</i></div>
+    <p class="role">메모리 · 파운드리 · 장비 · 소재</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">HBM, 노광·식각 장비, 실리콘 웨이퍼, 특수가스</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 취재">
+    <div class="hd"><b>원자재</b><span class="kind">취재</span><i>14</i></div>
+    <p class="role">금속 · 에너지 · 화학 · 곡물</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">중국 현물 445종, 희토류, 구리·알루미늄, 원유·석탄</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 취재">
+    <div class="hd"><b>무역·공급망</b><span class="kind">취재</span><i>8</i></div>
+    <p class="role">수출입 · 통상 · 물류</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">관세·수출통제, 운임, 항만 물동량</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 분석">
+    <div class="hd"><b>데이터 분석</b><span class="kind">분석</span><i>8</i></div>
+    <p class="role">집계 · 시계열 · 이상치 탐지</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">전일 대비 diff, 국가 간 비교, 업종 평균, 표본 관리</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 검증">
+    <div class="hd"><b>팩트체크</b><span class="kind">검증</span><i>6</i></div>
+    <p class="role">수치 재계산 · 출처 대조 · 원문 대조</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">raw 재계산, URL 생존 확인, 해외 원문 대조</p>
+  </div></div><div class="branch"><div class="tick"></div>
+  <div class="desk 발행">
+    <div class="hd"><b>교열·발행</b><span class="kind">발행</span><i>4</i></div>
+    <p class="role">문장 · AI 활용 표시 · 빌드 배포</p>
+    <div class="avrow"><i class="av"></i><i class="av"></i><i class="av"></i><i class="av"></i></div>
+    <p class="scope">표기 통일, 고지 삽입, 지면 생성</p>
+  </div></div></div>
+  <div class="tally"><div class=""><b>6</b><span>편집 역할</span></div><div class="hi"><b>82</b><span>취재 역할</span></div><div class=""><b>8</b><span>분석 역할</span></div><div class=""><b>6</b><span>검증 역할</span></div><div class=""><b>4</b><span>발행 역할</span></div><div class="hi"><b>106</b><span>AI 역할 합계</span></div><div><b>10</b><span>사람 · 취재기자</span></div><div><b>1</b><span>사람 · 발행인 겸 편집인</span></div></div>
+</section>
+
+<section>
+  <h2 class="sh">저녁판 제작 일정</h2>
+  <p class="sd">한국시간 16:00 수집 → 19:00 발행 · 아시아 장 마감 이후에 만듭니다</p>
+  <div class="ctrl">
+    <span class="clock" id="clock">16:00</span>
+    <span class="phase" id="phase">수집</span>
+    <button class="btn" id="play">일시정지</button>
+    <button class="btn" id="rst">처음부터</button>
+    <span class="hint">시연용 · 실제 가동 시 logs/ 의 실행 기록을 표시합니다</span>
+  </div>
+  <div class="sched"><div class="srow" data-time="16:00" data-step="수집">
+  <div class="t">16:00</div><div class="s">수집</div>
+  <div class="w">아시아 장 마감분 · 중국 현물 고시 · 환율 종가 적재<em>중국경제 · 아시아경제 · 세계경제 · 반도체 · 원자재 · 무역·공급망</em></div>
+</div><div class="srow" data-time="17:00" data-step="분석">
+  <div class="t">17:00</div><div class="s">분석</div>
+  <div class="w">전일 대비 diff, 국가 간 비교, 업종 평균 산출 → metrics 확정<em>데이터 분석</em></div>
+</div><div class="srow" data-time="17:40" data-step="작성">
+  <div class="t">17:40</div><div class="s">작성</div>
+  <div class="w">섹션별 초고 작성. 숫자는 metrics에서만 인용<em>중국경제 · 아시아경제 · 세계경제 · 반도체 · 원자재 · 무역·공급망</em></div>
+</div><div class="srow" data-time="18:10" data-step="1차 판정">
+  <div class="t">18:10</div><div class="s">1차 판정</div>
+  <div class="w">편집기획이 게재 등급(A/B/C)과 지면 배치를 판정<em>편집기획</em></div>
+</div><div class="srow" data-time="18:30" data-step="검증">
+  <div class="t">18:30</div><div class="s">검증</div>
+  <div class="w">수치 재계산 · 출처 생존 · 해외 원문 대조. 보류 건은 drafts/로<em>팩트체크</em></div>
+</div><div class="srow" data-time="18:50" data-step="교열·승인">
+  <div class="t">18:50</div><div class="s">교열·승인</div>
+  <div class="w">표기 통일, AI 활용 고지 삽입 → 편집인(사람) 최종 승인<em>교열·발행</em></div>
+</div><div class="srow" data-time="19:00" data-step="저녁판 발행">
+  <div class="t">19:00</div><div class="s">저녁판 발행</div>
+  <div class="w">지면 빌드 및 배포. 승인 시각과 수정 이력 기록<em>교열·발행</em></div>
+</div></div>
+</section>
+
+<section>
+  <h2 class="sh">데이터 노트</h2>
+  <p class="sd">원자료를 점검하다 확인한 것들 · 기사가 아니라 기록입니다</p>
+  <div class="rules">
+    <div>
+      <div class="k">2026-09-11</div>
+      <h3>집계 445, 목록 419</h3>
+      <p>원자료에는 요약 집계와 품목별 목록이 따로 들어 있습니다. 집계는 <b>445</b>, 목록은 <b>419</b>입니다.</p>
+      <p>상승 86과 하락 28은 <b>양쪽이 정확히 일치</b>합니다. 어긋난 26개는 전부 보합 쪽이며,
+         <b>품목 이름을 확인할 수 없습니다.</b> 왜 빠졌는지는 원자료에 적혀 있지 않습니다.</p>
+      <p>본지는 개수·이름을 말할 때 <b>419</b>를, 제공처 집계를 인용할 때 <b>445</b>를 쓰고 출처를 밝힙니다.</p>
+    </div>
+    <div>
+      <div class="k">2026-09-11</div>
+      <h3>표본이 한 업종에 쏠려 있다</h3>
+      <p>419개 중 <b>화학공업이 302개(72.1%)</b>입니다. 비철금속 29, 고무·플라스틱 19, 방직 17,
+         철강 17, 에너지 15, 농산물 11, 건축자재 7입니다.</p>
+      <p>상승한 86개 중 52개도 화학공업이었습니다. 이 구조에서 <b>&#34;원자재가 올랐다&#34;는 문장은
+         사실상 &#34;화학제품이 올랐다&#34;에 가깝습니다.</b> 업종 쏠림을 함께 적습니다.</p>
+    </div>
+    <div>
+      <div class="k">2026-09-11</div>
+      <h3>현물과 선물을 한 표에 놓지 않는다</h3>
+      <p>중국 현물과 국제 선물을 대조했더니 <b>원유는 방향이 반대</b>(현물 +3.25% / 선물 &#8722;2.48%)였고,
+         수준 차이는 금 0.74%, 구리 16.40%였습니다.</p>
+      <p>차이의 원인은 원자료에 증치세·품위·인도 조건 표기가 없어 확인되지 않습니다.
+         <b>변동률은 같은 원자료 안에서만 비교합니다.</b></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="sh">편집 원칙</h2>
+  <p class="sd">전문은 prompts/00-편집헌장.md</p>
+  <div class="rules">
+    <div>
+      <div class="k">SOURCE</div>
+      <h3>1차 출처만 씁니다</h3>
+      <p>공개 API가 내려준 데이터, 공식 문서·정책 고시, 법령, 공공기관 공고, 기업이 자기 이름으로 낸 발표만 근거로 삼습니다.</p>
+      <p><b>다른 매체의 기사와 SNS 게시물은 번역·요약해 싣지 않습니다.</b></p>
+    </div>
+    <div>
+      <div class="k">NUMBERS</div>
+      <h3>숫자는 한 곳에서만</h3>
+      <p>모든 수치는 <span class="k">data/metrics/</span>에서 가져옵니다. 기억이나 추론으로 숫자를 만들지 않습니다.</p>
+      <p>기사마다 <b>표본 범위 · 기준일 · 분석 방법</b>을 공개하고, 「이 수치로 말할 수 없는 것」 문단을 반드시 넣습니다.</p>
+    </div>
+    <div>
+      <div class="k">GRADE</div>
+      <h3>게재 등급</h3>
+      <p><b>A</b> 수치·집계만, 해석 없음 → 자동 게재 대상<br>
+         <b>B</b> 해석·맥락 포함 → 편집인 승인<br>
+         <b>C</b> 타인의 주장을 다룸 → 편집인 승인 + 보류 가능</p>
+    </div>
+    <div>
+      <div class="k">COVERAGE</div>
+      <h3>분야별 등록 기사</h3>
+      <table class="cov"><tbody><tr><td>세계경제</td><td>36</td><td>7%</td></tr><tr><td>아시아경제</td><td>79</td><td>14%</td></tr><tr><td>K-뷰티</td><td>2</td><td>0%</td></tr><tr><td>중국경제</td><td>24</td><td>4%</td></tr><tr><td>환율·금리</td><td>186</td><td>34%</td></tr><tr><td>반도체</td><td>34</td><td>6%</td></tr><tr><td>무역·공급망</td><td>4</td><td>1%</td></tr><tr><td>원자재</td><td>183</td><td>33%</td></tr><tr><td>데이터</td><td>2</td><td>0%</td></tr><tr class="tt"><td>합계</td><td>550</td><td>100%</td></tr></tbody></table><p class="covn">그 밖에 값만 싣는 <b>자료 306건</b>이 있습니다. 모두 더하면 <b>856건</b>입니다.</p>
+      <p>자체기사 비율은 법정 <b>30%</b> 이상, 내부 목표 <b>50%</b>입니다. AI 번역·요약·재작성만으로는 자체기사로 집계하지 않습니다.</p>
+    </div>
+  </div>
+</section>
+
+</div></main>
+
+<footer><div class="wrap">
+  <div class="fm">이음<em>경제</em></div>
+  <div><b>발행인·편집인</b> 정성욱 &nbsp;·&nbsp; <b>청소년보호책임자</b> 정성욱
+   &nbsp;·&nbsp; 등록 전남광주,아00793 · 등록일 2026-09-16</div>
+  <p>© 2026 이음경제. 위 조직은 역할 설계이며 인력 확보를 뜻하지 않습니다.</p>
+</div></footer>
+<script>
+(function(){
+  var rows=[].slice.call(document.querySelectorAll('.srow'));
+  var clock=document.getElementById('clock'), phase=document.getElementById('phase');
+  var i=0, timer=null, playing=true;
+  function show(n){
+    rows.forEach(function(r,k){ r.classList.toggle('on', k===n); });
+    var r=rows[n];
+    clock.textContent=r.dataset.time;
+    phase.textContent=r.dataset.step;
+  }
+  function tick(){ if(!playing) return; show(i); i=(i+1)%rows.length; }
+  show(0); i=1; timer=setInterval(tick,2200);
+  document.getElementById('play').onclick=function(){
+    playing=!playing; this.textContent=playing?'일시정지':'재생';
+  };
+  document.getElementById('rst').onclick=function(){ i=0; show(0); i=1; };
+})();
+</script>
+<script>
+(function(){
+  var REPORT=['c1','c2','c3','c4','c5','c6','a1','a2','a3','a4','a5',
+              'w1','w2','w3','w4','s1','s2','s3','s4','s5',
+              'm1','m2','m3','m4','m5','t1','t2','t3'];
+  var DATA=['d1','d2','d3'], PLAN=['p1','p2','p3'], FACT=['f1','f2','f3'], EDIT=['e1','e2'];
+  var HOME={}, EL={}, MON={};
+  document.querySelectorAll('.ag').forEach(function(el){
+    var id=el.id.slice(3); EL[id]=el;
+    HOME[id]=[parseFloat(el.style.left), parseFloat(el.style.top)];
+  });
+  document.querySelectorAll('.mon').forEach(function(m,i){ MON[i]=m; });
+  var MONS={}; var ms=[].slice.call(document.querySelectorAll('.mon'));
+  var ids=[].slice.call(document.querySelectorAll('.ag')).map(function(e){return e.id.slice(3);});
+  ids.forEach(function(id,i){ MONS[id]=ms[i]; });
+
+  function set(id,st){
+    var el=EL[id]; if(!el) return;
+    var base='ag'+(id==='boss'?' human chief':'');
+    el.className=base+(st?' '+st:'');
+    if(MONS[id]) MONS[id].classList.toggle('live', st==='work');
+  }
+  function go(id,x,y,st){ var el=EL[id]; if(!el) return;
+    el.style.left=x+'%'; el.style.top=y+'%'; set(id,st||'walk'); }
+  function back(id,st){ var h=HOME[id]; if(!h) return;
+    EL[id].style.left=h[0]+'%'; EL[id].style.top=h[1]+'%'; set(id,st||''); }
+  function say(id,t,ms){ var el=EL[id]; if(!el) return;
+    var b=el.querySelector('.bub'); b.textContent=t; b.classList.add('on');
+    clearTimeout(b._t); b._t=setTimeout(function(){b.classList.remove('on');}, ms||2600); }
+
+  var EV=[];
+  function ev(t,fn,txt,hi){ EV.push({t:t,fn:fn,txt:txt,hi:hi}); }
+
+  ev(0,function(){ set('boss','off'); REPORT.forEach(function(i){set(i,'work');});
+                   say('c1','아시아 장 마감분 받습니다'); },
+     '<b>16:00 수집</b> — 취재 데스크 28개 역할 가동. 아시아 장 마감분·중국 현물 고시·환율 종가',1);
+  ev(6,function(){ say('a1','닛케이 종가 확정'); },'아시아 · 닛케이225 64,011 (-1.93%) 적재');
+  ev(12,function(){ say('c1','상하이·선전 마감'); },'중국 · SSE 3,889 (-1.14%) / SZSE 13,469 (-1.10%) 적재');
+  ev(18,function(){ say('m2','원유 3.25% 상승'); },'원자재 · 중국 현물 445종 고시가 적재');
+  ev(24,function(){ say('w4','환율 4종 수집'); },'세계경제 · 달러/원 1,346.28 외 3종 적재');
+  ev(30,function(){ say('a3','인도 니프티 마감'); },'아시아 · 대만·인도·아세안 지수 적재');
+  ev(40,function(){ REPORT.forEach(function(i){ go(i,54,20); }); say('c2','분석부로 넘깁니다'); },
+     '수집 종료 → 데이터 분석 인계 · raw/ 원본 보존');
+  ev(48,function(){ REPORT.forEach(function(i){ back(i,'done'); }); },'');
+
+  ev(60,function(){ DATA.forEach(function(i){set(i,'work');}); say('d1','전일 대비 계산합니다'); },
+     '<b>17:00 분석</b> — 시계열·교차집계·이상치',1);
+  ev(70,function(){ say('d1','원자재 상승 86 / 하락 28'); },'시계열 · 445종 중 86종 상승, 331종 보합');
+  ev(78,function(){ say('d2','한·일 유료차트 28개 일치'); },'교차집계 · 국가 간 비교 산출');
+  ev(86,function(){ say('d3','유의 범위 내'); },'이상치 · 평균 변동 유의 범위 내');
+  ev(92,function(){ DATA.forEach(function(i){ go(i,40,30); }); say('d2','metrics 확정'); },
+     'metrics 확정 → 작성 착수');
+  ev(98,function(){ DATA.forEach(function(i){ back(i,'done'); }); },'');
+
+  ev(100,function(){ REPORT.forEach(function(i){set(i,'work');}); say('c3','초고 들어갑니다'); },
+     '<b>17:40 작성</b> — 섹션별 초고. 숫자는 metrics에서만 인용',1);
+  ['c1','a1','w3','s1','m3','t1'].forEach(function(id,k){
+    var b=108+k*4;
+    ev(b,function(){ go(id,51,21); say(id,'판정 부탁드립니다',2600); },'');
+    ev(b+2,function(){ set(id,'wait'); },'');
+    ev(b+3,function(){ set(PLAN[k%3],'work'); say(PLAN[k%3],'등급 판정',1800); },'');
+    ev(b+3.6,function(){ go(id,66,26); },'');
+    ev(b+4.2,function(){ back(id,'done'); },'');
+  });
+  ev(130,function(){ PLAN.forEach(function(i){set(i,'work');}); say('p3','A등급 6건, B등급 2건'); },
+     '<b>18:10 1차 판정</b> — 편집기획이 게재 등급과 지면 배치 판정',1);
+  ev(142,function(){ PLAN.forEach(function(i){set(i,'done');}); },'지면 배치 확정 · 톱기사 결정');
+
+  ev(150,function(){ FACT.forEach(function(i){set(i,'work');}); say('f1','수치 재계산합니다'); },
+     '<b>18:30 검증</b> — 수치 재계산 · 출처 대조 · 원문 대조',1);
+  ev(156,function(){ say('f2','출처 URL 전부 생존'); },'출처 확인 · 링크 12건 생존');
+  ev(161,function(){ say('f3','영문 원문과 일치'); },'원문 대조 · 해외 자료 4건 오역 없음');
+  ev(166,function(){ FACT.forEach(function(i){ go(i,83,30); }); say('f1','교열로 넘깁니다'); },
+     '검증 완료 · 보류 1건 (B등급 회부)');
+  ev(171,function(){ FACT.forEach(function(i){ back(i,'done'); }); },'');
+
+  ev(174,function(){ EDIT.forEach(function(i){set(i,'work');}); say('e1','AI 활용 고지 삽입'); },
+     '<b>18:50 교열</b> — 표기 통일 · AI 활용 고지 삽입',1);
+  ev(180,function(){ go('e2',88.5,21); say('e2','최종 승인 부탁드립니다',3000); },'편집인 승인 요청');
+  ev(183,function(){ set('e2','wait'); },'');
+  ev(186,function(){ set('boss','work'); say('boss','내가 책임집니다',3000); },
+     '<b>편집인(사람) 최종 승인</b> — 공표 책임',1);
+  ev(190,function(){ back('e2','work'); set('boss',''); say('boss','승인'); },'승인 시각 기록');
+  ev(194,function(){ EDIT.forEach(function(i){set(i,'done');}); say('e1','저녁판 나갑니다',3500); },
+     '<b>19:00 저녁판 발행</b> — 기사 8건 · 자체생산 100%',1);
+  EV.sort(function(a,b){return a.t-b.t;});
+
+  var PH=[[0,'수집'],[60,'분석'],[100,'작성'],[130,'1차 판정'],[150,'검증'],[174,'교열'],[194,'발행 완료']];
+  var T=-1, idx=0, speed=4, playing=true, timer=null;
+  var clock=document.getElementById('oclock'), step=document.getElementById('ostep'),
+      log=document.getElementById('olog');
+  function fmt(m){ var tot=960+Math.floor(m);
+    return String(Math.floor(tot/60)).padStart(2,'0')+':'+String(tot%60).padStart(2,'0'); }
+  function addLog(t,txt,hi){ if(!txt) return;
+    var d=document.createElement('div'); d.className='li'+(hi?' hi':'');
+    d.innerHTML='<span class="tm">'+fmt(t)+'</span><span>'+txt+'</span>';
+    log.appendChild(d); log.scrollTop=log.scrollHeight; }
+  function reset(){ T=-1; idx=0; log.innerHTML='';
+    Object.keys(EL).forEach(function(id){ back(id,'');
+      var b=EL[id].querySelector('.bub'); if(b) b.classList.remove('on'); }); }
+  function tick(){ if(!playing) return;
+    T++; clock.textContent=fmt(Math.min(T,198));
+    for(var i=0;i<PH.length;i++){ if(T>=PH[i][0]) step.textContent=PH[i][1]; }
+    while(idx<EV.length && EV[idx].t<=T){ var e=EV[idx++]; e.fn(); addLog(e.t,e.txt,e.hi); }
+    if(T>202) reset(); }
+  function sp(s){ speed=s; clearInterval(timer); timer=setInterval(tick,1000/speed); }
+  document.querySelectorAll('[data-sp]').forEach(function(b){ b.onclick=function(){
+    document.querySelectorAll('[data-sp]').forEach(function(x){x.classList.remove('on');});
+    b.classList.add('on'); sp(+b.dataset.sp); }; });
+  document.getElementById('oplay').onclick=function(){ playing=!playing;
+    this.textContent=playing?'일시정지':'재생'; this.classList.toggle('on',playing); };
+  document.getElementById('orst').onclick=reset;
+  reset(); sp(4);
+})();
+</script>
+</body></html>

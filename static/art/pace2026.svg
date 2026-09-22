@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img"
+     aria-label="감속이 성사되면 2030년 미국 GDP는 극단 경로 44.4조달러가 아니라 상당 경로 36.3조달러가 상한이 된다">
+  <style>
+    .ttl{font:700 15px 'Noto Sans KR',sans-serif;fill:#11151a}
+    .sub{font:11.5px 'Noto Sans KR',sans-serif;fill:#5b6672}
+    .lab{font:600 12.5px 'Noto Sans KR',sans-serif;fill:#11151a}
+    .num{font:700 22px 'JetBrains Mono',monospace}
+    .sm{font:10.5px 'JetBrains Mono',monospace;fill:#5b6672}
+    .gp{font:700 13px 'Noto Sans KR',sans-serif;fill:#d42a2a}
+    .ax{stroke:#dfe4ea;stroke-width:1}
+    .base{stroke:#8b97a8;stroke-width:1.5;stroke-dasharray:4 3}
+  </style>
+  <rect width="720" height="330" fill="#fbfcfd"/>
+
+  <text class="ttl" x="24" y="28">감속이 성사되면 사라지는 몫</text>
+  <text class="sub" x="24" y="47">앤트로픽 자신의 2030년 시나리오에서 극단 경로는 「재귀적 자기개선 + 빠른 도입」을 전제로 한다.</text>
+  <text class="sub" x="24" y="63">그 전제를 늦추자는 것이 이번 제안이다.</text>
+  <line class="ax" x1="24" y1="76" x2="696" y2="76"/>
+
+  <!-- 기준선 y=280, 1조달러 = 16px -->
+  <line class="base" x1="60" y1="280" x2="470" y2="280"/>
+  <text class="sm" x="60" y="296">AI 없는 경로 33.5조달러</text>
+
+  <!-- 완만 34.1 → 높이 9.6 -->
+  <rect x="86" y="270" width="82" height="10" fill="#8b97a8"/>
+  <text class="num" x="127" y="262" text-anchor="middle" fill="#5b6672">34.1</text>
+  <rect x="86" y="302" width="82" height="18" fill="#8b97a8"/>
+  <text x="127" y="315" text-anchor="middle" font-family="'Noto Sans KR',sans-serif"
+        font-size="11" font-weight="700" fill="#fff">완만</text>
+
+  <!-- 상당 36.3 → 높이 44.8 -->
+  <rect x="196" y="235" width="82" height="45" fill="#16938a"/>
+  <text class="num" x="237" y="227" text-anchor="middle" fill="#0f6b63">36.3</text>
+  <rect x="196" y="302" width="82" height="18" fill="#16938a"/>
+  <text x="237" y="315" text-anchor="middle" font-family="'Noto Sans KR',sans-serif"
+        font-size="11" font-weight="700" fill="#fff">상당</text>
+
+  <!-- 극단 44.4 → 높이 174.4 -->
+  <rect x="306" y="106" width="82" height="174" fill="#d42a2a"/>
+  <text class="num" x="347" y="98" text-anchor="middle" fill="#d42a2a">44.4</text>
+  <rect x="306" y="302" width="82" height="18" fill="#d42a2a"/>
+  <text x="347" y="315" text-anchor="middle" font-family="'Noto Sans KR',sans-serif"
+        font-size="11" font-weight="700" fill="#fff">극단</text>
+
+  <!-- 격차 표시 -->
+  <line x1="400" y1="106" x2="400" y2="235" stroke="#d42a2a" stroke-width="1.4"/>
+  <path d="M396 110 L400 104 L404 110" fill="#d42a2a"/>
+  <path d="M396 231 L400 237 L404 231" fill="#d42a2a"/>
+  <text class="gp" x="410" y="166">8.1조달러</text>
+  <text class="sm" x="410" y="184">극단 − 상당</text>
+  <text class="sm" x="410" y="199">AI 없는 경로의 24.2%</text>
+
+  <!-- 오른쪽 : 세 단계 -->
+  <line class="ax" x1="520" y1="96" x2="520" y2="300"/>
+  <text class="lab" x="546" y="112">제안한 세 단계</text>
+  <g>
+    <circle cx="556" cy="142" r="11" fill="#123d4c"/>
+    <text x="556" y="147" text-anchor="middle" font-family="'JetBrains Mono',monospace"
+          font-size="12" font-weight="700" fill="#fff">1</text>
+    <text class="sm" x="576" y="139">외부 평가자 상주</text>
+    <text class="sm" x="576" y="153" fill="#d42a2a">앤트로픽 단독 시행</text>
+
+    <circle cx="556" cy="192" r="11" fill="#16938a"/>
+    <text x="556" y="197" text-anchor="middle" font-family="'JetBrains Mono',monospace"
+          font-size="12" font-weight="700" fill="#fff">2</text>
+    <text class="sm" x="576" y="189">민주주의 국가 기업 간</text>
+    <text class="sm" x="576" y="203">공동 기준</text>
+
+    <circle cx="556" cy="242" r="11" fill="#8b97a8"/>
+    <text x="556" y="247" text-anchor="middle" font-family="'JetBrains Mono',monospace"
+          font-size="12" font-weight="700" fill="#fff">3</text>
+    <text class="sm" x="576" y="239">중국 포함 국제 공조</text>
+    <text class="sm" x="576" y="253">검증 방법은 미정</text>
+  </g>
+  <text class="sm" x="546" y="288">단계가 올라갈수록 이행 가능성은 낮아진다.</text>
+</svg>
