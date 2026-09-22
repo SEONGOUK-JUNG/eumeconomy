@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계경제 주요 뉴스를 분석해 전하는 경제신문입니다.</description>
-<language>ko</language><lastBuildDate>Tue, 22 Sep 2026 03:23:07 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Tue, 22 Sep 2026 09:03:01 +0000</lastBuildDate>
+  <item><title>원화, 4개 통화 대비 1%대 강세…중국 원자재 값 그대로인데 원화 환산가만 전면 하락</title>
+    <link>https://eumeconomy.com/macro/won-broad-strength/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/macro/won-broad-strength/</guid>
+    <description>원화가 하루 만에 달러·위안·엔·유로 4개 통화 대비 1% 넘게 강세를 나타냈다. 중국 현물 가격은 위안 기준으로 사실상 제자리였는데, 원화로 환산하면 418종 가운데 399종이 내렸다. 수입 원가를 1.03% 끌어내린 것은 값이 아니라 환율이다.</description>
+    <category>환율·금리</category>
+    <pubDate>Tue, 22 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
   <item><title>대만은 주가·통화 동반 상승, 자카르타는 동반 하락…원화 환산 격차 1.95%포인트</title>
     <link>https://eumeconomy.com/asia/taiwan-jakarta-split/</link>
     <guid isPermaLink="true">https://eumeconomy.com/asia/taiwan-jakarta-split/</guid>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/macro/2026-09-21-i-달러-바트/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-21-i-달러-바트/</guid>
     <description>달러/바트의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
-    <category>환율·금리</category>
-    <pubDate>Mon, 21 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>달러/싱가포르달러 −0.03%…달러/루피아는 +0.41%</title>
-    <link>https://eumeconomy.com/macro/2026-09-21-i-달러-싱가포르달러/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-21-i-달러-싱가포르달러/</guid>
-    <description>달러/싱가포르달러의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
     <category>환율·금리</category>
     <pubDate>Mon, 21 Sep 2026 10:00:00 +0000</pubDate>
   </item>
