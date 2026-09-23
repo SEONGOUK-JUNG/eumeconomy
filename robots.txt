@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# 크롤러가 같은 값을 하루에 여러 번 긁지 않게 한다
+Crawl-delay: 1
+
 Sitemap: https://eumeconomy.com/sitemap.xml
+Sitemap: https://eumeconomy.com/sitemap-news.xml
+Sitemap: https://eumeconomy.com/sitemap-image.xml
+Sitemap: https://eumeconomy.com/rss.xml
