@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url><loc>https://eumeconomy.com/korea/korea-mexico-tariff-seca/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-09-24T15:13:23+09:00</news:publication_date>
+    <news:title>이 대통령, 멕시코에 '경제협정 재개' 제안…최대 50% 관세 시행 9개월 만</news:title></news:news></url>
   <url><loc>https://eumeconomy.com/macro/ust-real-yield-krw-import-cost/</loc>
     <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
     <news:publication_date>2026-09-24T12:24:46+09:00</news:publication_date>

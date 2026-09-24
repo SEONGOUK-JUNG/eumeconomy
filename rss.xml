@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계 주요 경제 뉴스, 환율·금리·원자재 시세, K-뷰티 수출 데이터를 직접 분석하는 경제신문. 원화 환산 수입 원가와 시장 영향까지 실무 관점에서 전합니다.</description>
-<language>ko</language><lastBuildDate>Thu, 24 Sep 2026 03:48:51 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Thu, 24 Sep 2026 06:15:18 +0000</lastBuildDate>
+  <item><title>이 대통령, 멕시코에 '경제협정 재개' 제안…최대 50% 관세 시행 9개월 만</title>
+    <link>https://eumeconomy.com/korea/korea-mexico-tariff-seca/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/korea/korea-mexico-tariff-seca/</guid>
+    <description>이재명 대통령이 멕시코시티에서 한·멕시코 경제협정 협상 재개를 제안했다. 멕시코는 올해 1월 1일부터 FTA를 맺지 않은 나라에 최대 50% 관세를 매기고 있고 한국이 그 대상이다. 협상은 2006년 시작해 2008년 멈춘 뒤 18년째 매듭짓지 못했다.</description>
+    <category>한국경제</category>
+    <pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
   <item><title>미 국채금리 급등, 원인은 물가 아닌 '고금리 장기화'…원화 환산 수입가 하루 만에 반등</title>
     <link>https://eumeconomy.com/macro/ust-real-yield-krw-import-cost/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/ust-real-yield-krw-import-cost/</guid>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/macro/2026-09-23-i-달러-바트/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-23-i-달러-바트/</guid>
     <description>달러/바트의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
-    <category>환율·금리</category>
-    <pubDate>Wed, 23 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>달러/싱가포르달러 +0.03%…홍콩달러/원은 −1.24%</title>
-    <link>https://eumeconomy.com/macro/2026-09-23-i-달러-싱가포르달러/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/macro/2026-09-23-i-달러-싱가포르달러/</guid>
-    <description>달러/싱가포르달러의 변동폭을 아시아통화 안에서, 그리고 세계 지표 전체와 견주고 함께·반대로 움직인 지표를 짚었다.</description>
     <category>환율·금리</category>
     <pubDate>Wed, 23 Sep 2026 10:00:00 +0000</pubDate>
   </item>
