@@ -51,13 +51,13 @@ nav.sec a.on{color:#fff;border-bottom-color:var(--teal-lt)}
 nav.sec a.split{margin-left:auto;padding-left:15px;border-left:1px solid rgba(255,255,255,.2);color:#d9c79a}
 
 /* ── 터미널 ── */
-.term{background:#000;color:#e8e8e8;border-bottom:3px solid #1c1c1c;font-size:15px}
+.term{background:var(--term);color:#e8e8e8;border-bottom:3px solid #1c1c1c;font-size:15px}
 .tape{position:relative;display:flex;align-items:center;height:42px;max-width:1680px;margin:0 auto;
-      border-bottom:1px solid #1c1c1c;overflow:hidden;background:#000}
+      border-bottom:1px solid #1c1c1c;overflow:hidden;background:var(--term)}
 .tape .live{display:flex;align-items:center;gap:7px;color:#ff3b3b;font-size:12px;
             font-family:var(--mono);font-weight:700;letter-spacing:1px;
-            padding:0 16px 0 40px;flex:none;z-index:2;background:#000;
-            box-shadow:12px 0 14px -6px #000}
+            padding:0 16px 0 40px;flex:none;z-index:2;background:var(--term);
+            box-shadow:12px 0 14px -6px var(--term)}
 .tape .twrap{flex:1;min-width:0;overflow:hidden}
 .tape .track{display:flex;width:max-content;animation:marquee 66s linear infinite}
 .tape:hover .track{animation-play-state:paused}
@@ -72,7 +72,9 @@ nav.sec a.split{margin-left:auto;padding-left:15px;border-left:1px solid rgba(25
 .dot{width:7px;height:7px;border-radius:50%;background:#ff3b3b;
      box-shadow:0 0 8px #ff3b3b;animation:blink 2s infinite}
 @keyframes blink{50%{opacity:.3}}
-.term .up{color:#ff3b3b}.term .down{color:#1aff66}.term .flat{color:#a8a8a8}
+/* 등락 색은 지면 본문과 같다 — 빨강 상승 · 파랑 하락(국내 표기).
+   어두운 바탕이라 --up/--down 대신 밝기를 올린 --up-t/--down-t 를 쓴다 */
+.term .up{color:var(--up-t)}.term .down{color:var(--down-t)}.term .flat{color:#a8a8a8}
 
 .tgrid{max-width:1680px;margin:0 auto;display:grid;
        grid-template-columns:minmax(300px,1fr) minmax(280px,.88fr) minmax(400px,1.42fr) minmax(300px,1fr);
@@ -102,7 +104,7 @@ nav.sec a.split{margin-left:auto;padding-left:15px;border-left:1px solid rgba(25
 .big .row{display:flex;align-items:baseline;padding:4px 0}
 .big .row span{font-size:12.5px;color:#c0c0c0;font-weight:700;letter-spacing:.4px}
 .big .row b{margin-left:auto;font-family:var(--mono);font-size:23px;font-weight:700;line-height:1.15}
-.big .u b{color:#ff3b3b}.big .d b{color:#1aff66}
+.big .u b{color:var(--up-t)}.big .d b{color:var(--down-t)}
 .big .f b{color:#e8e8e8}.big .t b{color:#fff}
 .movers{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
 .mh{font-family:var(--mono);font-size:11px;font-weight:700;margin-bottom:6px;letter-spacing:.4px}
@@ -388,8 +390,8 @@ footer .cp{margin-top:9px;font-size:11.5px;color:#a6c0c9}
 .ktab td:first-child{text-align:left;color:#a8a8a8;max-width:120px;overflow:hidden;
                      text-overflow:ellipsis}
 .ktab td.won{font-family:var(--mono)}
-.ktab td.up{color:#ff3b3b}
-.ktab td.down{color:#1aff66}
+.ktab td.up{color:var(--up-t)}
+.ktab td.down{color:var(--down-t)}
 .ktab td.flat{color:#9a9a9a}
 .ktab td.un{font-family:var(--mono);font-size:9.5px;color:#7a7a7a;text-align:left}
 .ktab th:nth-child(2){text-align:left}
@@ -420,25 +422,25 @@ footer .rg li b{display:block;color:#fff}
     font-family:var(--mono);font-size:11px;letter-spacing:1px;color:#e8c078;font-weight:700}
 .term.compact .ph span{color:#a8a8a8;letter-spacing:.3px;font-weight:400}
 .cbgrid{max-width:1680px;margin:0 auto;padding:0 24px;display:grid;
-    grid-template-columns:repeat(6,1fr);gap:2px;background:#000;border:1px solid #000}
-.cbgrid .cb{padding:7px 11px;display:flex;align-items:baseline;
-    gap:7px;white-space:nowrap;overflow:hidden;border-left:3px solid transparent}
-/* 바탕색이 묶음을 뜻한다 — .cbgrid 를 앞에 둬야 특이도가 밀리지 않는다 */
-.cbgrid .g-fx{background:#113036;border-left-color:#2fd9c9}
-.cbgrid .g-kr{background:#331a28;border-left-color:#ff6fae}
-.cbgrid .g-cn{background:#3a191c;border-left-color:#ff5a5a}
-.cbgrid .g-as{background:#17331f;border-left-color:#59d47c}
-.cbgrid .g-we{background:#16233f;border-left-color:#6fa3ff}
-.cbgrid .g-cm{background:#372d16;border-left-color:#ffd27a}
-.cblg .g-fx{border-left-color:#2fd9c9}
-.cblg .g-kr{border-left-color:#ff6fae}
-.cblg .g-cn{border-left-color:#ff5a5a}
-.cblg .g-as{border-left-color:#59d47c}
-.cblg .g-we{border-left-color:#6fa3ff}
-.cblg .g-cm{border-left-color:#ffd27a}
+    grid-template-columns:repeat(6,1fr);gap:1px;background:var(--term-line);
+    border:1px solid var(--term-line)}
+/* 칸 바탕은 스물넷이 모두 같다. 묶음은 왼쪽 3px 띠로만 나눈다 —
+   범례(.cblg)도 띠만 쓰니 지면과 범례가 같은 말을 한다.
+   두 번째 background 가 안 먹는 브라우저에서는 첫 줄만 남아 그대로 읽힌다 */
+.cbgrid .cb{padding:7px 11px;display:flex;align-items:baseline;gap:7px;
+    white-space:nowrap;overflow:hidden;--g:#7d93b8;border-left:3px solid var(--g);
+    background:var(--term-2);
+    background:linear-gradient(90deg,color-mix(in srgb,var(--g) 13%,transparent),
+                               transparent 58%),var(--term-2)}
+.cbgrid .g-fx,.cblg .g-fx{--g:#2aa9a0}  /* 청록 — 본지 강조색 */
+.cbgrid .g-kr,.cblg .g-kr{--g:#e8c078}  /* 금 — 지면 제목에 이미 쓰는 색 */
+.cbgrid .g-cn,.cblg .g-cn{--g:#cf7f52}  /* 구릿빛 */
+.cbgrid .g-as,.cblg .g-as{--g:#a08cc4}  /* 연보라 */
+.cbgrid .g-we,.cblg .g-we{--g:#7d93b8}  /* 슬레이트 */
+.cbgrid .g-cm,.cblg .g-cm{--g:#94ab6e}  /* 세이지 */
 .cblg{max-width:1680px;margin:8px auto 0;padding:0 24px;display:flex;flex-wrap:wrap;gap:0 6px}
 .cblg .lg{font-family:var(--mono);font-size:10px;color:#9aa6b2;padding:2px 9px;
-    border-left:3px solid transparent}
+    border-left:3px solid var(--g,transparent)}
 .cbgrid .n{color:#9aa6b2;font-size:11px;font-weight:700;letter-spacing:.2px;
     flex:none;min-width:52px}
 .cbgrid .v{font-family:var(--mono);font-size:14px;font-weight:700;color:#fff;
@@ -478,10 +480,11 @@ footer .rg li b{display:block;color:#fff}
 
 /* 지면 맨 위 추이 띠 */
 .spks{max-width:1680px;margin:10px auto 0;padding:0 24px;display:grid;
-      grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;background:#000;border:1px solid #000}
-.spkh{grid-column:1/-1;background:#0d1116;padding:5px 11px;font-family:var(--mono);
+      grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--term-line);
+      border:1px solid var(--term-line)}
+.spkh{grid-column:1/-1;background:var(--term-2);padding:5px 11px;font-family:var(--mono);
       font-size:10px;font-weight:700;letter-spacing:.1em;color:#e8c078}
-.spk{background:#0d1116;padding:5px 11px;display:flex;align-items:center;gap:9px}
+.spk{background:var(--term-2);padding:5px 11px;display:flex;align-items:center;gap:9px}
 .spk .sn{font-size:11px;font-weight:700;color:#9aa6b2;flex:none;min-width:52px;
          white-space:nowrap}
 .spk svg{flex:1 1 0;min-width:0;width:100%;height:26px}
