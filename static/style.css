@@ -441,9 +441,23 @@ footer .rg li b{display:block;color:#fff}
     font-weight:700;flex:none;min-width:54px;text-align:right}
 .cbgrid .n i{font-style:normal;font-family:var(--mono);font-size:9px;color:#61808e;
     margin-left:4px;font-weight:400}
+/* 격자 아래 한 줄 — 폰에서만 보인다. 칸에 붙던 기준일을 대신한다 */
+.cbnote{display:none}
 @media(max-width:1400px){.cbgrid{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:1000px){.cbgrid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:640px){.cbgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){
+  .cbgrid{grid-template-columns:repeat(2,1fr);padding:0 12px}
+  .cbgrid .cb{padding:6px 8px;gap:5px}
+  /* 이름이 줄어들어야 뒤의 등락률이 잘리지 않는다 */
+  .cbgrid .n{min-width:0;flex:1 1 auto;font-size:10.5px;
+      overflow:hidden;text-overflow:ellipsis}
+  .cbgrid .n i{display:none}
+  .cbgrid .v{font-size:12.5px;margin-left:0;flex:none}
+  .cbgrid .up,.cbgrid .down,.cbgrid .flat{min-width:0;flex:none;font-size:10px}
+  .cblg{padding:0 12px}
+  .cbnote{display:block;max-width:1680px;margin:3px auto 0;padding:0 12px;
+      font-family:var(--mono);font-size:9.5px;color:#61808e;letter-spacing:.03em}
+}
 .tmore{margin-top:10px;border-top:1px solid var(--term-line);padding:9px 16px;text-align:center}
 .tmore a{font-family:var(--mono);font-size:11.5px;font-weight:700;color:#8fd5ce;
          letter-spacing:.03em}
