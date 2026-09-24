@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url><loc>https://eumeconomy.com/macro/ust-real-yield-krw-import-cost/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-09-24T12:24:46+09:00</news:publication_date>
+    <news:title>미 국채금리 급등, 원인은 물가 아닌 '고금리 장기화'…원화 환산 수입가 하루 만에 반등</news:title></news:news></url>
   <url><loc>https://eumeconomy.com/world/2026-09-23-c-미국/</loc>
     <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
     <news:publication_date>2026-09-23T18:30:19+09:00</news:publication_date>
@@ -701,8 +705,4 @@
     <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
     <news:publication_date>2026-09-22T17:59:09+09:00</news:publication_date>
     <news:title>원화, 주요 4개 통화 대비 동반 강세…중국 원자재 '원화 환산 수입가' 전면 하락</news:title></news:news></url>
-  <url><loc>https://eumeconomy.com/asia/taiwan-jakarta-split/</loc>
-    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
-    <news:publication_date>2026-09-22T11:59:58+09:00</news:publication_date>
-    <news:title>대만은 주가·통화 동반 상승, 자카르타는 동반 하락…원화 환산 격차 1.95%포인트</news:title></news:news></url>
 </urlset>
