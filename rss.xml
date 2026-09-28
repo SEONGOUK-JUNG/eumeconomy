@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계 주요 경제 뉴스, 환율·금리·원자재 시세, K-뷰티 수출 데이터를 직접 분석하는 경제신문. 원화 환산 수입 원가와 시장 영향까지 실무 관점에서 전합니다.</description>
-<language>ko</language><lastBuildDate>Mon, 28 Sep 2026 08:20:12 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Mon, 28 Sep 2026 09:32:36 +0000</lastBuildDate>
+  <item><title>정부, CPTPP 가입 영향분석 조기 공개…제조업 '증가' 농림수산 '감소'로 갈려</title>
+    <link>https://eumeconomy.com/korea/cptpp-impact-study/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/korea/cptpp-impact-study/</guid>
+    <description>정부가 CPTPP 가입의 경제적 영향분석 잠정치를 내놨다. 발효 10년 뒤 실질 GDP는 미가입 때보다 0.38%포인트 높고, 제조업 생산은 연 6조원대 늘지만 농림수산업은 연 8,500억원가량 줄어든다. 공청회 전에 미리 공개한 것은 이번이 처음이다.</description>
+    <category>한국경제</category>
+    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>당정, 반복 담합에 '등록취소·영업정지' 도입…석유 정제·판매업도 대상</title>
+    <link>https://eumeconomy.com/korea/repeat-cartel-legislation/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/korea/repeat-cartel-legislation/</guid>
+    <description>정부와 더불어민주당이 반복 담합을 근절하는 5개 입법과제를 내놨다. 5년 안에 두 번 담합한 사업자는 등록취소나 영업정지를 받을 수 있게 된다. 대상 17개 업종에 석유 정제·판매업과 여객·화물 운송업이 들어갔다.</description>
+    <category>한국경제</category>
+    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>조달청, 고유가 대응 조치 연말까지 연장…아스콘·종량제 봉투 가격 조정 완화 유지</title>
+    <link>https://eumeconomy.com/materials/procurement-oil-measures-extended/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/materials/procurement-oil-measures-extended/</guid>
+    <description>조달청이 9월 말 종료 예정이던 유가 고영향 물품 시장안정화 조치를 연말까지 연장했다. 아스콘과 종량제 봉투가 대상이다. 중동전쟁으로 촉발된 고유가가 길어지면서 조달 계약가가 원자재값을 따라가지 못하는 문제를 푸는 조치다.</description>
+    <category>원자재</category>
+    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>조달청-보건산업진흥원, 'UN 조달시장' 공동 지원 협약…앞서 방콕 상담회서 423만 달러 양해각서</title>
+    <link>https://eumeconomy.com/trade/health-industry-un-procurement/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/trade/health-industry-un-procurement/</guid>
+    <description>조달청과 한국보건산업진흥원이 보건산업 기업의 해외 조달시장 진출을 함께 지원하는 협약을 맺었다. 유엔 등 국제기구 조달에서 의약품·백신·의료기기의 비중이 크다는 점을 겨냥했다. 앞서 방콕에 보낸 시장개척단은 15건, 423만 달러 규모 양해각서를 맺었다.</description>
+    <category>무역·공급망</category>
+    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item><title>한-아세안 FTA 개선 2차 협상 개시…'핵심광물·공급망' 13개 분과로 본격화</title>
+    <link>https://eumeconomy.com/trade/korea-asean-fta-round2/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/trade/korea-asean-fta-round2/</guid>
+    <description>2007년 상품무역협정 발효 뒤 20년 가까이 손대지 않았던 한-아세안 FTA를 고치는 협상이 2차에 들어갔다. 이번부터 분야별 규범을 다루며, 핵심광물·공급망과 디지털이 중심이다. 양측은 RCEP보다 높은 수준을 목표로 잡았다.</description>
+    <category>무역·공급망</category>
+    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
+  </item>
   <item><title>한-멕시코 정상회담, 관세 면제 불발…'공동이익연구' 착수에 그쳐</title>
     <link>https://eumeconomy.com/korea/korea-mexico-joint-benefit-study/</link>
     <guid isPermaLink="true">https://eumeconomy.com/korea/korea-mexico-joint-benefit-study/</guid>
@@ -174,41 +209,6 @@
     <link>https://eumeconomy.com/materials/2026-09-28-d-egg/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-28-d-egg/</guid>
     <description>달걀의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 글리콜 6,589.21 CNY/t</title>
-    <link>https://eumeconomy.com/materials/2026-09-28-d-ethylene-glycol/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-28-d-ethylene-glycol/</guid>
-    <description>글리콜의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 가솔린 10,194.32 CNY/t</title>
-    <link>https://eumeconomy.com/materials/2026-09-28-d-gasoline/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-28-d-gasoline/</guid>
-    <description>가솔린의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 고밀도 폴리에틸렌 10,499.04 CNY/t</title>
-    <link>https://eumeconomy.com/materials/2026-09-28-d-hdpe/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-28-d-hdpe/</guid>
-    <description>고밀도 폴리에틸렌의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 열간 압연 코일 3,319.33 CNY/t</title>
-    <link>https://eumeconomy.com/materials/2026-09-28-d-hrc/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-28-d-hrc/</guid>
-    <description>열간 압연 코일의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 저밀도 폴리에틸렌 12,013.20 CNY/t</title>
-    <link>https://eumeconomy.com/materials/2026-09-28-d-ldpe/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-09-28-d-ldpe/</guid>
-    <description>저밀도 폴리에틸렌의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
     <category>원자재</category>
     <pubDate>Mon, 28 Sep 2026 10:00:00 +0000</pubDate>
   </item>
