@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url><loc>https://eumeconomy.com/korea/cptpp-impact-study/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-09-28T18:30:11+09:00</news:publication_date>
+    <news:title>정부, CPTPP 가입 영향분석 조기 공개…제조업 '증가' 농림수산 '감소'로 갈려</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/korea/repeat-cartel-legislation/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-09-28T18:30:11+09:00</news:publication_date>
+    <news:title>당정, 반복 담합에 '등록취소·영업정지' 도입…석유 정제·판매업도 대상</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/materials/procurement-oil-measures-extended/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-09-28T18:30:11+09:00</news:publication_date>
+    <news:title>조달청, 고유가 대응 조치 연말까지 연장…아스콘·종량제 봉투 가격 조정 완화 유지</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/trade/health-industry-un-procurement/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-09-28T18:30:11+09:00</news:publication_date>
+    <news:title>조달청-보건산업진흥원, 'UN 조달시장' 공동 지원 협약…앞서 방콕 상담회서 423만 달러 양해각서</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/trade/korea-asean-fta-round2/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-09-28T18:30:11+09:00</news:publication_date>
+    <news:title>한-아세안 FTA 개선 2차 협상 개시…'핵심광물·공급망' 13개 분과로 본격화</news:title></news:news></url>
   <url><loc>https://eumeconomy.com/korea/korea-mexico-joint-benefit-study/</loc>
     <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
     <news:publication_date>2026-09-28T15:05:40+09:00</news:publication_date>
