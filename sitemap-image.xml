@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://eumeconomy.com/materials/oil-products-price-volume-split/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-oil-products-price-volume-split.png</image:loc><image:title>석유화학 수출액 늘고 물량은 5분의 1 줄어…'유가가 만든 증가율'</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/beauty/cosmetics-q3-record-and-counterfeits/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/beauty-cosmetics-q3-record-and-counterfeits.png</image:loc><image:title>화장품 9월 수출 전 기간 최대…중국서는 미국산 '관세 혜택'에 밀려</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/semi/semiconductor-600-september/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/semi-semiconductor-600-september.png</image:loc><image:title>반도체 수출 단일 품목 첫 600억 달러…9월 수출 증가액의 '79%'가 한 품목</image:title></image:image></url>
   <url><loc>https://eumeconomy.com/world/2026-10-03-c-미국/</loc>
     <image:image><image:loc>https://eumeconomy.com/static/og/world-2026-10-03-c-미국.png</image:loc><image:title>미국 증시, 나스닥과 다우존스 0.70%p 갈려</image:title></image:image></url>
   <url><loc>https://eumeconomy.com/world/2026-10-03-c-유럽/</loc>
