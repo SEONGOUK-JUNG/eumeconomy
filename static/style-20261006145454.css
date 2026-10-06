@@ -287,6 +287,12 @@ figure.art figcaption{margin-top:8px;font-size:13px;color:var(--sub);line-height
 .article header{padding-bottom:18px;margin-bottom:22px;border-bottom:3px solid var(--rule)}
 .article h1{font-size:37px;line-height:1.2;letter-spacing:-1.8px;margin:9px 0 12px;font-weight:900;color:var(--ink)}
 .article .sub{font-size:17px;color:#3a4048;margin:0;line-height:1.64}
+/* 부제가 토막 둘 이상이면 글머리표 줄로 선다. 한 줄로 붙이면 눈이 걸린다 */
+ul.sub{list-style:none;padding:0}
+ul.sub li{position:relative;padding-left:13px;margin:0 0 4px}
+ul.sub li:last-child{margin-bottom:0}
+ul.sub li::before{content:'';position:absolute;left:0;top:.62em;
+    width:5px;height:5px;background:var(--navy);border-radius:50%}
 .bd{font-size:17px;line-height:1.84}
 .bd h2{font-size:21px;margin:34px 0 12px;letter-spacing:-.6px;font-weight:800;
        padding:0 0 0 12px;border-left:5px solid var(--teal)}
