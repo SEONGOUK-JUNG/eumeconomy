@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계 주요 경제 뉴스, 환율·금리·원자재 시세, K-뷰티 수출 데이터를 직접 분석하는 경제신문. 원화 환산 수입 원가와 시장 영향까지 실무 관점에서 전합니다.</description>
-<language>ko</language><lastBuildDate>Tue, 06 Oct 2026 06:02:19 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Tue, 06 Oct 2026 08:09:36 +0000</lastBuildDate>
+  <item><title>원화 강세가 깎은 실적…삼성전자 3분기 영업이익 전망 '3조 6,000억 원' 하향</title>
+    <link>https://eumeconomy.com/korea/won-strength-samsung-consensus/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/korea/won-strength-samsung-consensus/</guid>
+    <description>삼성전자의 3분기 영업이익 컨센서스가 열흘 사이 3조 6,000억 원 내려갔고 증권가가 든 이유는 원화 강세다. 본지가 집계하는 달러/원 월평균은 6월 1,529.63원에서 10월 1,345.52원으로 넉 달 연속 내려 12.04% 절상됐다. 미 국채 금리가 24년 만에 가장 높은 자리에 올라 있는데도 달러가 약해지는 조합이 수출기업 실적 전망을 깎는 경로로 들어왔다.</description>
+    <category>한국경제</category>
+    <pubDate>Tue, 06 Oct 2026 10:00:00 +0000</pubDate>
+  </item>
   <item><title>'입장료 장사'의 그늘…폴카닷, 시총의 3%만 쓰이는 '빈 껍데기' 생태계</title>
     <link>https://eumeconomy.com/world/polkadot-why-market-left/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/polkadot-why-market-left/</guid>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/materials/2026-10-05-d-ethylene-glycol/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-10-05-d-ethylene-glycol/</guid>
     <description>글리콜의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 가솔린 10,291.57 CNY/t</title>
-    <link>https://eumeconomy.com/materials/2026-10-05-d-gasoline/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-10-05-d-gasoline/</guid>
-    <description>가솔린의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
     <category>원자재</category>
     <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
   </item>
