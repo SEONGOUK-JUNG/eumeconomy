@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계 주요 경제 뉴스, 환율·금리·원자재 시세, K-뷰티 수출 데이터를 직접 분석하는 경제신문. 원화 환산 수입 원가와 시장 영향까지 실무 관점에서 전합니다.</description>
-<language>ko</language><lastBuildDate>Mon, 05 Oct 2026 14:06:20 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Tue, 06 Oct 2026 04:53:08 +0000</lastBuildDate>
+  <item><title>폴카닷, 시가총액의 3%만 쓰이는 플랫폼…경매로 받은 '입장료'가 남긴 것</title>
+    <link>https://eumeconomy.com/world/polkadot-why-market-left/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/world/polkadot-why-market-left/</guid>
+    <description>폴카닷의 역대 최고가는 2021년 11월이고 5년 동안 그 값을 넘지 못했다. 이더리움과 솔라나는 지난해 새 고점을 썼다. 값보다 눈에 띄는 것은 쓰임이다. 시가총액 20억 달러인데 패러체인에 예치된 자금은 6,063만 달러, 2.92%에 그친다. 프로젝트에 블록 공간을 경매로 팔아 자본을 묶어 둔 진입 구조가, 같은 시기 공간을 개방한 경쟁자들과 갈린 지점이다.</description>
+    <category>세계경제</category>
+    <pubDate>Tue, 06 Oct 2026 10:00:00 +0000</pubDate>
+  </item>
   <item><title>아람코 시설 인근 대형 화재…중동 원유 수출은 전쟁 전 '98%'로 회복</title>
     <link>https://eumeconomy.com/world/aramco-fire-exports-recovered/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/aramco-fire-exports-recovered/</guid>
@@ -12,7 +19,7 @@
   <item><title>미 9월 고용 예상의 3분의 1…발표 직후 금리 하락은 종가에 '지워져'</title>
     <link>https://eumeconomy.com/macro/us-jobs-shock-yield-reversal/</link>
     <guid isPermaLink="true">https://eumeconomy.com/macro/us-jobs-shock-yield-reversal/</guid>
-    <description>미국 9월 비농업 신규 고용이 2만 9,000명으로 예상의 3분의 1에 그쳤다. 실업률은 4.2%로 올랐고 7월 고용은 증가에서 감소로 수정됐다. 발표 직후 금리는 7bp 내렸지만 종가는 전일보다 올랐다. 고용 둔화가 금리를 내리는 쪽으로 끝까지 작용하지 않았다.</description>
+    <description>미국 9월 비농업 신규 고용이 2만 9,000명으로 예상의 3분의 1에 그쳤다. 7·8월 수정으로 6만 명이 사라져 최근 3개월 월평균은 5만 명대로 내려왔다. 발표 직후 금리는 7bp 내렸지만 종가는 전일보다 올랐고, 기대인플레이션이 움직이지 않아 오른 몫은 전부 실질금리였다. 고용 둔화가 조달비용을 낮추는 쪽으로 끝까지 작용하지 않았다.</description>
     <category>환율·금리</category>
     <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
   </item>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/materials/2026-10-05-d-gasoline/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-10-05-d-gasoline/</guid>
     <description>가솔린의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 고밀도 폴리에틸렌 10,486.52 CNY/t</title>
-    <link>https://eumeconomy.com/materials/2026-10-05-d-hdpe/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-10-05-d-hdpe/</guid>
-    <description>고밀도 폴리에틸렌의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
     <category>원자재</category>
     <pubDate>Mon, 05 Oct 2026 10:00:00 +0000</pubDate>
   </item>
