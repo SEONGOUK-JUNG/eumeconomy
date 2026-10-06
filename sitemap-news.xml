@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url><loc>https://eumeconomy.com/world/polkadot-why-market-left/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-10-06T13:47:18+09:00</news:publication_date>
+    <news:title>폴카닷, 시가총액의 3%만 쓰이는 플랫폼…경매로 받은 '입장료'가 남긴 것</news:title></news:news></url>
   <url><loc>https://eumeconomy.com/world/aramco-fire-exports-recovered/</loc>
     <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
     <news:publication_date>2026-10-05T23:01:16+09:00</news:publication_date>
@@ -13,16 +17,4 @@
     <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
     <news:publication_date>2026-10-05T23:01:16+09:00</news:publication_date>
     <news:title>HBM, D램 웨이퍼 비중이 비트 기여의 두 배 넘어…범용 D램 공급난의 '구조'</news:title></news:news></url>
-  <url><loc>https://eumeconomy.com/materials/oil-products-price-volume-split/</loc>
-    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
-    <news:publication_date>2026-10-03T23:29:50+09:00</news:publication_date>
-    <news:title>석유화학 수출액 늘고 물량은 5분의 1 줄어…'유가가 만든 증가율'</news:title></news:news></url>
-  <url><loc>https://eumeconomy.com/beauty/cosmetics-q3-record-and-counterfeits/</loc>
-    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
-    <news:publication_date>2026-10-03T23:29:50+09:00</news:publication_date>
-    <news:title>화장품 9월 수출 전 기간 최대…중국서는 미국산 '관세 혜택'에 밀려</news:title></news:news></url>
-  <url><loc>https://eumeconomy.com/semi/semiconductor-600-september/</loc>
-    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
-    <news:publication_date>2026-10-03T23:29:50+09:00</news:publication_date>
-    <news:title>반도체 수출 단일 품목 첫 600억 달러…9월 수출 증가액의 '79%'가 한 품목</news:title></news:news></url>
 </urlset>
