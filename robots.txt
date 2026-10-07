@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+# 접속 통계 화면은 지면이 아니다. 색인에서 뺀다
+Disallow: /stats.html
+Disallow: /static/stats.html
+
 # 크롤러가 같은 값을 하루에 여러 번 긁지 않게 한다
 Crawl-delay: 1
 
