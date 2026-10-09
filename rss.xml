@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>이음경제</title>
 <link>https://eumeconomy.com</link><description>세계 주요 경제 뉴스, 환율·금리·원자재 시세, K-뷰티 수출 데이터를 직접 분석하는 경제신문. 원화 환산 수입 원가와 시장 영향까지 실무 관점에서 전합니다.</description>
-<language>ko</language><lastBuildDate>Fri, 09 Oct 2026 09:33:44 +0000</lastBuildDate>
+<language>ko</language><lastBuildDate>Fri, 09 Oct 2026 12:32:06 +0000</lastBuildDate>
+  <item><title>삼성전자, 분기 영업이익 '첫 100조'…그래도 낮춘 전망치를 밑돌아</title>
+    <link>https://eumeconomy.com/korea/samsung-q3-actual-vs-consensus/</link>
+    <guid isPermaLink="true">https://eumeconomy.com/korea/samsung-q3-actual-vs-consensus/</guid>
+    <description>삼성전자가 3분기 잠정 영업이익 107조 4,000억 원을 발표해 국내 기업 가운데 처음 분기 100조 원을 넘었다. 그런데 증권가가 원화 강세를 이유로 이미 한 차례 내려 잡은 109조 5,000억 원에도 2조 1,000억 원 못 미친다. 메모리 가격이 올린 몫보다 환율이 덜어낸 몫이 컸다는 뜻이고, 4분기는 3분기보다 5% 낮은 환율에서 시작한다.</description>
+    <category>한국경제</category>
+    <pubDate>Fri, 09 Oct 2026 10:00:00 +0000</pubDate>
+  </item>
   <item><title>미국 증시, 다우존스과 나스닥 1.35%p 갈려</title>
     <link>https://eumeconomy.com/world/2026-10-09-c-미국/</link>
     <guid isPermaLink="true">https://eumeconomy.com/world/2026-10-09-c-미국/</guid>
@@ -202,13 +209,6 @@
     <link>https://eumeconomy.com/materials/2026-10-09-d-ldpe/</link>
     <guid isPermaLink="true">https://eumeconomy.com/materials/2026-10-09-d-ldpe/</guid>
     <description>저밀도 폴리에틸렌의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
-    <category>원자재</category>
-    <pubDate>Fri, 09 Oct 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item><title>[자료] 납 16,254.06 CNY/t</title>
-    <link>https://eumeconomy.com/materials/2026-10-09-d-lead/</link>
-    <guid isPermaLink="true">https://eumeconomy.com/materials/2026-10-09-d-lead/</guid>
-    <description>납의 현재가·구간 최고·최저·원화 환산가입니다. 값만 싣는 자료입니다.</description>
     <category>원자재</category>
     <pubDate>Fri, 09 Oct 2026 10:00:00 +0000</pubDate>
   </item>
