@@ -1,6 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://eumeconomy.com/world/2026-10-09-c-미국/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/world-2026-10-09-c-미국.png</image:loc><image:title>미국 증시, 다우존스과 나스닥 1.35%p 갈려</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/world/2026-10-09-c-유럽/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/world-2026-10-09-c-유럽.png</image:loc><image:title>유럽 증시, FTSE 100과 DAX 1.02%p 갈려</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/world/2026-10-09-i-vix/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/world-2026-10-09-i-vix.png</image:loc><image:title>VIX +2.19%…나스닥은 −1.25%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/asia/2026-10-09-c-대만/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/asia-2026-10-09-c-대만.png</image:loc><image:title>대만 증시 −0.99%…원화로 환산하면 −1.11%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/asia/2026-10-09-c-말레이시아/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/asia-2026-10-09-c-말레이시아.png</image:loc><image:title>말레이시아 증시 +0.39%…12개 시장 중 4위</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/asia/2026-10-09-c-싱가포르/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/asia-2026-10-09-c-싱가포르.png</image:loc><image:title>싱가포르 증시 −0.15%…원화로 환산하면 −0.15%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/asia/2026-10-09-c-인도/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/asia-2026-10-09-c-인도.png</image:loc><image:title>인도 증시 +1.04%…원화로 환산하면 +1.23%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/asia/2026-10-09-c-인도네시아/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/asia-2026-10-09-c-인도네시아.png</image:loc><image:title>인도네시아 증시 +0.35%…원화로 환산하면 +0.57%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/asia/2026-10-09-c-일본/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/asia-2026-10-09-c-일본.png</image:loc><image:title>일본 증시 −0.02%…원화로 환산하면 −0.39%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/asia/2026-10-09-c-한국/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/asia-2026-10-09-c-한국.png</image:loc><image:title>한국 증시, KOSDAQ과 KOSPI 1.93%p 갈려</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/asia/2026-10-09-c-호주/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/asia-2026-10-09-c-호주.png</image:loc><image:title>호주 증시 +0.64%…12개 시장 중 3위</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/china/2026-10-09-c-중국-본토/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/china-2026-10-09-c-중국-본토.png</image:loc><image:title>중국 본토 증시 +0.29%…12개 시장 중 6위</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/china/2026-10-09-c-홍콩/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/china-2026-10-09-c-홍콩.png</image:loc><image:title>홍콩 증시 +1.57%…원화로 환산하면 +1.30%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-aluminum/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-aluminum.png</image:loc><image:title>알루미늄값 3개월 −1.3%…최근 열흘은 −2.0%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-coal/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-coal.png</image:loc><image:title>석탄값 3개월 최고가에 근접…전일 대비 +0.00%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-copper/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-copper.png</image:loc><image:title>구리값 3개월 최고가에 근접…전일 대비 +1.05%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-crude-oil/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-crude-oil.png</image:loc><image:title>원유 고시가 제자리…원화 부담은 0.18% 줄어</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-abs/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-abs.png</image:loc><image:title>[자료] ABS 11,529.34 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-acetone/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-acetone.png</image:loc><image:title>[자료] 아세톤 8,399.24 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-benzene/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-benzene.png</image:loc><image:title>[자료] 순수 벤젠 10,432.25 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-corn/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-corn.png</image:loc><image:title>[자료] 옥수수 2,209.36 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-corn-starch/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-corn-starch.png</image:loc><image:title>[자료] 옥수수 전분 2,830.50 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-diesel/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-diesel.png</image:loc><image:title>[자료] 디젤유 9,414.26 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-egg/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-egg.png</image:loc><image:title>[자료] 달걀 8.62 CNY/kg</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-ethylene-glycol/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-ethylene-glycol.png</image:loc><image:title>[자료] 글리콜 6,434.00 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-gasoline/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-gasoline.png</image:loc><image:title>[자료] 가솔린 10,029.59 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-hdpe/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-hdpe.png</image:loc><image:title>[자료] 고밀도 폴리에틸렌 10,499.04 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-hrc/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-hrc.png</image:loc><image:title>[자료] 열간 압연 코일 3,279.31 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-ldpe/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-ldpe.png</image:loc><image:title>[자료] 저밀도 폴리에틸렌 12,180.05 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-lead/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-lead.png</image:loc><image:title>[자료] 납 16,254.06 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-live-pig/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-live-pig.png</image:loc><image:title>[자료] 생 돼지 10.30 CNY/kg</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-lldpe/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-lldpe.png</image:loc><image:title>[자료] 선형저밀도 폴리에틸렌 9,492.10 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-methanol/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-methanol.png</image:loc><image:title>[자료] 메탄올 4,739.96 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-naphtha/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-naphtha.png</image:loc><image:title>[자료] 나프타 9,339.33 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-natural-gas/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-natural-gas.png</image:loc><image:title>[자료] 천연가스 6,158.15 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-nickel/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-nickel.png</image:loc><image:title>[자료] 니켈 122,490.02 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-palm-oil/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-palm-oil.png</image:loc><image:title>[자료] 팜오일 9,245.22 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-paraxylene/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-paraxylene.png</image:loc><image:title>[자료] 파라자일렌 9,913.86 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-pc/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-pc.png</image:loc><image:title>[자료] 폴리카보네이트 14,732.86 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-phenol/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-phenol.png</image:loc><image:title>[자료] 페놀 9,142.78 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-pp/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-pp.png</image:loc><image:title>[자료] 폴리프로필렌 10,223.73 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-ps/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-ps.png</image:loc><image:title>[자료] 폴리스티렌 11,312.43 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-pvc/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-pvc.png</image:loc><image:title>[자료] 폴리염화비닐 4,805.28 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-rapeseed-oil/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-rapeseed-oil.png</image:loc><image:title>[자료] 채종유 10,738.64 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-rebar/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-rebar.png</image:loc><image:title>[자료] 이형철근 3,179.77 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-silver/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-silver.png</image:loc><image:title>[자료] 은 14,676.76 CNY/kg</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-soybean/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-soybean.png</image:loc><image:title>[자료] 대두 4,550.44 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-soybean-oil/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-soybean-oil.png</image:loc><image:title>[자료] 대두유 9,026.71 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-styrene/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-styrene.png</image:loc><image:title>[자료] 스티렌 11,536.13 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-urea/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-urea.png</image:loc><image:title>[자료] 뇨소 1,779.99 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-d-white-sugar/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-d-white-sugar.png</image:loc><image:title>[자료] 백설탕 5,262.07 CNY/t</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-gold/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-gold.png</image:loc><image:title>금값 3개월 만에 10% 내려…구간의 23% 지점</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-i-wti-원유/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-i-wti-원유.png</image:loc><image:title>WTI 원유 −0.73%…구리 선물은 +2.13%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-i-구리-선물/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-i-구리-선물.png</image:loc><image:title>구리 선물 +2.13%…WTI 원유는 −0.73%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-i-금-선물/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-i-금-선물.png</image:loc><image:title>금 선물 +1.45%…WTI 원유는 −0.73%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-iron-ore/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-iron-ore.png</image:loc><image:title>철광석값 3개월 최저가에 근접</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-sector-건축자재/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-sector-건축자재.png</image:loc><image:title>건축자재 7종 중 5종 제자리…움직인 건 2종뿐</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-sector-고무-및-프라스틱/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-sector-고무-및-프라스틱.png</image:loc><image:title>고무 및 프라스틱 19종 중 12종 올라…9개 업종 중 1위</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-sector-농산물-및-부산물/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-sector-농산물-및-부산물.png</image:loc><image:title>농산물 및 부산물 11종 중 6종 올라…9개 업종 중 6위</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-sector-방직/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-sector-방직.png</image:loc><image:title>방직 17종 중 6종 올라…9개 업종 중 3위</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-sector-비철금속/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-sector-비철금속.png</image:loc><image:title>비철금속 29종 중 3종 올라…9개 업종 중 7위</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-sector-에너지/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-sector-에너지.png</image:loc><image:title>에너지, 품목 간 13%포인트 벌어져…평균은 +0.82%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-sector-철강/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-sector-철강.png</image:loc><image:title>철강 17종 중 1종 올라…9개 업종 중 8위</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-sector-화학공업/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-sector-화학공업.png</image:loc><image:title>화학공업, 품목 간 16%포인트 벌어져…평균은 +0.20%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/materials/2026-10-09-zinc/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/materials-2026-10-09-zinc.png</image:loc><image:title>아연값 3개월 만에 12% 올라…구간의 86% 지점</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-달러-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-달러-원.png</image:loc><image:title>달러/원 −0.18%…원화 대비 10개 통화 중 3번째</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-대만달러-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-대만달러-원.png</image:loc><image:title>대만달러/원 −0.12%…원화 대비 10개 통화 중 4번째</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-루피-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-루피-원.png</image:loc><image:title>루피/원 +0.18%…원화 대비 10개 통화 중 8번째</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-루피아-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-루피아-원.png</image:loc><image:title>루피아/원 +0.22%…원화 대비 10개 통화 중 9번째</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-바트-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-바트-원.png</image:loc><image:title>바트/원 +0.25%…원화, 10개 통화 중 이 통화에 가장 약해져</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-싱가포르달러-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-싱가포르달러-원.png</image:loc><image:title>싱가포르달러/원 −0.00%…원화 대비 10개 통화 중 7번째</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-엔-원-100엔/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-엔-원-100엔.png</image:loc><image:title>엔/원 (100엔) −0.37%…원화, 10개 통화 중 이 통화에 가장 강해져</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-위안-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-위안-원.png</image:loc><image:title>위안/원 −0.06%…원화 대비 10개 통화 중 5번째</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-유로-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-유로-원.png</image:loc><image:title>유로/원 −0.02%…원화 대비 10개 통화 중 6번째</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-fx-홍콩달러-원/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-fx-홍콩달러-원.png</image:loc><image:title>홍콩달러/원 −0.27%…원화 대비 10개 통화 중 2번째</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-i-달러-대만달러/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-i-달러-대만달러.png</image:loc><image:title>달러/대만달러 +0.20%…달러/동은 −0.33%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-i-달러-동/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-i-달러-동.png</image:loc><image:title>달러/동 −0.33%…바트/원은 +0.25%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-i-달러-루피/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-i-달러-루피.png</image:loc><image:title>달러/루피 −0.14%…바트/원은 +0.25%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-i-달러-루피아/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-i-달러-루피아.png</image:loc><image:title>달러/루피아 +0.00%…바트/원은 +0.25%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-i-달러-바트/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-i-달러-바트.png</image:loc><image:title>달러/바트 −0.13%…바트/원은 +0.25%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-i-달러-싱가포르달러/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-i-달러-싱가포르달러.png</image:loc><image:title>달러/싱가포르달러 +0.00%…바트/원은 +0.25%</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-i-미-국채-10년/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-i-미-국채-10년.png</image:loc><image:title>미 10년물 금리 하루 5bp 급락…원화는 오히려 강해져</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-s-cnykrw/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-s-cnykrw.png</image:loc><image:title>위안/원, 120거래일 만에 26.02원 내려…최근 한 달은 같은 방향</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/macro/2026-10-09-s-usdkrw/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/macro-2026-10-09-s-usdkrw.png</image:loc><image:title>달러/원, 120거래일 만에 192.19원 내려…최근 한 달은 같은 방향</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/semi/2026-10-09-cobalt/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/semi-2026-10-09-cobalt.png</image:loc><image:title>코발트값 3개월 최저가에 근접</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/semi/2026-10-09-lithium-carbonate/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/semi-2026-10-09-lithium-carbonate.png</image:loc><image:title>탄산리튬값 3개월 최저가에 근접</image:title></image:image></url>
+  <url><loc>https://eumeconomy.com/semi/2026-10-09-tin/</loc>
+    <image:image><image:loc>https://eumeconomy.com/static/og/semi-2026-10-09-tin.png</image:loc><image:title>주석값 3개월 만에 12% 올라…구간의 81% 지점</image:title></image:image></url>
   <url><loc>https://eumeconomy.com/world/2026-10-08-c-미국/</loc>
     <image:image><image:loc>https://eumeconomy.com/static/og/world-2026-10-08-c-미국.png</image:loc><image:title>미국 증시 −0.37%…이날 12개 시장 중 유일하게 상승</image:title></image:image></url>
   <url><loc>https://eumeconomy.com/world/2026-10-08-c-유럽/</loc>
