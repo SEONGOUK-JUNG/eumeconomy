@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url><loc>https://eumeconomy.com/world/ust-5pct-imf-debt-warning/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-10-10T14:07:14+09:00</news:publication_date>
+    <news:title>[심층분석] 미 국채금리 5%대 재진입과 IMF의 부채 경고… 글로벌 '고비용 스태그플레이션' 구조화</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/asia/asia-em-currency-supplychain/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-10-10T14:07:14+09:00</news:publication_date>
+    <news:title>[심층분석] 통화 가치 하락과 공급망 재편… 아시아 신흥국 '이중고' 속 자구책 골머리</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/korea/korea-high-fx-low-growth/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-10-10T14:07:14+09:00</news:publication_date>
+    <news:title>[심층분석] 1,400원선 고착화된 고환율과 저성장 그늘… 한국 경제 '샌드위치' 위기 가중</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/china/china-yuan-flat-krw-translation/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-10-10T14:07:14+09:00</news:publication_date>
+    <news:title>[심층분석] 내수 진작책과 'Plan Mexico'의 교차점… 중국 제조업의 우회 수출 및 관세 격랑</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/materials/commodities-asymmetric-fx-effect/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-10-10T14:07:14+09:00</news:publication_date>
+    <news:title>[심층분석] 지정학적 유가 폭등과 원자재의 '비대칭적 환율 효과'… 수입가 불안 지속</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/macro/krw-weakness-entrenched/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-10-10T14:07:14+09:00</news:publication_date>
+    <news:title>[심층분석] 달러 독주 속 원화 약세의 고착화… 주요국 통화 환율 동반 하락 및 '원화 고립'</news:title></news:news></url>
+  <url><loc>https://eumeconomy.com/beauty/kbeauty-q3-111bn-us-market/</loc>
+    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
+    <news:publication_date>2026-10-10T14:07:14+09:00</news:publication_date>
+    <news:title>[심층분석] 3분기 누적 수출 111억 달러 '역대 최대'… 미국 시장 석권과 글로벌 포트폴리오 다변화</news:title></news:news></url>
   <url><loc>https://eumeconomy.com/world/iran-nov3-world-economy/</loc>
     <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
     <news:publication_date>2026-10-10T02:07:16+09:00</news:publication_date>
