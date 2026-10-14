@@ -297,6 +297,7 @@ ul.sub li::before{content:'';position:absolute;left:0;top:.62em;
 .bd h2{font-size:21px;margin:34px 0 12px;letter-spacing:-.6px;font-weight:800;
        padding:0 0 0 12px;border-left:5px solid var(--teal)}
 .bd h3{font-size:18px;margin:26px 0 10px;font-weight:750}
+.bd h4{font-size:15.5px;margin:21px 0 8px;font-weight:750;color:var(--navy)}
 .bd p{margin:0 0 19px}
 .bd ul,.bd ol{margin:0 0 19px;padding-left:22px}
 .bd li{margin-bottom:8px}
@@ -307,6 +308,12 @@ ul.sub li::before{content:'';position:absolute;left:0;top:.62em;
 .bd blockquote p:last-child,.lead-bd blockquote p:last-child{margin:0;font-size:13px;
     color:var(--sub);font-family:var(--mono)}
 .bd code{background:var(--soft);padding:2px 6px;font-family:var(--mono);font-size:.86em}
+/* 흐름도 — 원고에 담긴 글자 도식. 폭이 넘치면 옆으로 밀어 본다.
+   (2026-10-14: 기획 심층분석 원고가 구조도를 글자로 그려 보내 온다.) */
+.bd pre,.lead-bd pre{overflow-x:auto;margin:0 0 24px;padding:14px 16px;background:var(--soft);
+    border-left:4px solid var(--navy);font-size:12px;line-height:1.55}
+.bd pre code,.lead-bd pre code{display:block;background:none;padding:0;font-size:inherit;
+    font-family:var(--mono);white-space:pre}
 .bd table{width:100%;min-width:100%;border-collapse:collapse;margin:0;font-size:15px}
 .tw{overflow-x:auto;margin:0 0 24px;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
 .lead-bd .tw{margin:0 0 18px}
