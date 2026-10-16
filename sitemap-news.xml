@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url><loc>https://eumeconomy.com/world/global-structural-shift-debt-rates/</loc>
-    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
-    <news:publication_date>2026-10-14T12:29:19+09:00</news:publication_date>
-    <news:title>[기획 심층분석] 2026년 세계 경제의 구조적 전환… '고부채·고금리·지정학적 파편화'의 다중 위기와 미·중 경제 구도의 재편</news:title></news:news></url>
-  <url><loc>https://eumeconomy.com/asia/asia-china-plus-one-fx-volatility/</loc>
-    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
-    <news:publication_date>2026-10-14T12:29:19+09:00</news:publication_date>
-    <news:title>[심층분석] 2026년 아시아 경제의 지경학적 대전환… 글로벌 공급망 재편(China+1)과 통화·금융 변동성의 격랑</news:title></news:news></url>
-  <url><loc>https://eumeconomy.com/korea/korea-triple-burden-fx-semi-growth/</loc>
-    <news:news><news:publication><news:name>이음경제</news:name><news:language>ko</news:language></news:publication>
-    <news:publication_date>2026-10-14T12:29:19+09:00</news:publication_date>
-    <news:title>[심층분석] 2026년 한국 경제의 구조적 경고등… 고환율 고착화, 금융·증시 쏠림, 그리고 잠재성장률 하락의 삼중고</news:title></news:news></url>
 </urlset>
