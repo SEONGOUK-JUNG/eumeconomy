@@ -298,6 +298,8 @@ ul.sub li::before{content:'';position:absolute;left:0;top:.62em;
        padding:0 0 0 12px;border-left:5px solid var(--teal)}
 .bd h3{font-size:18px;margin:26px 0 10px;font-weight:750}
 .bd h4{font-size:15.5px;margin:21px 0 8px;font-weight:750;color:var(--navy)}
+/* 기사 지면 시세 칸 — 열 때 채운다. 글이 아래로 밀리지 않게 높이를 잡아 둔다. */
+.term-slot{min-height:46px;border-bottom:1px solid var(--line)}
 .bd p{margin:0 0 19px}
 .bd ul,.bd ol{margin:0 0 19px;padding-left:22px}
 .bd li{margin-bottom:8px}
