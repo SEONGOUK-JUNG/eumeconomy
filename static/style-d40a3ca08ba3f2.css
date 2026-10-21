@@ -500,6 +500,30 @@ footer .rg li b{display:block;color:#fff}
   .term.compact .cbgrid .flat{font-size:11px;min-width:0}
 }
 
+/* ── 1면 듣기 단추 ──
+   읽는 일은 독자 기기의 음성이 한다. 소리가 켜져 있어야 들린다는 안내를
+   단추 옆에 두고, 읽는 동안 지금 어느 기사인지 그 자리에 적는다. */
+.player{margin:18px 0 4px;border:1px solid var(--line);background:var(--card);padding:12px 16px}
+.player.on{border-color:var(--navy)}
+.player .pl{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.pbtn{display:inline-flex;align-items:center;gap:9px;border:0;cursor:pointer;
+    background:var(--navy);color:#fff;font-family:var(--mono);font-size:13px;
+    font-weight:700;letter-spacing:.03em;padding:10px 16px;flex:none}
+.pbtn:hover{background:var(--navy-dk)}
+.pbtn[disabled]{background:var(--flat);cursor:default}
+.pbtn .tri{width:0;height:0;border-left:9px solid #fff;
+    border-top:6px solid transparent;border-bottom:6px solid transparent}
+.player.on .pbtn .tri{border:0;width:9px;height:11px;background:#fff}
+.player .pm{font-size:12.5px;color:var(--dim);flex:1 1 240px;min-width:0;line-height:1.5}
+.player .pm span{color:var(--ink);font-weight:700}
+.pstop{border:1px solid var(--line);background:var(--paper);color:var(--dim);
+    font-family:var(--mono);font-size:12px;padding:8px 13px;cursor:pointer;flex:none}
+.pstop:hover{color:var(--ink);border-color:var(--ink)}
+.pbar{height:3px;background:var(--line);margin-top:11px}
+.pbar i{display:block;height:100%;width:0;background:var(--teal);transition:width .35s}
+.pnote{margin-top:9px;font-size:12px;color:var(--up)}
+@media(max-width:700px){.player{padding:11px 12px}.player .pm{flex-basis:100%}}
+
 /* ── 시세 지면 ── */
 .msec{margin-top:34px;padding-top:22px;border-top:3px solid var(--rule)}
 .msec h2{font-size:20px;font-weight:800;letter-spacing:-.5px;margin:0 0 4px}
