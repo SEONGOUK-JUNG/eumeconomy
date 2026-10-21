@@ -479,6 +479,33 @@ footer .rg li b{display:block;color:#fff}
 .tmore a i{font-style:normal;margin-left:5px}
 .tmore a:hover{color:#fff}
 
+/* ── 지표판을 흰 바탕으로 ──
+   LIVE 띠만 어두운 남색으로 두고, 그 아래 「시장」 칸과 「최근 90일 추이」는
+   종이처럼 흰 바탕으로 둔다. 지면 맨 위에서 어두운 덩어리가 먼저 눈에 들어와
+   기사를 가리던 것을 덜어낸다(2026-10-21 발행인 지적).
+   등락 색은 흰 바탕에 맞춰 밝기를 올린 --up-t/--down-t 대신 본문과 같은
+   --up/--down 을 쓴다. */
+.term.compact{background:var(--paper);color:var(--ink);
+    border-bottom:2px solid var(--line)}
+.term.compact .ph{color:var(--navy)}
+.term.compact .ph span{color:var(--dim)}
+.term.compact .cbgrid,.term.compact .spks{background:var(--line);
+    border-color:var(--line)}
+.term.compact .cbgrid .cb{background:var(--paper);border-left-color:var(--line)}
+.term.compact .cbgrid .n{color:var(--dim)}
+.term.compact .cbgrid .n i{color:#9aa3ab}
+.term.compact .cbgrid .v{color:var(--ink)}
+.term.compact .cblg{color:var(--dim)}
+.term.compact .spkh{background:var(--soft);color:var(--navy)}
+.term.compact .spk{background:var(--paper)}
+.term.compact .spk .sn{color:var(--dim)}
+.term.compact .cbgrid .up,.term.compact .spks .up{color:var(--up)}
+.term.compact .cbgrid .down,.term.compact .spks .down{color:var(--down)}
+.term.compact .cbgrid .flat,.term.compact .spks .flat{color:var(--flat)}
+.term.compact .tmore{border-top-color:var(--line)}
+.term.compact .tmore a{color:var(--teal)}
+.term.compact .tmore a:hover{color:var(--navy)}
+
 /* ── 시세 지면 ── */
 .msec{margin-top:34px;padding-top:22px;border-top:3px solid var(--rule)}
 .msec h2{font-size:20px;font-weight:800;letter-spacing:-.5px;margin:0 0 4px}
