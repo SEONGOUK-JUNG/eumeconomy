@@ -479,32 +479,26 @@ footer .rg li b{display:block;color:#fff}
 .tmore a i{font-style:normal;margin-left:5px}
 .tmore a:hover{color:#fff}
 
-/* ── 지표판을 흰 바탕으로 ──
-   LIVE 띠만 어두운 남색으로 두고, 그 아래 「시장」 칸과 「최근 90일 추이」는
-   종이처럼 흰 바탕으로 둔다. 지면 맨 위에서 어두운 덩어리가 먼저 눈에 들어와
-   기사를 가리던 것을 덜어낸다(2026-10-21 발행인 지적).
-   등락 색은 흰 바탕에 맞춰 밝기를 올린 --up-t/--down-t 대신 본문과 같은
-   --up/--down 을 쓴다. */
-.term.compact{background:var(--paper);color:var(--ink);
-    border-bottom:2px solid var(--line)}
-.term.compact .ph{color:var(--navy)}
-.term.compact .ph span{color:var(--dim)}
-.term.compact .cbgrid,.term.compact .spks{background:var(--line);
-    border-color:var(--line)}
-.term.compact .cbgrid .cb{background:var(--paper);border-left-color:var(--line)}
-.term.compact .cbgrid .n{color:var(--dim)}
-.term.compact .cbgrid .n i{color:#9aa3ab}
-.term.compact .cbgrid .v{color:var(--ink)}
-.term.compact .cblg{color:var(--dim)}
-.term.compact .spkh{background:var(--soft);color:var(--navy)}
-.term.compact .spk{background:var(--paper)}
-.term.compact .spk .sn{color:var(--dim)}
-.term.compact .cbgrid .up,.term.compact .spks .up{color:var(--up)}
-.term.compact .cbgrid .down,.term.compact .spks .down{color:var(--down)}
-.term.compact .cbgrid .flat,.term.compact .spks .flat{color:var(--flat)}
-.term.compact .tmore{border-top-color:var(--line)}
-.term.compact .tmore a{color:var(--teal)}
-.term.compact .tmore a:hover{color:var(--navy)}
+/* 글자 크기는 LIVE 띠와 같게 — 지표판 글자가 한 단계씩 작아 읽기 어려웠다
+   (2026-10-21 발행인 지적). 이름 12px · 숫자 17px 로 띠와 맞춘다. */
+.term.compact .cbgrid .n{font-size:12px}
+.term.compact .cbgrid .n i{font-size:10px}
+.term.compact .cbgrid .v{font-size:17px;letter-spacing:-.3px}
+.term.compact .cbgrid .up,.term.compact .cbgrid .down,
+.term.compact .cbgrid .flat{font-size:12px;min-width:58px}
+.term.compact .cbgrid .cb{padding:8px 11px}
+.term.compact .spkh{font-size:11px}
+.term.compact .spk .sn{font-size:12px}
+.term.compact .spk .sv{font-size:12px;min-width:56px}
+.term.compact .ph{font-size:12px}
+.term.compact .cblg{font-size:11px}
+.term.compact .tmore a{font-size:12.5px}
+@media(max-width:760px){
+  .term.compact .cbgrid .n{font-size:11.5px}
+  .term.compact .cbgrid .v{font-size:15px}
+  .term.compact .cbgrid .up,.term.compact .cbgrid .down,
+  .term.compact .cbgrid .flat{font-size:11px;min-width:0}
+}
 
 /* ── 시세 지면 ── */
 .msec{margin-top:34px;padding-top:22px;border-top:3px solid var(--rule)}
