@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 402" role="img" aria-labelledby="title desc">
+<title id="title">싱가포르, 도매 호황과 소비 접점의 격차</title><desc id="desc">2026년 3분기 실질 부가가치 · 전년 동기 대비 %</desc>
+<rect width="840" height="402" fill="#f6f8fa"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#18334c">
+<text x="28" y="40" font-size="23">싱가포르, 도매 호황과 소비 접점의 격차</text>
+<text x="28" y="73" font-size="15">2026년 3분기 실질 부가가치 · 전년 동기 대비 %</text>
+<line x1="390" y1="95" x2="390" y2="337" stroke="#738394"/>
+<text x="28" y="136" font-size="18">도매업</text>
+<rect x="390" y="115" width="275.5" height="28" fill="#287a88"/>
+<text x="679.5" y="136" font-size="18">+14.5</text>
+<text x="28" y="194" font-size="18">제조업</text>
+<rect x="390" y="173" width="161.5" height="28" fill="#287a88"/>
+<text x="565.5" y="194" font-size="18">+8.5</text>
+<text x="28" y="252" font-size="18">소매업</text>
+<rect x="338.7" y="231" width="51.300000000000004" height="28" fill="#ad6148"/>
+<text x="404" y="252" font-size="18">-2.7</text>
+<text x="28" y="310" font-size="18">외식업</text>
+<rect x="350.1" y="289" width="39.9" height="28" fill="#ad6148"/>
+<text x="404" y="310" font-size="18">-2.1</text>
+<text x="28" y="377" font-size="13">출처: 싱가포르 METI, 2026.11.24 · 업종별 성장률이며 성장기여도가 아님</text>
+</g></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="article-graphic" viewBox="0 0 960 490" role="img" aria-labelledby="retail-format-distribution-cost-title retail-format-distribution-cost-desc">
+<title id="retail-format-distribution-cost-title">중국 소매업태별 판매 증가율</title>
+<desc id="retail-format-distribution-cost-desc">2026년 1~10월 · 전년 동기 대비 · 명목 판매액 편의점: 5.1%; 슈퍼마켓: 3.5%; 전문점: -2.2%; 백화점: -3.5%; 브랜드 전매점: -11%</desc>
+<rect width="960" height="490" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#152b3c">
+<text x="36" y="48" font-size="25" font-weight="700">중국 소매업태별 판매 증가율</text>
+<text x="36" y="85" font-size="17">2026년 1~10월 · 전년 동기 대비 · 명목 판매액</text>
+<line x1="614.7368421052631" y1="112" x2="614.7368421052631" y2="403" stroke="#94a3b8"/>
+<text x="36" y="152" font-size="21">편의점</text>
+<rect x="614.74" y="127" width="142.26" height="30" rx="3" fill="#24677c"/>
+<text x="769.00" y="151" font-size="21" font-weight="700">5.1%</text>
+<text x="36" y="209" font-size="21">슈퍼마켓</text>
+<rect x="614.74" y="184" width="97.63" height="30" rx="3" fill="#24677c"/>
+<text x="724.37" y="208" font-size="21" font-weight="700">3.5%</text>
+<text x="36" y="266" font-size="21">전문점</text>
+<rect x="553.37" y="241" width="61.37" height="30" rx="3" fill="#b85442"/>
+<text x="626.74" y="265" font-size="21" font-weight="700">-2.2%</text>
+<text x="36" y="323" font-size="21">백화점</text>
+<rect x="517.11" y="298" width="97.63" height="30" rx="3" fill="#b85442"/>
+<text x="626.74" y="322" font-size="21" font-weight="700">-3.5%</text>
+<text x="36" y="380" font-size="21">브랜드 전매점</text>
+<rect x="307.89" y="355" width="306.84" height="30" rx="3" fill="#b85442"/>
+<text x="626.74" y="379" font-size="21" font-weight="700">-11%</text>
+<text x="36" y="432" font-size="16">범위: 일정 규모 이상 소매업체. 전체 시장 점유율·판매수량 지표와 다름.</text>
+<text x="36" y="459" font-size="16">자료: 중국 국가통계국, 2026년 11월 16일 발표.</text>
+</g></svg>

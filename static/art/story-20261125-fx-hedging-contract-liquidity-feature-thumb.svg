@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="article-graphic" viewBox="0 0 960 490" role="img" aria-labelledby="fx-hedging-contract-liquidity-feature-title fx-hedging-contract-liquidity-feature-desc">
+<title id="fx-hedging-contract-liquidity-feature-title">외환상품별 거래 증가 속도</title>
+<desc id="fx-hedging-contract-liquidity-feature-desc">2022년 4월 각 상품 거래량=100 · 2025년 4월 확정 조사 현물환: 142; 선물환: 151; 옵션: 208; 외환스와프: 106</desc>
+<rect width="960" height="490" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#152b3c">
+<text x="36" y="48" font-size="25" font-weight="700">외환상품별 거래 증가 속도</text>
+<text x="36" y="85" font-size="17">2022년 4월 각 상품 거래량=100 · 2025년 4월 확정 조사</text>
+<line x1="280.0" y1="112" x2="280.0" y2="346" stroke="#94a3b8"/>
+<text x="36" y="152" font-size="21">현물환</text>
+<rect x="280.00" y="127" width="320.26" height="30" rx="3" fill="#24677c"/>
+<text x="612.26" y="151" font-size="21" font-weight="700">142</text>
+<text x="36" y="209" font-size="21">선물환</text>
+<rect x="280.00" y="184" width="340.55" height="30" rx="3" fill="#24677c"/>
+<text x="632.55" y="208" font-size="21" font-weight="700">151</text>
+<text x="36" y="266" font-size="21">옵션</text>
+<rect x="280.00" y="241" width="469.11" height="30" rx="3" fill="#24677c"/>
+<text x="761.11" y="265" font-size="21" font-weight="700">208</text>
+<text x="36" y="323" font-size="21">외환스와프</text>
+<rect x="280.00" y="298" width="239.06" height="30" rx="3" fill="#24677c"/>
+<text x="531.06" y="322" font-size="21" font-weight="700">106</text>
+<text x="36" y="432" font-size="16">증가율 각각 42% · 51% · 108% · 6%. 상품 간 실제 금액 크기 비교 아님.</text>
+<text x="36" y="459" font-size="16">자료: BIS Quarterly Review, 2025년 12월 확정 분석.</text>
+</g></svg>

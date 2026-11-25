@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="article-graphic" viewBox="0 0 960 490" role="img" aria-labelledby="october-bank-rates-funding-cost-title october-bank-rates-funding-cost-desc">
+<title id="october-bank-rates-funding-cost-title">예금금리와 기업대출금리 동반 상승</title>
+<desc id="october-bank-rates-funding-cost-desc">2026년 10월 신규취급액 가중평균 · 연% · 잠정치 저축성수신: 3.62%; 기업 전체: 4.55%; 대기업: 4.45%; 중소기업: 4.65%</desc>
+<rect width="960" height="490" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#152b3c">
+<text x="36" y="48" font-size="25" font-weight="700">예금금리와 기업대출금리 동반 상승</text>
+<text x="36" y="85" font-size="17">2026년 10월 신규취급액 가중평균 · 연% · 잠정치</text>
+<line x1="280.0" y1="112" x2="280.0" y2="346" stroke="#94a3b8"/>
+<text x="36" y="152" font-size="21">저축성수신</text>
+<rect x="280.00" y="127" width="355.30" height="30" rx="3" fill="#24677c"/>
+<text x="647.30" y="151" font-size="21" font-weight="700">3.62%</text>
+<text x="36" y="209" font-size="21">기업 전체</text>
+<rect x="280.00" y="184" width="446.57" height="30" rx="3" fill="#24677c"/>
+<text x="738.57" y="208" font-size="21" font-weight="700">4.55%</text>
+<text x="36" y="266" font-size="21">대기업</text>
+<rect x="280.00" y="241" width="436.76" height="30" rx="3" fill="#24677c"/>
+<text x="728.76" y="265" font-size="21" font-weight="700">4.45%</text>
+<text x="36" y="323" font-size="21">중소기업</text>
+<rect x="280.00" y="298" width="456.39" height="30" rx="3" fill="#24677c"/>
+<text x="748.39" y="322" font-size="21" font-weight="700">4.65%</text>
+<text x="36" y="432" font-size="16">9월: 저축성수신 3.45 · 기업 전체 4.49 · 대기업 4.37 · 중소기업 4.63</text>
+<text x="36" y="459" font-size="16">자료: 한국은행 2026년 10월 금융기관 가중평균금리, 11월 25일 발표.</text>
+</g></svg>

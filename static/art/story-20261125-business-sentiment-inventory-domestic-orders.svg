@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 460" role="img" aria-labelledby="title desc">
+<title id="title">제조업 심리 하락, 재고가 주요 요인</title><desc id="desc">2026년 11월 CBSI 전월 변화 구성기여도 · 포인트</desc>
+<rect width="840" height="460" fill="#f6f8fa"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#18334c">
+<text x="28" y="40" font-size="23">제조업 심리 하락, 재고가 주요 요인</text>
+<text x="28" y="73" font-size="15">2026년 11월 CBSI 전월 변화 구성기여도 · 포인트</text>
+<line x1="390" y1="95" x2="390" y2="395" stroke="#738394"/>
+<text x="28" y="136" font-size="18">업황</text>
+<rect x="390" y="115" width="36.0" height="28" fill="#287a88"/>
+<text x="440.0" y="136" font-size="18">+0.2</text>
+<text x="28" y="194" font-size="18">생산</text>
+<rect x="390" y="173" width="36.0" height="28" fill="#287a88"/>
+<text x="440.0" y="194" font-size="18">+0.2</text>
+<text x="28" y="252" font-size="18">신규수주</text>
+<rect x="390" y="231" width="2" height="28" fill="#287a88"/>
+<text x="404" y="252" font-size="18">0.0</text>
+<text x="28" y="310" font-size="18">제품재고</text>
+<rect x="174.0" y="289" width="216.0" height="28" fill="#ad6148"/>
+<text x="404" y="310" font-size="18">-1.2</text>
+<text x="28" y="368" font-size="18">자금사정</text>
+<rect x="390" y="347" width="2" height="28" fill="#287a88"/>
+<text x="404" y="368" font-size="18">0.0</text>
+<text x="28" y="435" font-size="13">출처: 한국은행, 2026.11.25 · 합계 -0.8포인트 · 제품재고는 역계열</text>
+</g></svg>

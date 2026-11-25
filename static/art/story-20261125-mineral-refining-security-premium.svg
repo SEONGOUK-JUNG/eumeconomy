@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="article-graphic" viewBox="0 0 960 490" role="img" aria-labelledby="mineral-refining-security-premium-title mineral-refining-security-premium-desc">
+<title id="mineral-refining-security-premium-title">희토류 다변화 공급망의 공정 격차</title>
+<desc id="mineral-refining-security-premium-desc">2035년 전망 · 해당 지역 광산 공급 전망을 100으로 환산 광산 공급 전망: 100; 정제능력: 66.6666667; 자석 생산능력: 33.3333333</desc>
+<rect width="960" height="490" fill="#f8fafc"/>
+<g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#152b3c">
+<text x="36" y="48" font-size="25" font-weight="700">희토류 다변화 공급망의 공정 격차</text>
+<text x="36" y="85" font-size="17">2035년 전망 · 해당 지역 광산 공급 전망을 100으로 환산</text>
+<line x1="280.0" y1="112" x2="280.0" y2="289" stroke="#94a3b8"/>
+<text x="36" y="152" font-size="21">광산 공급 전망</text>
+<rect x="280.00" y="127" width="481.82" height="30" rx="3" fill="#24677c"/>
+<text x="773.82" y="151" font-size="21" font-weight="700">100</text>
+<text x="36" y="209" font-size="21">정제능력</text>
+<rect x="280.00" y="184" width="321.21" height="30" rx="3" fill="#24677c"/>
+<text x="613.21" y="208" font-size="21" font-weight="700">약 66.7</text>
+<text x="36" y="266" font-size="21">자석 생산능력</text>
+<rect x="280.00" y="241" width="160.61" height="30" rx="3" fill="#24677c"/>
+<text x="452.61" y="265" font-size="21" font-weight="700">약 33.3</text>
+<text x="36" y="432" font-size="16">정제 약 2/3 · 자석 약 1/3. 기존·발표 사업 기준, 확정 출하량 아님.</text>
+<text x="36" y="459" font-size="16">자료: IEA, Global Critical Minerals Outlook 2026, 2026년 7월 16일.</text>
+</g></svg>
