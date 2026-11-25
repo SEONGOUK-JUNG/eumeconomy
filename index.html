@@ -33,6 +33,13 @@
 .front3 .story-visual{display:none!important}
 .front3 .colC .lead .home-lead-summary{display:flex;align-items:flex-start;gap:18px;margin:0 0 16px}
 .front3 .colC .lead .home-lead-summary>.sub{flex:1;min-width:0;margin:0!important}
+.front3[data-home-lead-balance] [hidden]{display:none!important}
+.home-more{display:block;width:100%;padding:12px 8px;margin:14px 0;border:1px solid #cbd6d9;background:#f5f8f8;color:#123d4c;font-family:inherit;font-size:14px;font-weight:600;line-height:1.5;cursor:pointer}
+.home-archive{width:min(820px,90vw);max-height:85vh;overflow:auto;border:1px solid #cbd6d9;padding:28px;background:#fff;color:#182d34}
+.home-archive::backdrop{background:rgba(0,0,0,.45)}
+.home-archive-close{float:right;padding:8px 16px;cursor:pointer}
+.home-archive-list{clear:both}.home-archive-list article{padding:18px 0;border-bottom:1px solid #d8dfe1}.home-archive-list a{color:#123d4c}
+
 </style></head><body><div class="util"><div class="wrap"><span>세계경제 주요 뉴스를 분석해 전하는 경제신문</span>
 <span class="mono">등록 전남광주,아00793 · 발행 2026-11-24 19:35:18</span></div></div>
 <div class="mast"><div class="wrap">
@@ -291,48 +298,73 @@ document.addEventListener('click', function (ev) {
 (()=>{
   const grid=document.querySelector('.front3[data-home-lead-balance]');
   if(!grid)return;
-  const center=grid.querySelector('.colC'),lead=center.querySelector('.lead');
-  const copy=lead.querySelector('.home-lead-copy');
-  if(!copy)return;
-  const blocks=Array.from(copy.children);
-  let queued=false;
-  function contentBottom(column){
-    return Math.max(column.getBoundingClientRect().top,...Array.from(column.children)
-      .filter(x=>x.getBoundingClientRect().height>0).map(x=>x.getBoundingClientRect().bottom));
+  const center=grid.querySelector('.colC'),left=grid.querySelector('.colL'),right=grid.querySelector('.colR');
+  const lead=center.querySelector('.lead'),copy=lead.querySelector('.home-lead-copy');
+  if(!copy||!left||!right)return;
+  const blocks=Array.from(copy.children),latest=Array.from(left.querySelectorAll('ul.latest>li'));
+  const major=Array.from(right.children).filter(x=>x.matches('article'));
+  const bottom=column=>Math.max(column.getBoundingClientRect().top,...Array.from(column.children).filter(x=>!x.hidden&&x.getBoundingClientRect().height>0).map(x=>x.getBoundingClientRect().bottom));
+  function moreButton(column,items,label,tail){
+    const button=document.createElement('button');button.type='button';button.className='home-more';
+    (tail?column.insertBefore(button,tail):column.appendChild(button));
+    button.addEventListener('click',()=>{
+      const dialog=document.createElement('dialog');dialog.className='home-archive';
+      const title=document.createElement('h2');title.id='home-archive-title';title.textContent=label;
+      dialog.setAttribute('aria-labelledby',title.id);
+      const close=document.createElement('button');close.type='button';close.className='home-archive-close';close.textContent='닫기';close.onclick=()=>dialog.close();
+      dialog.append(close,title);
+      const list=document.createElement(items===latest?'ul':'div');list.className='home-archive-list'+(items===latest?' latest':'');
+      for(const item of items.filter(x=>x.hidden)){
+        const clone=item.cloneNode(true);clone.hidden=false;
+        clone.querySelectorAll('[hidden]').forEach(x=>x.removeAttribute('hidden'));
+        clone.querySelectorAll('[id]').forEach(x=>x.removeAttribute('id'));
+        list.appendChild(clone);
+      }
+      dialog.appendChild(list);document.body.appendChild(dialog);
+      dialog.addEventListener('close',()=>dialog.remove(),{once:true});
+      dialog.addEventListener('click',ev=>{if(ev.target===dialog){const r=dialog.getBoundingClientRect();if(ev.clientX<r.left||ev.clientX>r.right||ev.clientY<r.top||ev.clientY>r.bottom)dialog.close();}});
+      dialog.showModal();
+    });
+    return button;
   }
+  const moreL=moreButton(left,latest,'이전 최신기사',left.querySelector('.brief'));
+  const moreR=moreButton(right,major,'이전 주요기사',right.querySelector('.covbox'));
+  let queued=false;
+  function nearest(values,target,min){let best=min;for(let i=min;i<values.length;i++)if(Math.abs(values[i]-target)<Math.abs(values[best]-target))best=i;return best;}
   function fit(){
     queued=false;
-    blocks.forEach(x=>x.hidden=false);
-    let keep=Math.min(8,blocks.length),budget=0;
-    if(matchMedia('(min-width:1181px)').matches){
-      const top=center.getBoundingClientRect().top;
-      const target=Math.max(...['.colL','.colR'].map(s=>contentBottom(grid.querySelector(s))-top));
-      const fixed=contentBottom(center)-top-copy.getBoundingClientRect().height;
-      budget=Math.max(0,target-fixed);
-      const start=copy.getBoundingClientRect().top;
-      keep=0;
-      for(const block of blocks){
-        if(block.getBoundingClientRect().bottom-start>budget)break;
-        keep++;
+    [...blocks,...latest,...major].forEach(x=>x.hidden=false);moreL.hidden=false;moreR.hidden=false;
+    const desktop=matchMedia('(min-width:1181px)').matches;
+    let keepC=Math.min(8,blocks.length),keepL=latest.length,keepR=major.length;
+    if(desktop&&latest.length&&major.length&&blocks.length){
+      const top=center.getBoundingClientRect().top,start=copy.getBoundingClientRect().top;
+      const fixed=bottom(center)-top-copy.getBoundingClientRect().height;
+      const centerEnds=blocks.map(x=>fixed+x.getBoundingClientRect().bottom-start);
+      function ends(column,items){const t=column.getBoundingClientRect().top,tail=bottom(column)-items.at(-1).getBoundingClientRect().bottom;return items.map(x=>x.getBoundingClientRect().bottom-t+tail);}
+      const leftEnds=ends(left,latest),rightEnds=ends(right,major),maxH=centerEnds.at(-1);
+      let best=null;
+      for(let c=blocks.length-1;c>=Math.min(2,blocks.length-1);c--){
+        if(/^H[1-6]$/.test(blocks[c].tagName))continue;
+        const target=centerEnds[c];if(target<maxH*.6)continue;
+        const l=nearest(leftEnds,target,Math.min(5,latest.length-1)),r=nearest(rightEnds,target,Math.min(2,major.length-1));
+        const gap=Math.max(target,leftEnds[l],rightEnds[r])-Math.min(target,leftEnds[l],rightEnds[r]);
+        const candidate={c,l,r,gap,target};if(!best||gap<best.gap)best=candidate;
+        if(gap<=80){best=candidate;break;}
       }
-      keep=Math.max(Math.min(3,blocks.length),keep);
+      if(best){keepC=best.c+1;keepL=best.l+1;keepR=best.r+1;grid.dataset.balanceTarget=String(Math.round(best.target));}
     }
-    while(keep>1&&/^H[1-6]$/.test(blocks[keep-1].tagName))keep--;
-    blocks.forEach((x,i)=>x.hidden=i>=keep);
-    copy.dataset.visibleBlocks=String(keep);
-    copy.dataset.heightBudget=String(Math.round(budget));
-    const remainder=lead.querySelector('.readon em');
-    if(remainder)remainder.textContent=keep<blocks.length?'남은 문단 '+(blocks.length-keep)+'개':'';
+    while(keepC>1&&/^H[1-6]$/.test(blocks[keepC-1].tagName))keepC--;
+    blocks.forEach((x,i)=>x.hidden=i>=keepC);latest.forEach((x,i)=>x.hidden=i>=keepL);major.forEach((x,i)=>x.hidden=i>=keepR);
+    moreL.hidden=!desktop||keepL===latest.length;moreR.hidden=!desktop||keepR===major.length;
+    moreL.textContent='이전 최신기사 '+(latest.length-keepL)+'건 더 보기';moreR.textContent='이전 주요기사 '+(major.length-keepR)+'건 더 보기';
+    copy.dataset.visibleBlocks=String(keepC);
+    const remainder=lead.querySelector('.readon em');if(remainder)remainder.textContent=keepC<blocks.length?'남은 문단 '+(blocks.length-keepC)+'개':'';
+    const ends=[left,center,right].map(bottom);grid.dataset.balanceGap=String(Math.round(Math.max(...ends)-Math.min(...ends)));
   }
-  function schedule(){if(!queued){queued=true;requestAnimationFrame(fit)}}
-  schedule();
-  window.addEventListener('resize',schedule,{passive:true});
+  function schedule(){if(!queued){queued=true;requestAnimationFrame(fit);}}
+  schedule();window.addEventListener('resize',schedule,{passive:true});
   if(document.fonts)document.fonts.ready.then(schedule);
-  if(window.ResizeObserver){
-    const observer=new ResizeObserver(schedule);
-    for(const side of grid.querySelectorAll('.colL,.colR'))
-      for(const child of side.children)observer.observe(child);
-  }
+  if(window.ResizeObserver){let width=grid.getBoundingClientRect().width;new ResizeObserver(()=>{const w=grid.getBoundingClientRect().width;if(Math.abs(w-width)>1){width=w;schedule();}}).observe(grid);}
   copy.addEventListener('load',schedule,true);
 })();
 </script></body></html>
