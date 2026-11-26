@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580" role="img">
+<title>맞춤형 HBM PHY: 공식 등재와 상용 확인의 구분</title><desc>ISSCC 2027 사전 프로그램 DRAFT 2026.11.25 | 11.26 확인. 발표 제목·일정과 후속 확인 사항의 구분. 실물 회로도·성능 개선율 도표가 아님.</desc>
+<rect width="960" height="580" fill="#f4f1e9"/>
+<rect x="38" y="35" width="8" height="62" fill="#ae573a"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#172e3a">
+<text x="64" y="62" font-size="27" font-weight="700">맞춤형 HBM PHY: 공식 등재와 상용 확인의 구분</text>
+<text x="64" y="93" font-size="15">ISSCC 2027 사전 프로그램 DRAFT 2026.11.25 | 11.26 확인</text>
+<rect x="40" y="130" width="420" height="150" rx="9" fill="white" stroke="#c5cdc9"/>
+<text x="62" y="165" font-size="17" fill="#8c482f">공식 등재 22.7</text>
+<text x="62" y="207" font-size="25" font-weight="700">4나노 완전 디지털</text>
+<text x="62" y="246" font-size="17">3D D램 PHY</text>
+<rect x="500" y="130" width="420" height="150" rx="9" fill="white" stroke="#c5cdc9"/>
+<text x="522" y="165" font-size="17" fill="#8c482f">논문 제목의 구조</text>
+<text x="522" y="207" font-size="25" font-weight="700">코어 다이 직접 접근</text>
+<text x="522" y="246" font-size="17">맞춤형 HBM 플랫폼</text>
+<rect x="40" y="305" width="420" height="150" rx="9" fill="white" stroke="#c5cdc9"/>
+<text x="62" y="340" font-size="17" fill="#8c482f">발표 일정</text>
+<text x="62" y="382" font-size="25" font-weight="700">2027.2.16 예정</text>
+<text x="62" y="421" font-size="17">사전 프로그램 기준</text>
+<rect x="500" y="305" width="420" height="150" rx="9" fill="white" stroke="#c5cdc9"/>
+<text x="522" y="340" font-size="17" fill="#8c482f">별도 확인 필요</text>
+<text x="522" y="382" font-size="25" font-weight="700">실측 성능·고객 채택</text>
+<text x="522" y="421" font-size="17">양산 수율·원가 미공개</text>
+<line x1="40" y1="498" x2="920" y2="498" stroke="#a9b5b3"/>
+<text x="40" y="532" font-size="15">발표 제목·일정과 후속 확인 사항의 구분. 실물 회로도·성능 개선율 도표가 아님.</text>
+<text x="40" y="559" font-size="12" fill="#5a6b72">이음경제 · 기사 본문 자료 · 출처와 적용 범위는 원고 메타데이터 참조</text>
+</g></svg>

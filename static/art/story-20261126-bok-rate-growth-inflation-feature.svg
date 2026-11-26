@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img">
+<rect width="960" height="560" fill="#f5f3ed"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#172b35">
+<text x="42" y="62" font-size="28" font-weight="700">한은, 기준금리 인상과 성장·물가 전망</text>
+<path d="M42 84H918" stroke="#b28a45" stroke-width="3"/>
+<rect x="42" y="112" width="876" height="98" rx="8" fill="#ffffff"/>
+<text x="62" y="140" font-size="19" fill="#4c666b">기준금리 결정</text>
+<text x="62" y="172" font-size="25" font-weight="700">3.00% → 3.25%</text>
+<text x="62" y="197" font-size="17">0.25%포인트 인상 · 찬성 5명 / 동결 2명</text>
+<rect x="42" y="224" width="876" height="98" rx="8" fill="#ffffff"/>
+<text x="62" y="252" font-size="19" fill="#4c666b">성장률 전망: 2026년 / 2027년</text>
+<text x="62" y="284" font-size="25" font-weight="700">3.9% / 4.1%</text>
+<text x="62" y="309" font-size="17">8월 전망 3.3% / 2.9% → 각각 +0.6 / +1.2%포인트</text>
+<rect x="42" y="336" width="876" height="98" rx="8" fill="#ffffff"/>
+<text x="62" y="364" font-size="19" fill="#4c666b">소비자물가 전망: 2026년 / 2027년</text>
+<text x="62" y="396" font-size="25" font-weight="700">2.7% / 2.4%</text>
+<text x="62" y="421" font-size="17">근원물가 전망은 두 해 모두 2.6%</text>
+<text x="42" y="492" font-size="16">출처: 한국은행 2026년11월26일 통화정책방향·경제전망·총재 간담회</text>
+<text x="42" y="526" font-size="15" fill="#58686a">금리는 확정된 결정 · 성장률과 연간 물가는 한국은행의 전망치</text>
+</g></svg>

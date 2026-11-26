@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img">
+<rect width="960" height="560" fill="#f5f3ed"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#172b35">
+<text x="42" y="62" font-size="28" font-weight="700">개인 연체채권, 처리 방식마다 다른 금액</text>
+<path d="M42 84H918" stroke="#b28a45" stroke-width="3"/>
+<rect x="42" y="112" width="876" height="98" rx="8" fill="#ffffff"/>
+<text x="62" y="140" font-size="19" fill="#4c666b">소각·시효 완성</text>
+<text x="62" y="172" font-size="25" font-weight="700">1조 6,000억 원</text>
+<text x="62" y="197" font-size="17">처리 규모 · 35만 5,000건</text>
+<rect x="42" y="224" width="876" height="98" rx="8" fill="#ffffff"/>
+<text x="62" y="252" font-size="19" fill="#4c666b">자체 채무조정</text>
+<text x="62" y="284" font-size="25" font-weight="700">13조 9,000억 원</text>
+<text x="62" y="309" font-size="17">조정 대상액 · 감면액과 구분</text>
+<rect x="42" y="336" width="876" height="98" rx="8" fill="#ffffff"/>
+<text x="62" y="364" font-size="19" fill="#4c666b">매각</text>
+<text x="62" y="396" font-size="25" font-weight="700">원금 7조 8,000억 원</text>
+<text x="62" y="421" font-size="17">거래대금 3조 9,504억 원 · 감면율 아님</text>
+<text x="42" y="492" font-size="16">2026년 상반기 · 출처: 금융위·금감원 11월26일 발표</text>
+<text x="42" y="526" font-size="15" fill="#58686a">항목별 성격·모집단이 달라 합계를 고유 차주 지원액으로 계산하지 않음</text>
+</g></svg>
